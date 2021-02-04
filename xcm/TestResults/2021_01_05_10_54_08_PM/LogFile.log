@@ -1,0 +1,808 @@
+ERROR | 2021-01-05 22:56:03,088 | Common.java | 84 | Switching to frame Frame path did not happen within 30 seconds
+ERROR | 2021-01-05 22:56:09,856 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 22:56:18,702 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-05 23:02:36,196 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-05 23:02:39,983 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:02:46,850 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:02:55,563 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-05 23:09:12,998 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-05 23:09:16,822 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:09:23,695 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:09:32,389 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-05 23:15:49,722 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-05 23:15:53,451 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:16:00,260 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:16:08,972 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-05 23:22:26,334 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-05 23:22:30,096 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:22:36,902 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:22:45,540 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-05 23:29:03,015 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-05 23:29:06,793 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:29:13,541 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:29:22,297 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-05 23:35:39,755 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-05 23:35:43,504 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:35:50,328 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:35:59,075 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-05 23:42:16,502 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-05 23:42:20,232 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:42:26,966 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:42:35,729 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-05 23:48:53,054 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-05 23:48:56,784 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:49:03,537 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:49:12,264 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-05 23:55:29,651 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-05 23:55:33,385 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:55:40,121 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-05 23:55:48,891 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 00:02:06,301 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 00:02:10,027 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:02:16,860 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:02:25,616 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 00:08:43,274 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 00:08:46,961 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:08:53,800 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:09:02,524 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 00:15:19,841 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 00:15:23,541 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:15:30,329 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:15:39,014 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 00:21:56,420 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 00:22:00,160 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:22:06,957 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:22:15,669 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 00:28:33,144 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 00:28:36,872 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:28:43,635 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:28:52,378 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 00:35:09,726 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 00:35:13,526 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:35:20,284 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:35:28,972 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 00:41:46,408 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 00:41:50,112 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:41:56,864 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:42:05,613 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 00:48:23,156 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 00:48:26,861 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:48:33,744 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:48:42,443 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 00:54:59,866 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 00:55:03,574 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:55:10,362 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 00:55:19,192 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 01:01:36,527 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 01:01:40,233 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:01:47,019 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:01:55,756 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 01:08:13,147 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 01:08:16,921 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:08:23,728 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:08:32,440 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 01:12:51,063 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"#displayfirmname +div div[class*='wheel']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=#displayfirmname +div div[class*='wheel']}
+ERROR | 2021-01-06 01:13:22,566 | Common.java | 84 | Switching to frame Frame path did not happen within 30 seconds
+ERROR | 2021-01-06 01:13:26,280 | Common.java | 84 | Mouse over action on 'Manage settings and defaults' element failed
+ERROR | 2021-01-06 01:13:29,940 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id*='ContentPlaceHolder1_LinkManageFirmSettings']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id*='ContentPlaceHolder1_LinkManageFirmSettings']}
+ERROR | 2021-01-06 01:13:33,610 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:13:37,389 | Common.java | 84 | Edit Role Names  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2021-01-06 01:13:41,048 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_editrolerow_Sign']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_editrolerow_Sign']}
+ERROR | 2021-01-06 01:13:44,748 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:13:48,532 | Common.java | 84 | Use Defaults Radio button  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2021-01-06 01:13:55,394 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:13:59,104 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_SRoles']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_SRoles']}
+ERROR | 2021-01-06 01:14:05,857 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 01:14:09,530 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:14:18,318 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:14:27,224 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:14:36,014 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:14:42,827 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:14:49,666 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:14:56,469 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:15:05,293 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:15:12,134 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:15:19,030 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:15:27,835 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:15:36,695 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:15:45,499 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:15:54,372 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:16:03,203 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:16:10,055 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:16:13,697 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"input[value='Export']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=input[value='Export']}
+ERROR | 2021-01-06 01:18:05,315 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"#displayfirmname +div div[class*='wheel']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=#displayfirmname +div div[class*='wheel']}
+ERROR | 2021-01-06 01:18:36,710 | Common.java | 84 | Switching to frame Frame path did not happen within 30 seconds
+ERROR | 2021-01-06 01:18:40,444 | Common.java | 84 | Mouse over action on 'Manage settings and defaults' element failed
+ERROR | 2021-01-06 01:18:44,094 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id*='ContentPlaceHolder1_LinkManageFirmSettings']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id*='ContentPlaceHolder1_LinkManageFirmSettings']}
+ERROR | 2021-01-06 01:18:47,844 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:18:51,555 | Common.java | 84 | Edit Role Names  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2021-01-06 01:18:55,209 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_editrolerow_Sign']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_editrolerow_Sign']}
+ERROR | 2021-01-06 01:18:58,893 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:19:02,641 | Common.java | 84 | Use Defaults Radio button  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2021-01-06 01:19:09,475 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:19:13,175 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_SRoles']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_SRoles']}
+ERROR | 2021-01-06 01:19:19,895 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 01:19:23,569 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:19:32,348 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:19:41,093 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:19:47,943 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:19:54,724 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:20:01,536 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:20:10,294 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:20:17,038 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:20:23,797 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:20:32,647 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:20:41,439 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:20:50,334 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:20:59,133 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:21:08,001 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:21:14,810 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:21:18,543 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"input[value='Export']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=input[value='Export']}
+ERROR | 2021-01-06 01:23:10,654 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"#displayfirmname +div div[class*='wheel']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=#displayfirmname +div div[class*='wheel']}
+ERROR | 2021-01-06 01:23:42,059 | Common.java | 84 | Switching to frame Frame path did not happen within 30 seconds
+ERROR | 2021-01-06 01:23:45,754 | Common.java | 84 | Mouse over action on 'Manage settings and defaults' element failed
+ERROR | 2021-01-06 01:23:49,416 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id*='ContentPlaceHolder1_LinkManageFirmSettings']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id*='ContentPlaceHolder1_LinkManageFirmSettings']}
+ERROR | 2021-01-06 01:23:53,144 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:23:56,829 | Common.java | 84 | Edit Role Names  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2021-01-06 01:24:00,469 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_editrolerow_Sign']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_editrolerow_Sign']}
+ERROR | 2021-01-06 01:24:04,180 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:24:07,885 | Common.java | 84 | Use Defaults Radio button  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2021-01-06 01:24:14,694 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:24:18,371 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_SRoles']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_SRoles']}
+ERROR | 2021-01-06 01:24:25,132 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 01:24:28,837 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:24:37,738 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:24:44,547 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:24:51,334 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:25:00,171 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:25:07,031 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:25:13,843 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:25:22,668 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:25:29,430 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:25:36,160 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:25:42,934 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:25:51,745 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:25:58,533 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:26:05,294 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:26:14,095 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:26:22,815 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:26:31,603 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:26:40,406 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:26:49,203 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:26:55,993 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:26:59,687 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"input[value='Export']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=input[value='Export']}
+ERROR | 2021-01-06 01:28:53,349 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 01:28:57,081 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:29:03,842 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:29:12,475 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 01:35:29,970 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 01:35:33,708 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:35:40,483 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:35:49,120 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 01:42:06,665 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 01:42:10,383 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:42:19,318 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:42:28,044 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 01:48:45,482 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 01:48:49,234 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:48:56,111 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:49:04,825 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 01:55:22,260 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 01:55:25,957 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:55:32,755 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 01:55:41,449 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 02:01:58,931 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 02:02:02,668 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:02:09,532 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:02:18,263 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 02:08:35,705 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 02:08:39,372 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:08:46,120 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:08:54,858 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 02:15:12,295 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 02:15:16,008 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:15:22,836 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:15:31,531 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 02:21:49,016 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 02:21:52,741 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:21:59,495 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:22:08,161 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 02:28:25,614 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 02:28:29,328 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:28:36,132 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:28:44,857 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 02:35:02,347 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 02:35:06,031 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:35:12,779 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:35:21,537 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 02:41:39,139 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 02:41:42,836 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:41:49,594 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:41:58,371 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 02:48:15,803 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 02:48:19,536 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:48:26,370 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:48:35,061 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 02:54:52,454 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 02:54:56,158 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:55:02,935 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 02:55:11,686 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 03:01:29,255 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 03:01:32,987 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:01:39,801 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:01:48,574 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 03:08:06,091 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 03:08:09,785 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:08:16,565 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:08:25,307 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 03:14:43,422 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2021-01-06 03:14:47,196 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:14:55,988 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:15:02,744 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:15:09,498 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2021-01-06 03:15:10,114 | Common.java | 84 | Exception:null
+ERROR | 2021-01-06 03:15:13,834 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:15:17,530 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2021-01-06 03:15:18,162 | Common.java | 84 | Exception:null
+ERROR | 2021-01-06 03:15:21,840 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:15:30,612 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:15:37,369 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:15:44,149 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2021-01-06 03:15:44,822 | Common.java | 84 | Exception:null
+ERROR | 2021-01-06 03:15:48,525 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:15:52,192 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2021-01-06 03:15:52,872 | Common.java | 84 | Exception:null
+ERROR | 2021-01-06 03:15:56,568 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:16:03,377 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2021-01-06 03:16:12,180 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2021-01-06 03:20:29,128 | Common.java | 84 | Profile link failed to display in Home page

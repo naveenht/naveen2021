@@ -1,0 +1,32 @@
+ERROR | 2020-11-04 18:13:23,785 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=86.0.4240.183)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52303}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir7596_3916}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.183, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bd1e9b44e0552f25658f6ede8ce9ba59
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2020-11-04 18:13:27,211 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-11-04 18:13:33,777 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-11-04 18:13:34,615 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-11-04 18:13:40,085 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-11-04 18:13:52,505 | Common.java | 84 | Issues/Points - AllReport not generated -Issue in the Report.
+ERROR | 2020-11-04 18:17:59,721 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=86.0.4240.183)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52303}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir7596_3916}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.183, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bd1e9b44e0552f25658f6ede8ce9ba59
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2020-11-04 18:18:03,124 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-11-04 18:18:09,662 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-11-04 18:18:10,495 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-11-04 18:18:15,849 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-11-04 18:18:28,002 | Common.java | 84 | Issues/Points - OpenReport not generated -Issue in the Report.

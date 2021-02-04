@@ -1,0 +1,16 @@
+ERROR | 2020-01-17 16:23:10,370 | Common.java | 84 | Task Details - Sign OffsReport not generated -Issue in the Report.
+ERROR | 2020-01-17 16:55:45,474 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-01-17 16:55:48,797 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-01-17 16:55:52,102 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown

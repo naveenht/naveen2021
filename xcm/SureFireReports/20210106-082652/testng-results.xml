@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="657" total="660" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<font color='green'>Open Browser : chrome</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Navigate to : https://qat.xcmsolutions.com/xcmv2/account/login?ReturnUrl=%2Fxcmv2%2F</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Server Details : BLR-QA-FE-1</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Type '117web@xcmsolutions.com' in : Username </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Type '789xcm@#' in : Password </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Login button </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Home page is displayed</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Detailed Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Task Details - Large Report Window has opened Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Profile link </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Log off </font>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="134482" started-at="2021-01-06T08:26:59Z" finished-at="2021-01-06T08:29:14Z">
+    <groups>
+    </groups>
+    <test name="Desktop1" duration-ms="134482" started-at="2021-01-06T08:26:59Z" finished-at="2021-01-06T08:29:14Z">
+      <class name="TestCases.TestCases">
+        <test-method status="PASS" signature="init()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="init" is-config="true" duration-ms="728" started-at="2021-01-06T13:56:58Z" finished-at="2021-01-06T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="precondition" is-config="true" duration-ms="11969" started-at="2021-01-06T13:56:59Z" finished-at="2021-01-06T13:57:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desktop1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7851]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Open Browser : chrome</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Navigate to : https://qat.xcmsolutions.com/xcmv2/account/login?ReturnUrl=%2Fxcmv2%2F</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2021-01-06T13:57:11Z" finished-at="2021-01-06T13:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TC_Login(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TC_Login" duration-ms="7688" started-at="2021-01-06T13:57:11Z" finished-at="2021-01-06T13:57:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TC_Login(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Server Details : BLR-QA-FE-1</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Type '117web@xcmsolutions.com' in : Username </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Type '789xcm@#' in : Password </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Login button </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Home page is displayed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Login -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="1" started-at="2021-01-06T13:57:19Z" finished-at="2021-01-06T13:57:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TDR_DET_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_DET_01" duration-ms="102241" started-at="2021-01-06T13:57:19Z" finished-at="2021-01-06T13:59:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_DET_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Detailed Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Task Details - Large Report Window has opened Successfully.</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_DET_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="2" started-at="2021-01-06T13:59:01Z" finished-at="2021-01-06T13:59:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TC_Logout(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TC_Logout" duration-ms="12378" started-at="2021-01-06T13:59:01Z" finished-at="2021-01-06T13:59:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TC_Logout(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Profile link </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Log off </font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Logout -->
+        <test-method status="PASS" signature="closeSessions()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="closeSessions" is-config="true" duration-ms="170" started-at="2021-01-06T13:59:13Z" finished-at="2021-01-06T13:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSessions -->
+      </class> <!-- TestCases.TestCases -->
+    </test> <!-- Desktop1 -->
+  </suite> <!-- Suite -->
+</testng-results>

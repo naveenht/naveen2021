@@ -1,0 +1,57 @@
+# Created at 2021-01-30T13:11:15.923
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2021-01-30T13:11:15.997
+Unexpected IOException with stream: Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210130-072254/Screenshots/
+
+
+# Created at 2021-01-30T13:11:19.381
+Unexpected IOException with stream: 1092214 [Forwarding screenshot on session ea840bfe41fb9918aff578d7b2ad3fa5 to remote] INFO  org.apache.http.impl.execchain.RetryExec  - I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:7851: Connection reset
+
+
+# Created at 2021-01-30T13:11:19.386
+Unexpected IOException with stream: 1092221 [Forwarding screenshot on session ea840bfe41fb9918aff578d7b2ad3fa5 to remote] INFO  org.apache.http.impl.execchain.RetryExec  - Retrying request to {}->http://localhost:7851
+
+
+# Created at 2021-01-30T13:11:23.404
+Unexpected IOException with stream: Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210130-072254/Screenshots/
+
+
+# Created at 2021-01-30T13:11:27.417
+Unexpected IOException with stream: Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210130-072254/Screenshots/
+
+
+# Created at 2021-01-30T13:11:31.428
+Unexpected IOException with stream: Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210130-072254/Screenshots/
+
+
+# Created at 2021-01-30T13:11:35.443
+Unexpected IOException with stream: Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210130-072254/Screenshots/
+
+
+# Created at 2021-01-30T13:11:39.457
+Unexpected IOException with stream: Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210130-072254/Screenshots/
+
+
+# Created at 2021-01-30T13:11:43.469
+Unexpected IOException with stream: Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210130-072254/Screenshots/
+
+
+# Created at 2021-01-30T13:11:47.482
+Unexpected IOException with stream: Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210130-072254/Screenshots/
+
+
+# Created at 2021-01-30T13:11:51.499
+Unexpected IOException with stream: Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210130-072254/Screenshots/
+
+
+# Created at 2021-01-30T13:11:55.515
+Unexpected IOException with stream: Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210130-072254/Screenshots/
+
+

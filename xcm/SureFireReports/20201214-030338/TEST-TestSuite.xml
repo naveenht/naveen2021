@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14,784.886" tests="43" errors="0" skipped="0" failures="9">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="testNGFile" value="SanityTest.xml"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6\target\test-classes;E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6\target\classes;C:\Users\NThimmaiah\.m2\repository\com\iSafe\maven\iSafe\1.0\iSafe-1.0.jar;C:\Users\NThimmaiah\.m2\repository\org\json\json\20180130\json-20180130.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\clerezza\ext\org.json.simple\0.4\org.json.simple-0.4.jar;C:\Users\NThimmaiah\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\directory\studio\org.apache.commons.lang\2.6\org.apache.commons.lang-2.6.jar;C:\Users\NThimmaiah\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\NThimmaiah\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\NThimmaiah\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\NThimmaiah\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-java\3.6.0\selenium-java-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-api\3.6.0\selenium-api-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.6.0\selenium-edge-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.6.0\selenium-firefox-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.6.0\selenium-ie-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.6.0\selenium-opera-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.6.0\selenium-remote-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.6.0\selenium-safari-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-support\3.6.0\selenium-support-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\NThimmaiah\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\NThimmaiah\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\NThimmaiah\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\NThimmaiah\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\NThimmaiah\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\NThimmaiah\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\NThimmaiah\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\NThimmaiah\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\NThimmaiah\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\NThimmaiah\.m2\repository\org\testng\testng\6.10\testng-6.10.jar;C:\Users\NThimmaiah\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\NThimmaiah\.m2\repository\io\appium\java-client\5.0.0-BETA6\java-client-5.0.0-BETA6.jar;C:\Users\NThimmaiah\.m2\repository\cglib\cglib\3.2.4\cglib-3.2.4.jar;C:\Users\NThimmaiah\.m2\repository\org\ow2\asm\asm\5.1\asm-5.1.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\NThimmaiah\.m2\repository\commons-validator\commons-validator\1.5.1\commons-validator-1.5.1.jar;C:\Users\NThimmaiah\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\NThimmaiah\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\NThimmaiah\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\NThimmaiah\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-context\4.3.5.RELEASE\spring-context-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-aop\4.3.5.RELEASE\spring-aop-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-beans\4.3.5.RELEASE\spring-beans-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-core\4.3.5.RELEASE\spring-core-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-expression\4.3.5.RELEASE\spring-expression-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar;C:\Users\NThimmaiah\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\NThimmaiah\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\NThimmaiah\.m2\repository\javax\mail\javax.mail-api\1.6.0-rc2\javax.mail-api-1.6.0-rc2.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\NThimmaiah\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="screenshotPath" value="E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="environmentName" value="LOCAL"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="suiteName" value=""/>
+    <property name="environmentURL" value="https://claqat.xcmsolutions.com/xcmv2/account/login?ReturnUrl=%2Fxcmv2%2F"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin"/>
+    <property name="sun.java.command" value="C:\Users\NThimmaiah\AppData\Local\Temp\surefire1095846496427497136\surefirebooter9221781107815361828.jar C:\Users\NThimmaiah\AppData\Local\Temp\surefire1095846496427497136 2020-12-14T08-33-44_217-jvmRun1 surefire7463221212258637543tmp surefire_03549989405277180941tmp"/>
+    <property name="surefire.test.class.path" value="E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6\target\test-classes;E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6\target\classes;C:\Users\NThimmaiah\.m2\repository\com\iSafe\maven\iSafe\1.0\iSafe-1.0.jar;C:\Users\NThimmaiah\.m2\repository\org\json\json\20180130\json-20180130.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\clerezza\ext\org.json.simple\0.4\org.json.simple-0.4.jar;C:\Users\NThimmaiah\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\directory\studio\org.apache.commons.lang\2.6\org.apache.commons.lang-2.6.jar;C:\Users\NThimmaiah\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\NThimmaiah\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\NThimmaiah\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\NThimmaiah\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-java\3.6.0\selenium-java-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-api\3.6.0\selenium-api-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.6.0\selenium-edge-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.6.0\selenium-firefox-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.6.0\selenium-ie-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.6.0\selenium-opera-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.6.0\selenium-remote-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.6.0\selenium-safari-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-support\3.6.0\selenium-support-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\NThimmaiah\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\NThimmaiah\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\NThimmaiah\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\NThimmaiah\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\NThimmaiah\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\NThimmaiah\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\NThimmaiah\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\NThimmaiah\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\NThimmaiah\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\NThimmaiah\.m2\repository\org\testng\testng\6.10\testng-6.10.jar;C:\Users\NThimmaiah\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\NThimmaiah\.m2\repository\io\appium\java-client\5.0.0-BETA6\java-client-5.0.0-BETA6.jar;C:\Users\NThimmaiah\.m2\repository\cglib\cglib\3.2.4\cglib-3.2.4.jar;C:\Users\NThimmaiah\.m2\repository\org\ow2\asm\asm\5.1\asm-5.1.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\NThimmaiah\.m2\repository\commons-validator\commons-validator\1.5.1\commons-validator-1.5.1.jar;C:\Users\NThimmaiah\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\NThimmaiah\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\NThimmaiah\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\NThimmaiah\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-context\4.3.5.RELEASE\spring-context-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-aop\4.3.5.RELEASE\spring-aop-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-beans\4.3.5.RELEASE\spring-beans-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-core\4.3.5.RELEASE\spring-core-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-expression\4.3.5.RELEASE\spring-expression-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar;C:\Users\NThimmaiah\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\NThimmaiah\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\NThimmaiah\.m2\repository\javax\mail\javax.mail-api\1.6.0-rc2\javax.mail-api-1.6.0-rc2.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\NThimmaiah\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\NThimmaiah"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_191"/>
+    <property name="basedir" value="E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\NThimmaiah\AppData\Local\Temp\surefire1095846496427497136\surefirebooter9221781107815361828.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_191\lib\resources.jar;C:\Program Files\Java\jre1.8.0_191\lib\rt.jar;C:\Program Files\Java\jre1.8.0_191\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_191\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_191\lib\jce.jar;C:\Program Files\Java\jre1.8.0_191\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_191\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_191\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="NThimmaiah"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\NThimmaiah\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\NTHIMM~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Java\jdk1.8.0_191\bin;E:\XCMFrameWork\apache-maven-3.6.1\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\NThimmaiah\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\NThimmaiah\AppData\Local\Programs\Python\Python38\;C:\Users\NThimmaiah\AppData\Local\Microsoft\WindowsApps;C:\Users\NThimmaiah\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NThimmaiah\AppData\Local\Programs\Git\cmd;;C:\Users\NThimmaiah\AppData\Local\JetBrains\PyCharm Community Edition 2019.3.1\bin;;C:\Users\NThimmaiah\AppData\Roaming\npm;E:\AutoBackup\eclipse-java-2019-03-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="TC_Login" classname="TestCases.TestCases" time="25.301"/>
+  <testcase name="UR_IPA_01" classname="TestCases.TestCases" time="123.645">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPA_01(TestCases.java:150)
+</failure>
+    <system-out><![CDATA[UR_IPA_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+131879 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Switching to frame Frame path did not happen within 30 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+138434 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+139224 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Not able to find Run Report
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+144705 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - The given window "2" is failed to open
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+159946 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Issues/Points - AllReport not generated -Issue in the Report.
+{} doesn't contain key name -UR_IPA_01
+]]></system-out>
+  </testcase>
+  <testcase name="UR_IPO_01" classname="TestCases.TestCases" time="336.689"/>
+  <testcase name="UR_CLS_01" classname="TestCases.TestCases" time="292.468"/>
+  <testcase name="UR_CLD_01" classname="TestCases.TestCases" time="279.787"/>
+  <testcase name="UR_MCT_01" classname="TestCases.TestCases" time="309.793"/>
+  <testcase name="UR_TIM_01" classname="TestCases.TestCases" time="279.21"/>
+  <testcase name="DDR_BD_01" classname="TestCases.TestCases" time="280.066"/>
+  <testcase name="DDR_BDDF_01" classname="TestCases.TestCases" time="280.229"/>
+  <testcase name="DDR_BDDS_01" classname="TestCases.TestCases" time="300.782"/>
+  <testcase name="DDR_EXT_01" classname="TestCases.TestCases" time="279.706"/>
+  <testcase name="DDR_SDF_01" classname="TestCases.TestCases" time="280.122"/>
+  <testcase name="DDR_SUM_01" classname="TestCases.TestCases" time="279.914"/>
+  <testcase name="TDR_CAS_01" classname="TestCases.TestCases" time="280.158"/>
+  <testcase name="TDR_DET_01" classname="TestCases.TestCases" time="280.72"/>
+  <testcase name="TDR_EFS_01" classname="TestCases.TestCases" time="342.404">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_01(TestCases.java:1054)
+</failure>
+    <system-out><![CDATA[TDR_EFS_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+^^^^^^^^^^^^^^TDR_EFS_01
+4126632 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.999
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+4126635 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Not able to find Run Report
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+4132000 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -TDR_EFS_01
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_OUT_01" classname="TestCases.TestCases" time="279.664"/>
+  <testcase name="TDR_SBCE_001" classname="TestCases.TestCases" time="279.137"/>
+  <testcase name="TDR_SBS_001" classname="TestCases.TestCases" time="275.491">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_001(TestCases.java:2147)
+</failure>
+    <system-out><![CDATA[TDR_SBS_001 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+4966252 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -TDR_SBS_001
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_SBD_01" classname="TestCases.TestCases" time="278.971"/>
+  <testcase name="TDR_TTC_01" classname="TestCases.TestCases" time="279.867"/>
+  <testcase name="TDR_TSA_01" classname="TestCases.TestCases" time="281.644"/>
+  <testcase name="TDR_BA_01" classname="TestCases.TestCases" time="657.938"/>
+  <testcase name="TDR_EA_01" classname="TestCases.TestCases" time="650.593"/>
+  <testcase name="TDR_BS_01" classname="TestCases.TestCases" time="815.055"/>
+  <testcase name="SR_UW_01" classname="TestCases.TestCases" time="205.293"/>
+  <testcase name="SR_BUD_01" classname="TestCases.TestCases" time="282.372"/>
+  <testcase name="SR_TTT_01" classname="TestCases.TestCases" time="279.346"/>
+  <testcase name="SR_TBS_01" classname="TestCases.TestCases" time="342.361">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.SR_TBS_01(TestCases.java:6873)
+</failure>
+    <system-out><![CDATA[SR_TBS_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+9034327 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Not able to find Run Report
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+9039724 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -SR_TBS_01
+]]></system-out>
+  </testcase>
+  <testcase name="CR_ED_01" classname="TestCases.TestCases" time="356.725"/>
+  <testcase name="CR_EDTL_01" classname="TestCases.TestCases" time="280.18"/>
+  <testcase name="CR_ESR_01" classname="TestCases.TestCases" time="1,672.947">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_01(TestCases.java:9759)
+</failure>
+    <system-out><![CDATA[CR_ESR_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+^^^^^^^^^^^^^^CR_ESR_01
+11173635 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.999
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173638 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173640 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.999
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173642 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173646 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173650 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173652 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173654 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.999
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173656 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173658 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.999
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173662 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173664 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.999
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173666 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173669 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173671 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173673 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173679 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173681 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173684 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11173686 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.999
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+11173688 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Not able to find Run Report
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+^^^^^^^^^^^^^^CR_ESR_01
+11349541 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^CR_ESR_01
+11349543 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.999
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+11349545 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -CR_ESR_01
+]]></system-out>
+  </testcase>
+  <testcase name="CR_SO_01" classname="TestCases.TestCases" time="298.207">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_SO_01(TestCases.java:10051)
+</failure>
+    <system-out><![CDATA[CR_SO_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+11642416 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Not able to find Run Report
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+11647752 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -CR_SO_01
+]]></system-out>
+  </testcase>
+  <testcase name="CR_SOD_01" classname="TestCases.TestCases" time="282.461"/>
+  <testcase name="AR_CED_01" classname="TestCases.TestCases" time="279.6"/>
+  <testcase name="AR_GD_01" classname="TestCases.TestCases" time="517.98">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_GD_01(TestCases.java:5585)
+</failure>
+    <system-out><![CDATA[AR_GD_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+^^^^^^^^^^^^^^AR_GD_01
+12722482 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^AR_GD_01
+12722484 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^AR_GD_01
+12722486 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+12722489 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Not able to find Run Report
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+12727847 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -AR_GD_01
+]]></system-out>
+  </testcase>
+  <testcase name="AR_OB_01" classname="TestCases.TestCases" time="280.262"/>
+  <testcase name="AR_RT_01" classname="TestCases.TestCases" time="577.365">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_RT_01(TestCases.java:5836)
+</failure>
+    <system-out><![CDATA[AR_RT_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+^^^^^^^^^^^^^^AR_RT_01
+13564781 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^AR_RT_01
+13564783 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^AR_RT_01
+13564787 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+^^^^^^^^^^^^^^AR_RT_01
+13564789 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Capture Screenshot method failed. Error:org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61235}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir72588_24565}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e3bd54e80a126537fadcf775e80d10b4
+13564791 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Not able to find Run Report
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+13585450 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -AR_RT_01
+]]></system-out>
+  </testcase>
+  <testcase name="AR_SA_01" classname="TestCases.TestCases" time="285.778"/>
+  <testcase name="AR_UD_01" classname="TestCases.TestCases" time="279.129"/>
+  <testcase name="AR_WSM_01" classname="TestCases.TestCases" time="279.886"/>
+  <testcase name="AR_YTCR_01" classname="TestCases.TestCases" time="186.828">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_YTCR_01(TestCases.java:5348)
+</failure>
+    <system-out><![CDATA[AR_YTCR_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201214-030338/Screenshots/
+14747064 [TestNG] ERROR ./TestResults/2020_12_14_08_33_52_AM/LogFile.log  - Yearly Tax Comparison ReportReport not generated -Issue in the Report.
+{} doesn't contain key name -AR_YTCR_01
+]]></system-out>
+  </testcase>
+  <testcase name="TC_Logout" classname="TestCases.TestCases" time="23.029"/>
+</testsuite>

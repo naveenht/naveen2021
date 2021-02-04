@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 444.634 s <<< FAILURE! - in TestSuite
+TDR_SBS_001(TestCases.TestCases)  Time elapsed: 245.257 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_001(TestCases.java:2147)
+
+TDR_CAS_01(TestCases.TestCases)  Time elapsed: 171.115 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_CAS_01(TestCases.java:1336)
+

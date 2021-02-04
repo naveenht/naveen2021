@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 43, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 8,700.815 s <<< FAILURE! - in TestSuite
+UR_IPO_01(TestCases.TestCases)  Time elapsed: 239.733 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPO_01(TestCases.java:3532)
+
+UR_IPA_01(TestCases.TestCases)  Time elapsed: 283.118 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPA_01(TestCases.java:150)
+
+TDR_EFS_01(TestCases.TestCases)  Time elapsed: 281.962 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_01(TestCases.java:1054)
+
+TDR_OUT_01(TestCases.TestCases)  Time elapsed: 943.277 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_OUT_01(TestCases.java:2652)
+
+TDR_SBS_001(TestCases.TestCases)  Time elapsed: 275.814 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_001(TestCases.java:2147)
+
+TDR_BA_01(TestCases.TestCases)  Time elapsed: 273.543 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_BA_01(TestCases.java:3150)
+
+TDR_EA_01(TestCases.TestCases)  Time elapsed: 262.425 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EA_01(TestCases.java:3218)
+
+TDR_BS_01(TestCases.TestCases)  Time elapsed: 356.458 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_BS_01(TestCases.java:3183)
+
+SR_TBS_01(TestCases.TestCases)  Time elapsed: 502.892 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.SR_TBS_01(TestCases.java:6873)
+

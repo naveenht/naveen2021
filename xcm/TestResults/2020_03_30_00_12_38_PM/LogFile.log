@@ -1,0 +1,26 @@
+ERROR | 2020-03-30 12:15:18,598 | Common.java | 84 | Exception:Cannot locate element with text:    Tax - 1040 Individual
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.88.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-03-30 12:18:34,463 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-03-30 12:18:45,255 | Common.java | 84 | Failed to  enter the Type of Task
+ERROR | 2020-03-30 12:18:55,556 | Common.java | 84 | Failed to  enter the Originating Location
+ERROR | 2020-03-30 12:19:06,761 | Common.java | 84 | Failed to  enter the Current Location
+ERROR | 2020-03-30 12:19:13,467 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-03-30 12:19:18,874 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-03-30 12:24:00,731 | Common.java | 84 | Unable to find the Current radio button label.
+ERROR | 2020-03-30 12:24:04,729 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-03-30 12:24:21,339 | Common.java | 84 | Failed to  enter the Type of Task
+ERROR | 2020-03-30 12:24:30,936 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-03-30 12:24:36,102 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-03-30 12:26:51,111 | Common.java | 84 | Unable to find the Archive radio button label.
+ERROR | 2020-03-30 12:26:54,921 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-03-30 12:27:11,488 | Common.java | 84 | Failed to  enter the Type of Task
+ERROR | 2020-03-30 12:27:20,901 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-03-30 12:27:26,144 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-03-30 12:29:42,994 | Common.java | 84 | Unable to find the Archive radio button label.
+ERROR | 2020-03-30 12:29:47,762 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-03-30 12:30:04,967 | Common.java | 84 | Failed to  enter the Type of Task
+ERROR | 2020-03-30 12:30:14,585 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-03-30 12:30:19,832 | Common.java | 84 | The given window "2" is failed to open

@@ -1,0 +1,129 @@
+ERROR | 2020-01-31 12:42:11,026 | Common.java | 84 | Home page failed to diplay
+ERROR | 2020-01-31 12:43:25,384 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-01-31 12:43:30,881 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-01-31 13:03:46,891 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-01-31 13:03:52,287 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-01-31 13:48:24,886 | Common.java | 84 | Mouse over action on 'Manage settings and defaults' element failed
+ERROR | 2020-01-31 13:48:28,368 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id*='ContentPlaceHolder1_LinkManageFirmSettings']"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58227}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir14120_21124}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: edb3ccf065319f831dc64a0165cd80c8
+*** Element info: {Using=css selector, value=a[id*='ContentPlaceHolder1_LinkManageFirmSettings']}
+ERROR | 2020-01-31 13:48:31,836 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-01-31 13:48:35,230 | Common.java | 84 | Edit Role Names  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2020-01-31 13:48:38,643 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_editrolerow_Sign']"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58227}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir14120_21124}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: edb3ccf065319f831dc64a0165cd80c8
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_editrolerow_Sign']}
+ERROR | 2020-01-31 13:48:42,145 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-01-31 13:48:45,611 | Common.java | 84 | Use Defaults Radio button  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2020-01-31 13:48:52,100 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_SRoles']"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58227}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir14120_21124}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: edb3ccf065319f831dc64a0165cd80c8
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_SRoles']}
+ERROR | 2020-01-31 13:52:21,644 | Common.java | 84 | Mouse over action on 'Manage settings and defaults' element failed
+ERROR | 2020-01-31 13:52:24,983 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id*='ContentPlaceHolder1_LinkManageFirmSettings']"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58227}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir14120_21124}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: edb3ccf065319f831dc64a0165cd80c8
+*** Element info: {Using=css selector, value=a[id*='ContentPlaceHolder1_LinkManageFirmSettings']}
+ERROR | 2020-01-31 13:52:28,331 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-01-31 13:52:31,731 | Common.java | 84 | Edit Role Names  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2020-01-31 13:52:35,071 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_editrolerow_Sign']"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58227}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir14120_21124}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: edb3ccf065319f831dc64a0165cd80c8
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_editrolerow_Sign']}
+ERROR | 2020-01-31 13:52:38,505 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-01-31 13:52:42,005 | Common.java | 84 | Use Defaults Radio button  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2020-01-31 13:52:48,589 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_SRoles']"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58227}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir14120_21124}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: edb3ccf065319f831dc64a0165cd80c8
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_SRoles']}
+ERROR | 2020-01-31 13:56:11,056 | Common.java | 84 | Mouse over action on 'Manage settings and defaults' element failed
+ERROR | 2020-01-31 13:56:14,512 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id*='ContentPlaceHolder1_LinkManageFirmSettings']"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58227}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir14120_21124}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: edb3ccf065319f831dc64a0165cd80c8
+*** Element info: {Using=css selector, value=a[id*='ContentPlaceHolder1_LinkManageFirmSettings']}
+ERROR | 2020-01-31 13:56:17,999 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-01-31 13:56:21,452 | Common.java | 84 | Edit Role Names  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2020-01-31 13:56:24,839 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_editrolerow_Sign']"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58227}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir14120_21124}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: edb3ccf065319f831dc64a0165cd80c8
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_editrolerow_Sign']}
+ERROR | 2020-01-31 13:56:28,288 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-01-31 13:56:31,684 | Common.java | 84 | Use Defaults Radio button  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2020-01-31 13:56:38,184 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_SRoles']"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58227}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir14120_21124}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: edb3ccf065319f831dc64a0165cd80c8
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_SRoles']}
+ERROR | 2020-01-31 14:02:30,902 | Common.java | 84 | User WorkloadReport not generated -Issue in the Report.
+ERROR | 2020-01-31 14:11:02,439 | Common.java | 84 | Summary - By StatusReport not generated -Issue in the Report.
+ERROR | 2020-01-31 14:19:40,761 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-01-31 14:19:46,134 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-01-31 14:35:45,544 | Common.java | 84 | Outsource Billing Report link is not displayed.
+ERROR | 2020-01-31 14:35:45,982 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-01-31 14:35:51,346 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-01-31 14:46:06,751 | Common.java | 84 | User Details Report link is not displayed.
+ERROR | 2020-01-31 14:46:07,166 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-01-31 14:46:12,557 | Common.java | 84 | The given window "2" is failed to open

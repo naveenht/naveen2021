@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="20">
+	<test id="1" name="Desktop1_Group1">
+		<parameter name="selenium.machinename" value="Desktop1_Group1" />
+		<parameter name="selenium.host" value="localhost" />
+		<parameter name="selenium.port" value="7851" />
+		<parameter name="selenium.browser" value="Chrome" />
+		<parameter id="1" name="selenium.url" value="https://www.gmail.com" />
+		<parameter id="1" name="selenium.os" value="Windows" />
+		<parameter id="1" name="selenium.browserVersion" value="60" />
+		<parameter id="1" name="selenium.osVersion" value="10" />
+		<parameter id="1" name="TestData.SheetNumber" value="1" />
+		<classes name="1">
+			<class id="1" name="TestCases.TestCases" />
+			<methods id="1">
+				<include name="TC_Login" />
+		 
+				<include name="UR_IPO_01" />
+				<include name="UR_IPO_02" />
+				<include name="UR_IPO_03" />
+				<include name="UR_IPO_04" />
+				<include name="UR_IPO_05" />
+				<include name="UR_IPO_06" />
+				<include name="UR_IPO_07" />
+				<include name="UR_IPO_08" />
+				<include name="UR_IPO_09" />
+				<include name="UR_IPO_10" />
+				<include name="UR_IPO_11" />
+				<include name="UR_IPO_12" />
+				<include name="UR_IPO_13" />
+				<include name="UR_IPO_14" />
+				<include name="UR_IPO_15" />
+				<include name="UR_IPO_16" /> 
+				<include name="UR_IPO_17" />   
+				<include name="UR_IPO_18" />   
+				
+				<include name="UR_IPA_01" />
+				<include name="UR_IPA_02" />
+				<include name="UR_IPA_03" />
+				<include name="UR_IPA_04" />
+				<include name="UR_IPA_05" />
+				<include name="UR_IPA_06" />
+				<include name="UR_IPA_07" />
+				<include name="UR_IPA_08" />
+				<include name="UR_IPA_09" />
+				<include name="UR_IPA_10" />
+				<include name="UR_IPA_11" />
+				<include name="UR_IPA_12" />
+				<include name="UR_IPA_13" />
+				<include name="UR_IPA_14" />
+				<include name="UR_IPA_15" />
+				<include name="UR_IPA_16" />    
+				<include name="UR_IPA_17" />  
+				<include name="UR_IPA_18" />  
+				
+				<include name="UR_CLS_01" />
+				<include name="UR_CLS_02" />
+				<include name="UR_CLS_03" />
+				<include name="UR_CLS_04" />
+				<include name="UR_CLS_05" />
+				<include name="UR_CLS_06" />
+				<include name="UR_CLS_07" />
+				<include name="UR_CLS_08" />
+				<include name="UR_CLS_09" />
+				<include name="UR_CLS_10" />
+				<include name="UR_CLS_11" />
+				<include name="UR_CLS_12" />
+				<include name="UR_CLS_13" />
+				<include name="UR_CLS_14" />
+				<include name="UR_CLS_15" />
+				<include name="UR_CLS_16" />
+				<include name="UR_CLS_17" />    
+				<include name="UR_CLS_18" />    
+				
+				
+				<include name="UR_CLD_01" />
+				<include name="UR_CLD_02" />
+				<include name="UR_CLD_03" />
+				<include name="UR_CLD_04" />
+				<include name="UR_CLD_05" />
+				<include name="UR_CLD_06" />
+				<include name="UR_CLD_07" />
+				<include name="UR_CLD_08" />
+				<include name="UR_CLD_09" />
+				<include name="UR_CLD_10" />
+				<include name="UR_CLD_11" />
+				<include name="UR_CLD_12" />
+				<include name="UR_CLD_13" />
+				<include name="UR_CLD_14" />
+				<include name="UR_CLD_15" />
+				<include name="UR_CLD_16" />
+				<include name="UR_CLD_17" />  
+				<include name="UR_CLD_18" />
+				<include name="UR_CLD_22" />
+				
+
+				<include name="UR_MCT_01" />
+				<include name="UR_MCT_02" />
+				<include name="UR_MCT_03" />
+				<include name="UR_MCT_04" />
+				<include name="UR_MCT_05" />
+				<include name="UR_MCT_06" />
+				<include name="UR_MCT_07" />
+				<include name="UR_MCT_08" />
+				<include name="UR_MCT_09" />
+				<include name="UR_MCT_10" />
+				<include name="UR_MCT_11" />
+				<include name="UR_MCT_12" />
+				<include name="UR_MCT_13" />
+				<include name="UR_MCT_14" />
+				<include name="UR_MCT_15" />
+				<include name="UR_MCT_16" /> 
+				<include name="UR_MCT_18" />
+				
+
+				<include name="UR_TIM_01" />
+				<include name="UR_TIM_02" />
+				<include name="UR_TIM_03" />
+				<include name="UR_TIM_04" />
+				<include name="UR_TIM_05" />
+				<include name="UR_TIM_06" />
+				<include name="UR_TIM_07" />
+				<include name="UR_TIM_08" />
+				<include name="UR_TIM_09" />
+				<include name="UR_TIM_10" />
+				<include name="UR_TIM_11" />
+				<include name="UR_TIM_12" />
+				<include name="UR_TIM_13" />
+				<include name="UR_TIM_14" />
+				<include name="UR_TIM_15" />
+				<include name="UR_TIM_16" />  
+				<include name="UR_TIM_18" /> 
+				 
+						
+			<include name="CR_ESR_01" />
+			<include name="CR_ESR_02" />
+			<include name="CR_ESR_03" />
+			<include name="CR_ESR_04" />
+			<include name="CR_ESR_05" />
+			<include name="CR_ESR_06" />
+			<include name="CR_ESR_07" />
+			<include name="CR_ESR_08" />
+			<include name="CR_ESR_09" />
+			<include name="CR_ESR_10" />
+			<include name="CR_ESR_11" />
+			<include name="CR_ESR_12" />
+			<include name="CR_ESR_13" />
+			<include name="CR_ESR_14" />
+			<include name="CR_ESR_15" />
+			<include name="CR_ESR_16" />
+			<include name="CR_ESR_17" />
+			<include name="CR_ESR_18" />
+				<include name="CR_ESR_22" />
+			
+			<include name="CR_ED_01" />
+			<include name="CR_ED_02" />
+			<include name="CR_ED_03" />
+			<include name="CR_ED_04" />
+			<include name="CR_ED_05" />
+			<include name="CR_ED_06" />
+			<include name="CR_ED_07" />
+			<include name="CR_ED_08" />
+			<include name="CR_ED_09" />
+			<include name="CR_ED_10" />
+			<include name="CR_ED_11" />
+			<include name="CR_ED_12" />
+			<include name="CR_ED_13" />
+			<include name="CR_ED_14" />
+			<include name="CR_ED_15" />
+			<include name="CR_ED_16" />
+			<include name="CR_ED_17" />
+			<include name="CR_ED_18" />
+			<include name="CR_ED_22" />
+			
+										
+			<include name="CR_EDTL_01" />
+			<include name="CR_EDTL_02" />
+			<include name="CR_EDTL_03" />
+			<include name="CR_EDTL_04" />
+			<include name="CR_EDTL_05" />
+			<include name="CR_EDTL_06" />
+			<include name="CR_EDTL_07" />
+			<include name="CR_EDTL_08" />
+			<include name="CR_EDTL_09" />
+			<include name="CR_EDTL_10" />
+			<include name="CR_EDTL_11" />
+			<include name="CR_EDTL_12" />
+			<include name="CR_EDTL_13" />
+			<include name="CR_EDTL_14" />
+			<include name="CR_EDTL_15" />
+			<include name="CR_EDTL_16" />
+			<include name="CR_EDTL_17" />
+			<include name="CR_EDTL_18" />
+			<include name="CR_EDTL_22" />
+			
+			<include name="CR_SO_01" />
+			<include name="CR_SO_02" />
+			<include name="CR_SO_03" />
+			<include name="CR_SO_04" />
+			<include name="CR_SO_05" />
+			<include name="CR_SO_06" />
+			<include name="CR_SO_07" />
+			<include name="CR_SO_08" />
+			<include name="CR_SO_09" />
+			<include name="CR_SO_10" />
+			<include name="CR_SO_13" />
+			<include name="CR_SO_14" />
+			<include name="CR_SO_15" />
+			<include name="CR_SO_16" />
+			<include name="CR_SO_17" />
+			<include name="CR_SO_18" />
+			
+			<include name="CR_SOD_01" />
+			<include name="CR_SOD_02" />
+			<include name="CR_SOD_03" />
+			<include name="CR_SOD_04" />
+			<include name="CR_SOD_05" />
+			<include name="CR_SOD_06" />
+			<include name="CR_SOD_07" />
+			<include name="CR_SOD_08" />
+			<include name="CR_SOD_09" />
+			<include name="CR_SOD_10" />
+			<include name="CR_SOD_13" />
+			<include name="CR_SOD_14" />
+			<include name="CR_SOD_15" />
+			<include name="CR_SOD_16" />
+			<include name="CR_SOD_17" />   
+			<include name="CR_SOD_18" />  
+			
+			 
+			 
+			
+			
+				<include name="TC_Logout" />
+			</methods>
+		</classes>
+	</test>
+
+	<test id="2" name="Desktop1_Group2">
+		<parameter name="selenium.machinename" value="Desktop1_Group2" />
+		<parameter name="selenium.host" value="localhost" />
+		<parameter name="selenium.port" value="7851" />
+		<parameter name="selenium.browser" value="Chrome" />
+		<parameter id="2" name="selenium.url" value="https://www.gmail.com" />
+		<parameter id="2" name="selenium.os" value="Windows" />
+		<parameter id="2" name="selenium.browserVersion" value="60" />
+		<parameter id="2" name="selenium.osVersion" value="10" />
+		<parameter id="2" name="TestData.SheetNumber" value="1" />
+		<classes name="2">
+			<class id="2" name="TestCases.TestCases" />
+			<methods id="2">
+				<include name="TC_Login" />
+				
+			
+			<include name="DDR_SUM_01" />
+			<include name="DDR_SUM_02" />
+			<include name="DDR_SUM_03" />
+			<include name="DDR_SUM_04" />
+			<include name="DDR_SUM_05" />
+			<include name="DDR_SUM_06" />
+			<include name="DDR_SUM_07" />
+			<include name="DDR_SUM_08" />
+			<include name="DDR_SUM_09" />
+			<include name="DDR_SUM_10" />
+			<include name="DDR_SUM_11" />
+			<include name="DDR_SUM_12" />
+			<include name="DDR_SUM_13" />
+			<include name="DDR_SUM_14" />
+			<include name="DDR_SUM_15" />
+			<include name="DDR_SUM_16" />
+			<include name="DDR_SUM_17" />
+			<include name="DDR_SUM_18" />	
+			<include name="DDR_SUM_22" />					
+												
+			<include name="DDR_BD_01" />
+			<include name="DDR_BD_02" />
+			<include name="DDR_BD_03" />
+			<include name="DDR_BD_04" />
+			<include name="DDR_BD_05" />
+			<include name="DDR_BD_06" />
+			<include name="DDR_BD_07" />
+			<include name="DDR_BD_08" />
+			<include name="DDR_BD_09" />
+			<include name="DDR_BD_10" />
+			<include name="DDR_BD_11" />
+			<include name="DDR_BD_12" />
+			<include name="DDR_BD_13" />
+			<include name="DDR_BD_14" />
+			<include name="DDR_BD_15" />
+			<include name="DDR_BD_16" />
+			<include name="DDR_BD_17" />
+			<include name="DDR_BD_18" />
+			<include name="DDR_BD_22" />
+			
+			<include name="DDR_EXT_01" />
+			<include name="DDR_EXT_02" />
+			<include name="DDR_EXT_03" />
+			<include name="DDR_EXT_04" />
+			<include name="DDR_EXT_05" />
+			<include name="DDR_EXT_06" />
+			<include name="DDR_EXT_07" />
+			<include name="DDR_EXT_08" />
+			<include name="DDR_EXT_09" />
+			<include name="DDR_EXT_10" />
+			<include name="DDR_EXT_11" />
+			<include name="DDR_EXT_12" />
+			<include name="DDR_EXT_13" />
+			<include name="DDR_EXT_14" />
+			<include name="DDR_EXT_15" />
+			<include name="DDR_EXT_16" />
+			<include name="DDR_EXT_17" />					
+			<include name="DDR_EXT_18" />		
+			<include name="DDR_EXT_22" />			
+							
+												
+			<include name="DDR_BDDF_01" />
+			<include name="DDR_BDDF_02" />
+			<include name="DDR_BDDF_03" />
+			<include name="DDR_BDDF_04" />
+			<include name="DDR_BDDF_05" />
+			<include name="DDR_BDDF_06" />
+			<include name="DDR_BDDF_07" />
+			<include name="DDR_BDDF_08" />
+			<include name="DDR_BDDF_09" />
+			<include name="DDR_BDDF_10" />
+			<include name="DDR_BDDF_11" />
+			<include name="DDR_BDDF_12" />
+			<include name="DDR_BDDF_13" />
+			<include name="DDR_BDDF_14" />
+			<include name="DDR_BDDF_15" />
+			<include name="DDR_BDDF_16" />
+			<include name="DDR_BDDF_17" />
+			<include name="DDR_BDDF_18" />	
+			<include name="DDR_BDDF_22" />
+										
+											
+			<include name="DDR_SDF_01" />
+			<include name="DDR_SDF_02" />
+			<include name="DDR_SDF_03" />
+			<include name="DDR_SDF_04" />
+			<include name="DDR_SDF_05" />
+			<include name="DDR_SDF_06" />
+			<include name="DDR_SDF_07" />
+			<include name="DDR_SDF_08" />
+			<include name="DDR_SDF_09" />
+			<include name="DDR_SDF_10" />
+			<include name="DDR_SDF_11" />
+			<include name="DDR_SDF_12" />
+			<include name="DDR_SDF_13" />
+			<include name="DDR_SDF_14" />
+			<include name="DDR_SDF_15" />
+			<include name="DDR_SDF_16" />
+			<include name="DDR_SDF_17" />								
+			<include name="DDR_SDF_18" />	
+			<include name="DDR_SDF_22" />
+										
+														
+			<include name="DDR_BDDS_01" />
+			<include name="DDR_BDDS_02" />
+			<include name="DDR_BDDS_03" />
+			<include name="DDR_BDDS_04" />
+			<include name="DDR_BDDS_05" />
+			<include name="DDR_BDDS_06" />
+			<include name="DDR_BDDS_07" />
+			<include name="DDR_BDDS_08" />
+			<include name="DDR_BDDS_09" />
+			<include name="DDR_BDDS_10" />
+			<include name="DDR_BDDS_11" />
+			<include name="DDR_BDDS_12" />
+			<include name="DDR_BDDS_13" />
+			<include name="DDR_BDDS_14" />
+			<include name="DDR_BDDS_15" />
+			<include name="DDR_BDDS_16" />
+			<include name="DDR_BDDS_17" />		
+			<include name="DDR_BDDS_18" />
+			<include name="DDR_BDDS_22" />
+			
+			
+				<include name="AR_RT_01" />
+				<include name="AR_RT_02" />
+				<include name="AR_RT_03" />
+				<include name="AR_RT_04" />
+				<include name="AR_RT_05" />
+				<include name="AR_RT_06" />
+				<include name="AR_RT_07" />
+				<include name="AR_RT_08" />
+				<include name="AR_RT_09" />
+				<include name="AR_RT_10" />
+				<include name="AR_RT_11" />
+				<include name="AR_RT_12" />
+				<include name="AR_RT_13" />
+				<include name="AR_RT_14" />
+				<include name="AR_RT_15" />
+				<include name="AR_RT_16" />
+				
+			
+				
+				<include name="AR_UD_01" />
+				<include name="AR_UD_02" />
+				<include name="AR_UD_03" />
+				<include name="AR_UD_04" />
+				<include name="AR_UD_05" />
+				<include name="AR_UD_06" />
+				<include name="AR_UD_07" />
+				<include name="AR_UD_08" />
+				<include name="AR_UD_09" />
+				<include name="AR_UD_10" />
+				<include name="AR_UD_13" />
+				<include name="AR_UD_14" />
+				<include name="AR_UD_15" />
+				<include name="AR_UD_16" />
+				
+				
+				<include name="AR_SA_01" />
+				<include name="AR_SA_02" />
+				<include name="AR_SA_03" />
+				<include name="AR_SA_04" />
+				<include name="AR_SA_05" />
+				<include name="AR_SA_06" />
+				<include name="AR_SA_07" />
+				<include name="AR_SA_08" />   
+				<include name="AR_SA_09" />
+			    <include name="AR_SA_10" />
+				<include name="AR_SA_11" />
+				<include name="AR_SA_12" />
+				<include name="AR_SA_13" />
+				<include name="AR_SA_14" />
+				<include name="AR_SA_15" />
+				<include name="AR_SA_16" />
+				
+				
+				<include name="AR_CED_01" />
+				<include name="AR_CED_02" />
+				<include name="AR_CED_03" />
+				<include name="AR_CED_04" />
+				<include name="AR_CED_05" />
+				<include name="AR_CED_06" />
+				<include name="AR_CED_07" />
+				<include name="AR_CED_08" />
+				<include name="AR_CED_09" />
+				<include name="AR_CED_10" />
+				<include name="AR_CED_11" />
+				<include name="AR_CED_12" />
+				<include name="AR_CED_13" />
+				<include name="AR_CED_14" />
+				<include name="AR_CED_15" />
+				<include name="AR_CED_16" />
+				 
+
+		 		<include name="AR_GD_01" />
+				<include name="AR_GD_02" />
+				<include name="AR_GD_03" />
+				<include name="AR_GD_04" />
+				<include name="AR_GD_05" />
+				<include name="AR_GD_06" />
+				<include name="AR_GD_07" />
+				<include name="AR_GD_08" />
+				<include name="AR_GD_09" />
+				<include name="AR_GD_10" />
+				<include name="AR_GD_11" />
+				<include name="AR_GD_12" />
+				<include name="AR_GD_13" />
+				<include name="AR_GD_14" />
+				<include name="AR_GD_15" />
+				<include name="AR_GD_16" />
+				
+				
+				
+				<include name="AR_OB_01" />
+				<include name="AR_OB_02" />
+				<include name="AR_OB_03" />
+				<include name="AR_OB_04" />
+				<include name="AR_OB_05" />
+				<include name="AR_OB_06" />
+				<include name="AR_OB_07" />
+				<include name="AR_OB_08" />
+				<include name="AR_OB_09" />
+				<include name="AR_OB_10" />
+				<include name="AR_OB_11" />
+				<include name="AR_OB_12" />
+				<include name="AR_OB_13" />
+				<include name="AR_OB_14" />
+				<include name="AR_OB_15" />
+				<include name="AR_OB_16" />
+				
+				
+				
+				<include name="AR_YTCR_01" />
+				<include name="AR_YTCR_02" />
+				<include name="AR_YTCR_03" />
+				<include name="AR_YTCR_04" />
+				<include name="AR_YTCR_05" />
+				<include name="AR_YTCR_06" />
+				<include name="AR_YTCR_07" />
+				<include name="AR_YTCR_08" />
+				<include name="AR_YTCR_09" />
+				<include name="AR_YTCR_10" />
+				<include name="AR_YTCR_13" />
+				<include name="AR_YTCR_14" />
+				<include name="AR_YTCR_15" />
+				<include name="AR_YTCR_16" />
+				<include name="AR_YTCR_17" />
+				
+				<include name="AR_WSM_01" />
+				<include name="AR_WSM_02" />
+				<include name="AR_WSM_03" />
+				<include name="AR_WSM_04" />
+				<include name="AR_WSM_05" />
+				<include name="AR_WSM_06" />
+				<include name="AR_WSM_07" />
+				<include name="AR_WSM_08" />
+				<include name="AR_WSM_09" />
+				<include name="AR_WSM_10" />
+				<include name="AR_WSM_13" />
+				<include name="AR_WSM_14" />
+				<include name="AR_WSM_15" />
+				<include name="AR_WSM_16" />	 
+				<include name="AR_WSM_22" />	
+		 
+			
+				<include name="TC_Logout" />
+			</methods>
+		</classes>
+	</test>
+	
+	
+	<test id="3" name="Desktop1_Group3">
+		<parameter name="selenium.machinename" value="Desktop1_Group3" />
+		<parameter name="selenium.host" value="localhost" />
+		<parameter name="selenium.port" value="7851" />
+		<parameter name="selenium.browser" value="Chrome" />
+		<parameter id="3" name="selenium.url" value="https://www.gmail.com" />
+		<parameter id="3" name="selenium.os" value="Windows" />
+		<parameter id="3" name="selenium.browserVersion" value="60" />
+		<parameter id="3" name="selenium.osVersion" value="10" />
+		<parameter id="3" name="TestData.SheetNumber" value="1" />
+		<classes name="3">
+			<class id="3" name="TestCases.TestCases" />
+			<methods id="3">
+				<include name="TC_Login" />
+				
+						
+			
+				<include name="TDR_EFS_01" />
+				<include name="TDR_EFS_02" />
+				<include name="TDR_EFS_03" />
+				<include name="TDR_EFS_04" />
+				<include name="TDR_EFS_05" />
+				<include name="TDR_EFS_06" />
+				<include name="TDR_EFS_07" />
+				<include name="TDR_EFS_08" />
+				<include name="TDR_EFS_09" />
+				<include name="TDR_EFS_10" />
+				<include name="TDR_EFS_11" />
+				<include name="TDR_EFS_12" />
+				<include name="TDR_EFS_13" />
+				<include name="TDR_EFS_14" />
+				<include name="TDR_EFS_15" />
+				<include name="TDR_EFS_16" />
+				<include name="TDR_EFS_17" />
+				<include name="TDR_EFS_18" />
+				
+				
+				
+				<include name="TDR_DET_01" />
+				<include name="TDR_DET_02" />
+				<include name="TDR_DET_03" />
+				<include name="TDR_DET_04" />
+				<include name="TDR_DET_05" />
+				<include name="TDR_DET_06" />
+				<include name="TDR_DET_07" />
+				<include name="TDR_DET_08" />
+				<include name="TDR_DET_09" />
+				<include name="TDR_DET_10" />
+				<include name="TDR_DET_11" />
+				<include name="TDR_DET_12" />
+				<include name="TDR_DET_13" />
+				<include name="TDR_DET_14" />
+				<include name="TDR_DET_15" />
+				<include name="TDR_DET_16" />
+				<include name="TDR_DET_17" />
+				<include name="TDR_DET_18" />
+				<include name="TDR_DET_22" />
+				
+				<include name="TDR_SBS_001" />
+				<include name="TDR_SBS_002" />
+				<include name="TDR_SBS_003" />
+				<include name="TDR_SBS_004" />
+				<include name="TDR_SBS_005" />
+				<include name="TDR_SBS_006" />
+				<include name="TDR_SBS_007" />
+				<include name="TDR_SBS_008" />
+				<include name="TDR_SBS_009" />
+				<include name="TDR_SBS_010" />
+				<include name="TDR_SBS_011" />
+				<include name="TDR_SBS_012" />
+				<include name="TDR_SBS_013" />
+				<include name="TDR_SBS_014" />
+				<include name="TDR_SBS_015" />
+				<include name="TDR_SBS_016" />
+				<include name="TDR_SBS_018" />
+				<include name="TDR_SBS_022" />
+				
+				
+				<include name="TDR_SBCE_001" />
+				<include name="TDR_SBCE_002" />
+				<include name="TDR_SBCE_003" />
+				<include name="TDR_SBCE_004" />
+				<include name="TDR_SBCE_005" />
+				<include name="TDR_SBCE_006" />
+				<include name="TDR_SBCE_007" />
+				<include name="TDR_SBCE_008" />
+				<include name="TDR_SBCE_009" />
+				<include name="TDR_SBCE_010" />
+				<include name="TDR_SBCE_011" />
+				<include name="TDR_SBCE_012" />
+				<include name="TDR_SBCE_013" />
+				<include name="TDR_SBCE_014" />
+				<include name="TDR_SBCE_015" />
+				<include name="TDR_SBCE_016" />
+				<include name="TDR_SBCE_018" />
+				
+				<include name="TDR_SBD_01" />
+				<include name="TDR_SBD_02" />
+				<include name="TDR_SBD_03" />
+				<include name="TDR_SBD_04" />
+				<include name="TDR_SBD_05" />
+				<include name="TDR_SBD_06" />
+				<include name="TDR_SBD_07" />
+				<include name="TDR_SBD_08" />
+				<include name="TDR_SBD_09" />
+				<include name="TDR_SBD_10" />
+				<include name="TDR_SBD_11" />
+				<include name="TDR_SBD_12" />
+				<include name="TDR_SBD_13" />
+				<include name="TDR_SBD_14" />
+				<include name="TDR_SBD_15" />
+				<include name="TDR_SBD_16" />      
+				<include name="TDR_SBD_18" />
+				
+				<include name="TDR_OUT_01" />
+				<include name="TDR_OUT_02" />
+				<include name="TDR_OUT_03" />
+				<include name="TDR_OUT_04" />
+				<include name="TDR_OUT_05" />
+				<include name="TDR_OUT_06" />
+				<include name="TDR_OUT_07" />
+				<include name="TDR_OUT_08" />
+				<include name="TDR_OUT_09" />
+				<include name="TDR_OUT_10" />
+				<include name="TDR_OUT_11" />
+				<include name="TDR_OUT_12" />
+				<include name="TDR_OUT_13" />
+				<include name="TDR_OUT_14" />
+				<include name="TDR_OUT_15" />
+				<include name="TDR_OUT_16" /> 
+				<include name="TDR_OUT_18" />
+				
+				<include name="TDR_TTC_01" />
+				<include name="TDR_TTC_02" />
+				<include name="TDR_TTC_03" />
+				<include name="TDR_TTC_04" />
+				<include name="TDR_TTC_05" />
+				<include name="TDR_TTC_06" />
+				<include name="TDR_TTC_07" />
+				<include name="TDR_TTC_08" />
+				<include name="TDR_TTC_09" />
+				<include name="TDR_TTC_10" />
+				<include name="TDR_TTC_11" />
+				<include name="TDR_TTC_12" />    
+				<include name="TDR_TTC_13" />
+				<include name="TDR_TTC_14" />
+				<include name="TDR_TTC_15" />
+				<include name="TDR_TTC_16" />
+				<include name="TDR_TTC_17" />
+				<include name="TDR_TTC_18" />
+				
+				<include name="TDR_BA_01" />
+				<include name="TDR_BS_01" />  
+				<include name="TDR_EA_01" />
+				
+				
+				<include name="TDR_TSA_01" />
+				<include name="TDR_TSA_02" />
+				<include name="TDR_TSA_03" />
+				<include name="TDR_TSA_04" />
+				<include name="TDR_TSA_05" />
+				<include name="TDR_TSA_06" />
+				<include name="TDR_TSA_07" />
+				<include name="TDR_TSA_08" />
+				<include name="TDR_TSA_09" />
+				<include name="TDR_TSA_10" />
+				<include name="TDR_TSA_11" />
+				<include name="TDR_TSA_12" />
+				<include name="TDR_TSA_13" />
+				<include name="TDR_TSA_14" />
+				<include name="TDR_TSA_15" />
+				<include name="TDR_TSA_16" />
+				<include name="TDR_TSA_18" />
+				
+				
+				<include name="TDR_CAS_01" />
+				<include name="TDR_CAS_02" />
+				<include name="TDR_CAS_03" />
+				<include name="TDR_CAS_04" />
+				<include name="TDR_CAS_05" />
+				<include name="TDR_CAS_06" />
+				<include name="TDR_CAS_07" />
+				<include name="TDR_CAS_08" />
+				<include name="TDR_CAS_09" />
+				<include name="TDR_CAS_10" />
+				<include name="TDR_CAS_11" />
+				<include name="TDR_CAS_12" />
+				<include name="TDR_CAS_13" />
+				<include name="TDR_CAS_14" />
+				<include name="TDR_CAS_15" />
+				<include name="TDR_CAS_16" /> 
+				<include name="TDR_CAS_18" />
+				<include name="TDR_CAS_22" />
+				
+				
+			<include name="SR_UW_01" />	
+			<include name="SR_UW_02" />
+			<include name="SR_UW_03" />
+			<include name="SR_UW_04" />
+			<include name="SR_UW_05" />
+			<include name="SR_UW_06" />
+			<include name="SR_UW_07" />
+			<include name="SR_UW_08" />
+			<include name="SR_UW_09" />
+			<include name="SR_UW_10" />
+			<include name="SR_UW_13" />
+			<include name="SR_UW_14" />
+			<include name="SR_UW_15" />
+			<include name="SR_UW_16" />
+			<include name="SR_UW_18" />
+			<include name="SR_UW_22" />
+			
+			<include name="SR_BUD_01" />	
+			<include name="SR_BUD_02" />
+			<include name="SR_BUD_03" />
+			<include name="SR_BUD_04" />
+			<include name="SR_BUD_05" />
+			<include name="SR_BUD_06" />
+			<include name="SR_BUD_07" />
+			<include name="SR_BUD_08" />
+			<include name="SR_BUD_09" />
+			<include name="SR_BUD_10" />
+			<include name="SR_BUD_13" />
+			<include name="SR_BUD_14" />
+			<include name="SR_BUD_15" />
+			<include name="SR_BUD_16" />
+			<include name="SR_BUD_18" />
+			<include name="SR_BUD_22" />
+			
+			
+			<include name="SR_TTT_01" />	
+			<include name="SR_TTT_02" />
+			<include name="SR_TTT_03" />
+			<include name="SR_TTT_04" />
+			<include name="SR_TTT_05" />
+			<include name="SR_TTT_06" />
+			<include name="SR_TTT_07" />
+			<include name="SR_TTT_08" />
+			<include name="SR_TTT_09" />
+			<include name="SR_TTT_10" />
+			<include name="SR_TTT_11" />
+			<include name="SR_TTT_12" />
+			<include name="SR_TTT_13" />
+			<include name="SR_TTT_14" />
+			<include name="SR_TTT_15" />
+			<include name="SR_TTT_16" />
+			<include name="SR_TTT_17" />
+			<include name="SR_TTT_18" />
+			
+			<include name="SR_TBS_01" />	
+			<include name="SR_TBS_02" />
+			<include name="SR_TBS_03" />
+			<include name="SR_TBS_04" />
+			<include name="SR_TBS_05" />
+			<include name="SR_TBS_06" />
+			<include name="SR_TBS_07" />
+			<include name="SR_TBS_08" />
+			<include name="SR_TBS_09" />
+			<include name="SR_TBS_10" />
+			<include name="SR_TBS_11" />
+			<include name="SR_TBS_12" />
+			<include name="SR_TBS_13" />
+			<include name="SR_TBS_14" />
+			<include name="SR_TBS_15" />
+			<include name="SR_TBS_16" />
+			<include name="SR_TBS_17" />	
+			<include name="SR_TBS_18" />
+			<include name="SR_TBS_22" />
+			
+			<include name="TC_Logout" />
+			</methods>
+		</classes>
+	</test>
+</suite>

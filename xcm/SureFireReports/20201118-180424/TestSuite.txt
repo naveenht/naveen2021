@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1266, Failures: 1, Errors: 0, Skipped: 1265, Time elapsed: 13.1 s <<< FAILURE! - in TestSuite
+precondition(TestCases.TestCases)  Time elapsed: 10.642 s  <<< FAILURE!
+java.lang.NullPointerException
+	at TestCases.TestCases.precondition(TestCases.java:112)
+

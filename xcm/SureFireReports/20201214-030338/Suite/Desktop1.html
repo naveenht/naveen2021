@@ -1,0 +1,1311 @@
+<html>
+<head>
+<title>TestNG:  Desktop1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Desktop1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/9/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 14 08:33:52 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>14777 seconds (14777493 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.TestCases.AR_GD_01()'><b>AR_GD_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.AR_GD_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1043260374" onClick='toggleBox("Output-1043260374", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1043260374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1043260374">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Group Details Report link is clicked Successfully</font><br/>
+<a href='Screenshots/TestFailure41.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure41.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure41.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure41.png'><font color='red'>Not able to find Run Report</font> </a><br/>
+<a href='Screenshots/TestFailure42.png'><font color='red'>The given window "2" is failed to open</font> </a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_GD_01(TestCases.java:5585)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1043260374", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1043260374'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_GD_01(TestCases.java:5585)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>517</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.AR_RT_01()'><b>AR_RT_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.AR_RT_01(java.lang.reflect.Method)<br/>
+<a href="#Output-824691266" onClick='toggleBox("Output-824691266", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-824691266" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-824691266">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Recurring Tasks Report link is clicked Successfully</font><br/>
+<a href='Screenshots/TestFailure47.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure47.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure47.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure47.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure47.png'><font color='red'>Not able to find Run Report</font> </a><br/>
+<a href='Screenshots/TestFailure48.png'><font color='red'>The given window "2" is failed to open</font> </a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_RT_01(TestCases.java:5836)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace824691266", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace824691266'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_RT_01(TestCases.java:5836)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>577</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.AR_YTCR_01()'><b>AR_YTCR_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.AR_YTCR_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1536788117" onClick='toggleBox("Output-1536788117", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1536788117" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1536788117">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Yearly Tax Comparison Report Report link is clicked Successfully</font><br/>
+<font color='green'>Period End is entered Successfully aganist </font><br/>
+<font color='green'>5/8/19 is entered in date field.</font><br/>
+<font color='green'>Report as of is entered Successfully aganist </font><br/>
+<font color='green'>8/9/19 is entered in date field.</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Yearly Tax Comparison Report Report not generated .</font><br/>
+<a href='Screenshots/TestFailure49.png'><font color='red'>Yearly Tax Comparison ReportReport not generated -Issue in the Report.</font> </a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_YTCR_01(TestCases.java:5348)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1536788117", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1536788117'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_YTCR_01(TestCases.java:5348)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>186</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.CR_ESR_01()'><b>CR_ESR_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.CR_ESR_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1157419138" onClick='toggleBox("Output-1157419138", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1157419138" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1157419138">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Engagement Summary Report link is clicked Successfully</font><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure32.png'><font color='red'>Not able to find Run Report</font> </a><br/>
+<a href='Screenshots/TestFailure35.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure35.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure35.png'><font color='red'>The given window "2" is failed to open</font> </a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_01(TestCases.java:9759)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1157419138", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1157419138'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_01(TestCases.java:9759)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>1672</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.CR_SO_01()'><b>CR_SO_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.CR_SO_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1949530675" onClick='toggleBox("Output-1949530675", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1949530675" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1949530675">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>SignOffs Report link is clicked Successfully</font><br/>
+<a href='Screenshots/TestFailure36.png'><font color='red'>Not able to find Run Report</font> </a><br/>
+<a href='Screenshots/TestFailure37.png'><font color='red'>The given window "2" is failed to open</font> </a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_SO_01(TestCases.java:10051)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1949530675", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1949530675'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_SO_01(TestCases.java:10051)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>298</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.SR_TBS_01()'><b>SR_TBS_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.SR_TBS_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1145928455" onClick='toggleBox("Output-1145928455", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1145928455" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1145928455">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Tasks By Status Report link is clicked Successfully</font><br/>
+<a href='Screenshots/TestFailure10.png'><font color='red'>Not able to find Run Report</font> </a><br/>
+<a href='Screenshots/TestFailure11.png'><font color='red'>The given window "2" is failed to open</font> </a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.SR_TBS_01(TestCases.java:6873)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1145928455", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1145928455'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.SR_TBS_01(TestCases.java:6873)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>342</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TDR_EFS_01()'><b>TDR_EFS_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TDR_EFS_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1626349743" onClick='toggleBox("Output-1626349743", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1626349743" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1626349743">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>eFile Status Report link is clicked Successfully</font><br/>
+<a href='Screenshots/TestFailure7.png'><font color='red'></font> </a><br/>
+<a href='Screenshots/TestFailure7.png'><font color='red'>Not able to find Run Report</font> </a><br/>
+<a href='Screenshots/TestFailure8.png'><font color='red'>The given window "2" is failed to open</font> </a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_01(TestCases.java:1054)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1626349743", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1626349743'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_01(TestCases.java:1054)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>342</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TDR_SBS_001()'><b>TDR_SBS_001</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TDR_SBS_001(java.lang.reflect.Method)<br/>
+<a href="#Output-625702244" onClick='toggleBox("Output-625702244", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-625702244" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-625702244">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Search By Status Report link is clicked Successfully</font><br/>
+<font color='green'>"" button is clicked Successfully.</font><br/>
+<font color='green'>"" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<a href='Screenshots/TestFailure9.png'><font color='red'>The given window "2" is failed to open</font> </a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_001(TestCases.java:2147)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace625702244", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace625702244'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_001(TestCases.java:2147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>275</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.UR_IPA_01()'><b>UR_IPA_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.UR_IPA_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1445600889" onClick='toggleBox("Output-1445600889", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1445600889" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1445600889">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<a href='Screenshots/TestFailure1.png'><font color='red'>Switching to frame Frame path did not happen within 30 seconds</font> </a><br/>
+<a href='Screenshots/TestFailure2.png'><font color='red'>Switching to frame Frame path did not happen within 3 seconds</font> </a><br/>
+<a href='Screenshots/TestFailure3.png'><font color='red'>Not able to find Run Report</font> </a><br/>
+<a href='Screenshots/TestFailure4.png'><font color='red'>The given window "2" is failed to open</font> </a><br/>
+<font color='blue'>Issues/Points - All Report not generated .</font><br/>
+<a href='Screenshots/TestFailure5.png'><font color='red'>Issues/Points - AllReport not generated -Issue in the Report.</font> </a><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPA_01(TestCases.java:150)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1445600889", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1445600889'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPA_01(TestCases.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>123</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.TestCases.AR_CED_01()'><b>AR_CED_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.AR_CED_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1591624990" onClick='toggleBox("Output-1591624990", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1591624990" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1591624990">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Client/Entity Details Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>279</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.AR_OB_01()'><b>AR_OB_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.AR_OB_01(java.lang.reflect.Method)<br/>
+<a href="#Output-659573326" onClick='toggleBox("Output-659573326", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-659573326" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-659573326">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Outsource Billing Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>280</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.AR_SA_01()'><b>AR_SA_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.AR_SA_01(java.lang.reflect.Method)<br/>
+<a href="#Output-891457511" onClick='toggleBox("Output-891457511", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-891457511" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-891457511">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Staffing Assignments Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>285</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.AR_UD_01()'><b>AR_UD_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.AR_UD_01(java.lang.reflect.Method)<br/>
+<a href="#Output-499077511" onClick='toggleBox("Output-499077511", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-499077511" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-499077511">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>User Details Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>279</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.AR_WSM_01()'><b>AR_WSM_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.AR_WSM_01(java.lang.reflect.Method)<br/>
+<a href="#Output-22493403" onClick='toggleBox("Output-22493403", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22493403" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22493403">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Workflow Status Mapping Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>279</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.CR_EDTL_01()'><b>CR_EDTL_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.CR_EDTL_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1025424929" onClick='toggleBox("Output-1025424929", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1025424929" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1025424929">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Engagement Details Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>280</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.CR_ED_01()'><b>CR_ED_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.CR_ED_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1009370851" onClick='toggleBox("Output-1009370851", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1009370851" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1009370851">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Engagement Dates Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>356</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.CR_SOD_01()'><b>CR_SOD_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.CR_SOD_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1702016210" onClick='toggleBox("Output-1702016210", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1702016210" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1702016210">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>SignOffs By Date Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>282</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.DDR_BDDF_01()'><b>DDR_BDDF_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.DDR_BDDF_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1941767191" onClick='toggleBox("Output-1941767191", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1941767191" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1941767191">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>By Deliverables - Distributable Format Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>280</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.DDR_BDDS_01()'><b>DDR_BDDS_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.DDR_BDDS_01(java.lang.reflect.Method)<br/>
+<a href="#Output-2096927732" onClick='toggleBox("Output-2096927732", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2096927732" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2096927732">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Billing - Due Date Summary with Deliverable Count Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>300</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.DDR_BD_01()'><b>DDR_BD_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.DDR_BD_01(java.lang.reflect.Method)<br/>
+<a href="#Output-656877663" onClick='toggleBox("Output-656877663", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-656877663" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-656877663">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>By Deliverables Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>280</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.DDR_EXT_01()'><b>DDR_EXT_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.DDR_EXT_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1538271768" onClick='toggleBox("Output-1538271768", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1538271768" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1538271768">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Extension Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>279</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.DDR_SDF_01()'><b>DDR_SDF_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.DDR_SDF_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1905400814" onClick='toggleBox("Output-1905400814", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1905400814" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1905400814">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Summary - Distributable Format Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>280</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.DDR_SUM_01()'><b>DDR_SUM_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.DDR_SUM_01(java.lang.reflect.Method)<br/>
+<a href="#Output-871239280" onClick='toggleBox("Output-871239280", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-871239280" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-871239280">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Summary Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>279</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.SR_BUD_01()'><b>SR_BUD_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.SR_BUD_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1951613602" onClick='toggleBox("Output-1951613602", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1951613602" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1951613602">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Budgeting Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>282</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.SR_TTT_01()'><b>SR_TTT_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.SR_TTT_01(java.lang.reflect.Method)<br/>
+<a href="#Output-2120892528" onClick='toggleBox("Output-2120892528", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2120892528" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2120892528">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Tasks By Task Type Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>279</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.SR_UW_01()'><b>SR_UW_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.SR_UW_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1153906663" onClick='toggleBox("Output-1153906663", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1153906663" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1153906663">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>User Workload Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>205</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TC_Login()'><b>TC_Login</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TC_Login(java.lang.reflect.Method)<br/>
+<a href="#Output-1259905128" onClick='toggleBox("Output-1259905128", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1259905128" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1259905128">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Server Details : BLR-QA-FE-1</font><br/>
+<font color='green'>Type '1689web@xcmsolutions.com' in : Username </font><br/>
+<font color='green'>Type 'xcmWK#12' in : Password </font><br/>
+<font color='green'>Click on: Login button </font><br/>
+<font color='green'>Home page is displayed</font><br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TC_Logout()'><b>TC_Logout</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TC_Logout(java.lang.reflect.Method)<br/>
+<a href="#Output-500253002" onClick='toggleBox("Output-500253002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-500253002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-500253002">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='green'>Click on: Profile link </font><br/>
+<font color='green'>Click on: Log off </font><br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TDR_BA_01()'><b>TDR_BA_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TDR_BA_01(java.lang.reflect.Method)<br/>
+<a href="#Output-817327627" onClick='toggleBox("Output-817327627", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-817327627" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-817327627">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='green'>Utilites icon is successfully clicked.</font><br/>
+<font color='green'>Click on: Utilities button icon </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='green'>Move the mouse over 'Manage settings and defaults'</font><br/>
+<font color='green'>Click on: Manage settings and defaults</font><br/>
+<font color='green'>Click on: Edit Role Names </font><br/>
+<font color='green'>Use Defaults Radio Button is selected in utilities Page</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='green'>Click on: Save role name </font><br/>
+<font color='green'>Click on Alert OK button</font><br/>
+<font color='green'>Save role name button is clicked successfully.</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Budget & Actual Report link is clicked Successfully</font><br/>
+<font color='green'>Dropdown value is Selected Successfully</font><br/>
+<font color='green'>Dropdown value is Selected Successfully</font><br/>
+<font color='green'>Tax - 1040 Individual is selected from Dropdown list.</font><br/>
+<font color='green'>Tax - 1040 Individual is selected from dropdown list.</font><br/>
+<font color='blue'>Size of Fiscal Year Dropdown is : 11</font><br/>
+<font color='blue'>Fiscal Year dropdown values are : [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]</font><br/>
+<font color='green'>Fiscal Year is entered Successfully</font><br/>
+<font color='green'>Dropdown value is Selected Successfully</font><br/>
+<font color='green'>Dropdown value is Selected Successfully</font><br/>
+<font color='green'>Dropdown value is Selected Successfully</font><br/>
+<font color='blue'>Export button is displayed successfully</font><br/>
+<font color='green'>Click on: Export Button </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='green'>  File has downloaded successfully.</font><br/>
+<font color='blue'>Time taken to open the  report is: 4110 Milli Seconds.</font><br/>
+</div>
+</td>
+<td></td>
+<td>657</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TDR_BS_01()'><b>TDR_BS_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TDR_BS_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1877433276" onClick='toggleBox("Output-1877433276", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1877433276" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1877433276">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='green'>Utilites icon is successfully clicked.</font><br/>
+<font color='green'>Click on: Utilities button icon </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='green'>Move the mouse over 'Manage settings and defaults'</font><br/>
+<font color='green'>Click on: Manage settings and defaults</font><br/>
+<font color='green'>Click on: Edit Role Names </font><br/>
+<font color='green'>Use Defaults Radio Button is selected in utilities Page</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='green'>Click on: Save role name </font><br/>
+<font color='green'>Click on Alert OK button</font><br/>
+<font color='green'>Save role name button is clicked successfully.</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Budget & Staff Report link is clicked Successfully</font><br/>
+<font color='green'>Tax - 1040 Individual is selected from Dropdown list.</font><br/>
+<font color='green'>Tax - 1040 Individual is selected from dropdown list.</font><br/>
+<font color='blue'>Size of Fiscal Year Dropdown is : 11</font><br/>
+<font color='blue'>Fiscal Year dropdown values are : [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]</font><br/>
+<font color='green'>Fiscal Year is entered Successfully</font><br/>
+<font color='green'>Dropdown value is Selected Successfully</font><br/>
+<font color='green'>Dropdown value is Selected Successfully</font><br/>
+<font color='green'>Dropdown value is Selected Successfully</font><br/>
+<font color='blue'>Export button is displayed successfully</font><br/>
+<font color='green'>Click on: Export Button </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='green'>  File has downloaded successfully.</font><br/>
+<font color='blue'>Time taken to open the  report is: 4176 Milli Seconds.</font><br/>
+</div>
+</td>
+<td></td>
+<td>815</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TDR_CAS_01()'><b>TDR_CAS_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TDR_CAS_01(java.lang.reflect.Method)<br/>
+<a href="#Output-633611247" onClick='toggleBox("Output-633611247", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-633611247" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-633611247">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Combined Assembly and Shipping Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>280</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TDR_DET_01()'><b>TDR_DET_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TDR_DET_01(java.lang.reflect.Method)<br/>
+<a href="#Output-801798602" onClick='toggleBox("Output-801798602", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-801798602" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-801798602">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Detailed Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>280</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TDR_EA_01()'><b>TDR_EA_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TDR_EA_01(java.lang.reflect.Method)<br/>
+<a href="#Output-864664006" onClick='toggleBox("Output-864664006", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-864664006" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-864664006">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='green'>Utilites icon is successfully clicked.</font><br/>
+<font color='green'>Click on: Utilities button icon </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='green'>Move the mouse over 'Manage settings and defaults'</font><br/>
+<font color='green'>Click on: Manage settings and defaults</font><br/>
+<font color='green'>Click on: Edit Role Names </font><br/>
+<font color='green'>Use Defaults Radio Button is selected in utilities Page</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='green'>Click on: Save role name </font><br/>
+<font color='green'>Click on Alert OK button</font><br/>
+<font color='green'>Save role name button is clicked successfully.</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Export Actual Report link is clicked Successfully</font><br/>
+<font color='green'>Dropdown value is Selected Successfully</font><br/>
+<font color='green'>Tax - 1040 Individual is selected from Dropdown list.</font><br/>
+<font color='green'>Tax - 1040 Individual is selected from dropdown list.</font><br/>
+<font color='green'>Fiscal Year is entered Successfully</font><br/>
+<font color='blue'>Size of Fiscal Year Dropdown is : 11</font><br/>
+<font color='blue'>Fiscal Year dropdown values are : [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]</font><br/>
+<font color='green'>Dropdown value is Selected Successfully</font><br/>
+<font color='green'>Dropdown value is Selected Successfully</font><br/>
+<font color='green'>Dropdown value is Selected Successfully</font><br/>
+<font color='blue'>Export button is displayed successfully</font><br/>
+<font color='green'>Click on: Export Button </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='green'>  File has downloaded successfully.</font><br/>
+<font color='blue'>Time taken to open the  report is: 4245 Milli Seconds.</font><br/>
+</div>
+</td>
+<td></td>
+<td>650</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TDR_OUT_01()'><b>TDR_OUT_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TDR_OUT_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1406051133" onClick='toggleBox("Output-1406051133", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1406051133" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1406051133">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Outsourced Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>279</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TDR_SBCE_001()'><b>TDR_SBCE_001</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TDR_SBCE_001(java.lang.reflect.Method)<br/>
+<a href="#Output-154792785" onClick='toggleBox("Output-154792785", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-154792785" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-154792785">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Search By Client/Entity Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>279</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TDR_SBD_01()'><b>TDR_SBD_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TDR_SBD_01(java.lang.reflect.Method)<br/>
+<a href="#Output-266118292" onClick='toggleBox("Output-266118292", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-266118292" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-266118292">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Search By Date Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>278</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TDR_TSA_01()'><b>TDR_TSA_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TDR_TSA_01(java.lang.reflect.Method)<br/>
+<a href="#Output-255706800" onClick='toggleBox("Output-255706800", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-255706800" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-255706800">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Task Status Aging Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>281</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.TDR_TTC_01()'><b>TDR_TTC_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.TDR_TTC_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1703556756" onClick='toggleBox("Output-1703556756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1703556756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1703556756">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Time Taken To Complete Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>279</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.UR_CLD_01()'><b>UR_CLD_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.UR_CLD_01(java.lang.reflect.Method)<br/>
+<a href="#Output-2080798365" onClick='toggleBox("Output-2080798365", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2080798365" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2080798365">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>CheckList Details Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>279</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.UR_CLS_01()'><b>UR_CLS_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.UR_CLS_01(java.lang.reflect.Method)<br/>
+<a href="#Output-352136094" onClick='toggleBox("Output-352136094", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-352136094" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-352136094">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>CheckList Status Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>292</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.UR_IPO_01()'><b>UR_IPO_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.UR_IPO_01(java.lang.reflect.Method)<br/>
+<a href="#Output-317912251" onClick='toggleBox("Output-317912251", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-317912251" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-317912251">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Issues & Points - Open Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>336</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.UR_MCT_01()'><b>UR_MCT_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.UR_MCT_01(java.lang.reflect.Method)<br/>
+<a href="#Output-711747806" onClick='toggleBox("Output-711747806", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-711747806" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-711747806">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>My Clients/Entities - Tasks Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>309</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+<tr>
+<td title='TestCases.TestCases.UR_TIM_01()'><b>UR_TIM_01</b><br>Test class: TestCases.TestCases<br>Parameters: public void TestCases.TestCases.UR_TIM_01(java.lang.reflect.Method)<br/>
+<a href="#Output-1063316603" onClick='toggleBox("Output-1063316603", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1063316603" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1063316603">
+<font color='blue'>################################DataSet: 1################################</font><br/>
+<font color='blue'>Reports page is displayed successfully</font><br/>
+<font color='green'>Click on: Reports tab </font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+<font color='blue'>Tasks I Moved Report link is clicked Successfully</font><br/>
+<font color='green'>"Run Report" button is clicked Successfully.</font><br/>
+<font color='green'>"Run Report" button is present in Reports page.</font><br/>
+<font color='green'>The page  loaded successfully</font><br/>
+</div>
+</td>
+<td></td>
+<td>279</td>
+<td>TestCases.TestCases@2c9f9fb0</td></tr>
+</table><p>
+</body>
+</html>

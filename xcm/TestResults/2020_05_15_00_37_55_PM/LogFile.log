@@ -1,0 +1,12 @@
+ERROR | 2020-05-15 13:17:41,205 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-05-15 13:17:46,716 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-05-15 13:22:26,467 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-05-15 13:22:31,850 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-05-15 13:35:43,954 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-05-15 14:25:31,451 | Common.java | 84 | User WorkloadReport not generated -Issue in the Report.
+ERROR | 2020-05-15 14:31:08,670 | Common.java | 84 | Summary - By Task TypeReport not generated -Issue in the Report.
+ERROR | 2020-05-15 14:45:04,346 | Common.java | 84 | Task Details - Sign OffsReport not generated -Issue in the Report.
+ERROR | 2020-05-15 14:50:20,895 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-05-15 14:50:26,271 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-05-15 14:55:21,144 | Common.java | 84 | Group DetailsReport not generated -Issue in the Report.
+ERROR | 2020-05-15 15:06:19,025 | Common.java | 84 | User DetailsReport not generated -Issue in the Report.

@@ -1,0 +1,130 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 43, Failures: 40, Errors: 0, Skipped: 0, Time elapsed: 3,249.905 s <<< FAILURE! - in TestSuite
+UR_CLS_01(TestCases.TestCases)  Time elapsed: 408.639 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLS_01(TestCases.java:799)
+
+DDR_BD_01(TestCases.TestCases)  Time elapsed: 579.059 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_BD_01(TestCases.java:7704)
+
+TDR_DET_01(TestCases.TestCases)  Time elapsed: 1,300.365 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_DET_01(TestCases.java:1877)
+
+TDR_CAS_01(TestCases.TestCases)  Time elapsed: 195.303 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+UR_IPA_01(TestCases.TestCases)  Time elapsed: 10.257 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+UR_CLD_01(TestCases.TestCases)  Time elapsed: 7.834 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+UR_MCT_01(TestCases.TestCases)  Time elapsed: 8.156 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+UR_TIM_01(TestCases.TestCases)  Time elapsed: 11.949 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDF_01(TestCases.TestCases)  Time elapsed: 16.673 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_01(TestCases.TestCases)  Time elapsed: 16.423 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_EXT_01(TestCases.TestCases)  Time elapsed: 20.292 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_SDF_01(TestCases.TestCases)  Time elapsed: 22.886 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_SUM_01(TestCases.TestCases)  Time elapsed: 18.233 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_EFS_01(TestCases.TestCases)  Time elapsed: 17.609 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_OUT_01(TestCases.TestCases)  Time elapsed: 15.373 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_SBCE_001(TestCases.TestCases)  Time elapsed: 16.846 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_SBS_001(TestCases.TestCases)  Time elapsed: 16.422 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_SBD_01(TestCases.TestCases)  Time elapsed: 26.708 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_TTC_01(TestCases.TestCases)  Time elapsed: 20.373 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_TSA_01(TestCases.TestCases)  Time elapsed: 19.998 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_BA_01(TestCases.TestCases)  Time elapsed: 17.822 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_EA_01(TestCases.TestCases)  Time elapsed: 19.213 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_BS_01(TestCases.TestCases)  Time elapsed: 17.956 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_UW_01(TestCases.TestCases)  Time elapsed: 23.126 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_BUD_01(TestCases.TestCases)  Time elapsed: 18.344 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TTT_01(TestCases.TestCases)  Time elapsed: 17.682 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TBS_01(TestCases.TestCases)  Time elapsed: 17.329 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_01(TestCases.TestCases)  Time elapsed: 17.325 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_01(TestCases.TestCases)  Time elapsed: 18.359 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ESR_01(TestCases.TestCases)  Time elapsed: 19.638 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_01(TestCases.TestCases)  Time elapsed: 20.637 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_01(TestCases.TestCases)  Time elapsed: 18.77 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_01(TestCases.TestCases)  Time elapsed: 20.652 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_GD_01(TestCases.TestCases)  Time elapsed: 16.774 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_01(TestCases.TestCases)  Time elapsed: 16.964 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_01(TestCases.TestCases)  Time elapsed: 16.599 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_01(TestCases.TestCases)  Time elapsed: 22.585 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_01(TestCases.TestCases)  Time elapsed: 18.494 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_01(TestCases.TestCases)  Time elapsed: 17.833 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_01(TestCases.TestCases)  Time elapsed: 18.02 s  <<< FAILURE!
+java.lang.StackOverflowError
+

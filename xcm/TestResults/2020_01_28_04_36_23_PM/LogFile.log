@@ -1,0 +1,51 @@
+ERROR | 2020-01-28 16:37:45,627 | Common.java | 84 | Home page failed to diplay
+ERROR | 2020-01-28 16:41:42,616 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-01-28 16:41:48,101 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-01-28 16:46:14,747 | Common.java | 84 | Outsource Billing Report link is not displayed.
+ERROR | 2020-01-28 16:46:15,211 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-01-28 16:46:20,578 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-01-28 16:56:20,756 | Common.java | 84 | User Details Report link is not displayed.
+ERROR | 2020-01-28 16:56:21,201 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-01-28 16:56:26,539 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-01-28 17:01:05,371 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-01-28 17:01:10,741 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-01-28 17:07:02,379 | Common.java | 84 | Mouse over action on 'Manage settings and defaults' element failed
+ERROR | 2020-01-28 17:07:05,748 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id*='ContentPlaceHolder1_LinkManageFirmSettings']"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58650}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir10392_13259}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9faf36e6f0435b9eb258deccb3f78ce9
+*** Element info: {Using=css selector, value=a[id*='ContentPlaceHolder1_LinkManageFirmSettings']}
+ERROR | 2020-01-28 17:07:09,188 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-01-28 17:07:12,570 | Common.java | 84 | Edit Role Names  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2020-01-28 17:07:15,912 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_editrolerow_Sign']"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58650}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir10392_13259}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9faf36e6f0435b9eb258deccb3f78ce9
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_editrolerow_Sign']}
+ERROR | 2020-01-28 17:07:19,344 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-01-28 17:07:22,785 | Common.java | 84 | Use Defaults Radio button  element found but its not in editable/clickable state within 3 timeouts
+ERROR | 2020-01-28 17:07:29,265 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_SRoles']"}
+  (Session info: chrome=79.0.3945.130)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58650}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir10392_13259}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.130, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9faf36e6f0435b9eb258deccb3f78ce9
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_SRoles']}
+ERROR | 2020-01-28 17:14:04,885 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-01-28 17:14:10,202 | Common.java | 84 | The given window "2" is failed to open

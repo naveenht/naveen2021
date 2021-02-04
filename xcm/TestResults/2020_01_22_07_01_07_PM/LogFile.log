@@ -1,0 +1,3 @@
+ERROR | 2020-01-22 19:01:18,703 | Common.java | 84 | Browser: Open Failure/Navigation cancelled, please check the application window.
+ERROR | 2020-01-22 19:01:19,548 | Common.java | 84 | Browser: Open Failure/Navigation cancelled, please check the application window. URL: null
+ERROR | 2020-01-22 19:01:19,548 | Common.java | 84 | java.lang.NullPointerException: null value in entry: url=null

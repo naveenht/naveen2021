@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 2,104.323 s <<< FAILURE! - in TestSuite
+AR_CED_01(TestCases.TestCases)  Time elapsed: 304.594 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_CED_01(TestCases.java:6107)
+
+CR_SO_01(TestCases.TestCases)  Time elapsed: 163.863 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_SO_01(TestCases.java:10051)
+
+TDR_SBS_001(TestCases.TestCases)  Time elapsed: 278.377 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_001(TestCases.java:2147)
+

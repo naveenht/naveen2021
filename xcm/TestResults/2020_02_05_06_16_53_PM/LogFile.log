@@ -1,0 +1,12 @@
+ERROR | 2020-02-05 18:18:54,877 | Common.java | 84 | Not able to find Date From :
+ERROR | 2020-02-05 18:19:11,816 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2020-02-05 18:19:12,709 | Common.java | 84 | Exception:null
+ERROR | 2020-02-05 18:19:16,381 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2020-02-05 18:19:23,658 | Common.java | 84 | Exception:null
+ERROR | 2020-02-05 18:19:40,767 | Common.java | 84 | Not able to find Date To :
+ERROR | 2020-02-05 18:19:54,733 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2020-02-05 18:20:02,639 | Common.java | 84 | Exception:null
+ERROR | 2020-02-05 18:20:13,680 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2020-02-05 18:20:21,680 | Common.java | 84 | Exception:null
+ERROR | 2020-02-05 18:20:32,892 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-05 18:20:46,254 | Common.java | 84 | The given window "2" is failed to open

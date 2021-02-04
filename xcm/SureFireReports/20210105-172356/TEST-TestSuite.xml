@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15,987.938" tests="43" errors="0" skipped="0" failures="40">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="testNGFile" value="SanityTest.xml"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6\target\test-classes;E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6\target\classes;C:\Users\NThimmaiah\.m2\repository\com\iSafe\maven\iSafe\1.0\iSafe-1.0.jar;C:\Users\NThimmaiah\.m2\repository\org\json\json\20180130\json-20180130.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\clerezza\ext\org.json.simple\0.4\org.json.simple-0.4.jar;C:\Users\NThimmaiah\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\directory\studio\org.apache.commons.lang\2.6\org.apache.commons.lang-2.6.jar;C:\Users\NThimmaiah\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\NThimmaiah\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\NThimmaiah\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\NThimmaiah\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-java\3.6.0\selenium-java-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-api\3.6.0\selenium-api-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.6.0\selenium-edge-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.6.0\selenium-firefox-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.6.0\selenium-ie-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.6.0\selenium-opera-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.6.0\selenium-remote-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.6.0\selenium-safari-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-support\3.6.0\selenium-support-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\NThimmaiah\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\NThimmaiah\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\NThimmaiah\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\NThimmaiah\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\NThimmaiah\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\NThimmaiah\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\NThimmaiah\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\NThimmaiah\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\NThimmaiah\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\NThimmaiah\.m2\repository\org\testng\testng\6.10\testng-6.10.jar;C:\Users\NThimmaiah\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\NThimmaiah\.m2\repository\io\appium\java-client\5.0.0-BETA6\java-client-5.0.0-BETA6.jar;C:\Users\NThimmaiah\.m2\repository\cglib\cglib\3.2.4\cglib-3.2.4.jar;C:\Users\NThimmaiah\.m2\repository\org\ow2\asm\asm\5.1\asm-5.1.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\NThimmaiah\.m2\repository\commons-validator\commons-validator\1.5.1\commons-validator-1.5.1.jar;C:\Users\NThimmaiah\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\NThimmaiah\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\NThimmaiah\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\NThimmaiah\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-context\4.3.5.RELEASE\spring-context-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-aop\4.3.5.RELEASE\spring-aop-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-beans\4.3.5.RELEASE\spring-beans-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-core\4.3.5.RELEASE\spring-core-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-expression\4.3.5.RELEASE\spring-expression-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar;C:\Users\NThimmaiah\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\NThimmaiah\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\NThimmaiah\.m2\repository\javax\mail\javax.mail-api\1.6.0-rc2\javax.mail-api-1.6.0-rc2.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\NThimmaiah\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="screenshotPath" value="E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="environmentName" value="LOCAL"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="suiteName" value=""/>
+    <property name="environmentURL" value="https://qat.xcmsolutions.com/xcmv2/account/login?ReturnUrl=%2Fxcmv2%2F"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin"/>
+    <property name="sun.java.command" value="C:\Users\NThimmaiah\AppData\Local\Temp\surefire6893204316510657597\surefirebooter8889519202344581857.jar C:\Users\NThimmaiah\AppData\Local\Temp\surefire6893204316510657597 2021-01-05T22-54-00_492-jvmRun1 surefire454701600629316609tmp surefire_01179460656717382397tmp"/>
+    <property name="surefire.test.class.path" value="E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6\target\test-classes;E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6\target\classes;C:\Users\NThimmaiah\.m2\repository\com\iSafe\maven\iSafe\1.0\iSafe-1.0.jar;C:\Users\NThimmaiah\.m2\repository\org\json\json\20180130\json-20180130.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\clerezza\ext\org.json.simple\0.4\org.json.simple-0.4.jar;C:\Users\NThimmaiah\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\directory\studio\org.apache.commons.lang\2.6\org.apache.commons.lang-2.6.jar;C:\Users\NThimmaiah\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\NThimmaiah\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\NThimmaiah\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\NThimmaiah\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-java\3.6.0\selenium-java-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-api\3.6.0\selenium-api-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.6.0\selenium-edge-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.6.0\selenium-firefox-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.6.0\selenium-ie-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.6.0\selenium-opera-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.6.0\selenium-remote-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.6.0\selenium-safari-driver-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-support\3.6.0\selenium-support-3.6.0.jar;C:\Users\NThimmaiah\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\NThimmaiah\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\NThimmaiah\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\NThimmaiah\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\NThimmaiah\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\NThimmaiah\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\NThimmaiah\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\NThimmaiah\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\NThimmaiah\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\NThimmaiah\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\NThimmaiah\.m2\repository\org\testng\testng\6.10\testng-6.10.jar;C:\Users\NThimmaiah\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\NThimmaiah\.m2\repository\io\appium\java-client\5.0.0-BETA6\java-client-5.0.0-BETA6.jar;C:\Users\NThimmaiah\.m2\repository\cglib\cglib\3.2.4\cglib-3.2.4.jar;C:\Users\NThimmaiah\.m2\repository\org\ow2\asm\asm\5.1\asm-5.1.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\NThimmaiah\.m2\repository\commons-validator\commons-validator\1.5.1\commons-validator-1.5.1.jar;C:\Users\NThimmaiah\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\NThimmaiah\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\NThimmaiah\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\NThimmaiah\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\NThimmaiah\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-context\4.3.5.RELEASE\spring-context-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-aop\4.3.5.RELEASE\spring-aop-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-beans\4.3.5.RELEASE\spring-beans-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-core\4.3.5.RELEASE\spring-core-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\springframework\spring-expression\4.3.5.RELEASE\spring-expression-4.3.5.RELEASE.jar;C:\Users\NThimmaiah\.m2\repository\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar;C:\Users\NThimmaiah\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\NThimmaiah\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\NThimmaiah\.m2\repository\javax\mail\javax.mail-api\1.6.0-rc2\javax.mail-api-1.6.0-rc2.jar;C:\Users\NThimmaiah\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\NThimmaiah\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\NThimmaiah"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_191"/>
+    <property name="basedir" value="E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\NThimmaiah\AppData\Local\Temp\surefire6893204316510657597\surefirebooter8889519202344581857.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_191\lib\resources.jar;C:\Program Files\Java\jre1.8.0_191\lib\rt.jar;C:\Program Files\Java\jre1.8.0_191\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_191\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_191\lib\jce.jar;C:\Program Files\Java\jre1.8.0_191\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_191\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_191\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="NThimmaiah"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\NThimmaiah\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\NTHIMM~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Java\jdk1.8.0_191\bin;E:\XCMFrameWork\apache-maven-3.6.1\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\NThimmaiah\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\NThimmaiah\AppData\Local\Programs\Python\Python38\;C:\Users\NThimmaiah\AppData\Local\Microsoft\WindowsApps;C:\Users\NThimmaiah\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NThimmaiah\AppData\Local\Programs\Git\cmd;;C:\Users\NThimmaiah\AppData\Local\JetBrains\PyCharm Community Edition 2019.3.1\bin;;C:\Users\NThimmaiah\AppData\Roaming\npm;E:\AutoBackup\eclipse-java-2019-03-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_191\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="TC_Login" classname="TestCases.TestCases" time="10.593"/>
+  <testcase name="UR_IPA_01" classname="TestCases.TestCases" time="236.868">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPA_01(TestCases.java:150)
+</failure>
+    <system-out><![CDATA[UR_IPA_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+112490 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 30 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+119258 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+128104 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -UR_IPA_01
+]]></system-out>
+  </testcase>
+  <testcase name="UR_IPO_01" classname="TestCases.TestCases" time="396.889">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPO_01(TestCases.java:3532)
+</failure>
+    <system-out><![CDATA[UR_IPO_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+505598 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+509385 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+516252 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+524965 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -UR_IPO_01
+]]></system-out>
+  </testcase>
+  <testcase name="UR_CLS_01" classname="TestCases.TestCases" time="396.802">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLS_01(TestCases.java:799)
+</failure>
+    <system-out><![CDATA[UR_CLS_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+902400 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+906224 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+913097 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+921791 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -UR_CLS_01
+]]></system-out>
+  </testcase>
+  <testcase name="UR_CLD_01" classname="TestCases.TestCases" time="396.594">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_01(TestCases.java:431)
+</failure>
+    <system-out><![CDATA[UR_CLD_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+1299124 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+1302853 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+1309662 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+1318374 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -UR_CLD_01
+]]></system-out>
+  </testcase>
+  <testcase name="UR_MCT_01" classname="TestCases.TestCases" time="396.57">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_01(TestCases.java:3813)
+</failure>
+    <system-out><![CDATA[UR_MCT_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+1695736 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+1699498 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+1706304 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+1714942 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -UR_MCT_01
+]]></system-out>
+  </testcase>
+  <testcase name="UR_TIM_01" classname="TestCases.TestCases" time="396.751">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_01(TestCases.java:4067)
+</failure>
+    <system-out><![CDATA[UR_TIM_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+2092417 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+2096195 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+2102943 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+2111699 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -UR_TIM_01
+]]></system-out>
+  </testcase>
+  <testcase name="DDR_BD_01" classname="TestCases.TestCases" time="396.773">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_BD_01(TestCases.java:7704)
+</failure>
+    <system-out><![CDATA[DDR_BD_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+2489157 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+2492906 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+2499730 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+2508477 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -DDR_BD_01
+]]></system-out>
+  </testcase>
+  <testcase name="DDR_BDDF_01" classname="TestCases.TestCases" time="396.588">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_BDDF_01(TestCases.java:7992)
+</failure>
+    <system-out><![CDATA[DDR_BDDF_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+2885904 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+2889634 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+2896368 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+2905131 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -DDR_BDDF_01
+]]></system-out>
+  </testcase>
+  <testcase name="DDR_BDDS_01" classname="TestCases.TestCases" time="396.598"/>
+  <testcase name="DDR_EXT_01" classname="TestCases.TestCases" time="396.571"/>
+  <testcase name="DDR_SDF_01" classname="TestCases.TestCases" time="396.752">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_SDF_01(TestCases.java:7430)
+</failure>
+    <system-out><![CDATA[DDR_SDF_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+4075703 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+4079429 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+4086262 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+4095018 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -DDR_SDF_01
+]]></system-out>
+  </testcase>
+  <testcase name="DDR_SUM_01" classname="TestCases.TestCases" time="396.903">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_SUM_01(TestCases.java:8861)
+</failure>
+    <system-out><![CDATA[DDR_SUM_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+4472676 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+4476363 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+4483202 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+4491926 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -DDR_SUM_01
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_CAS_01" classname="TestCases.TestCases" time="396.46">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_CAS_01(TestCases.java:1336)
+</failure>
+    <system-out><![CDATA[TDR_CAS_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+4869243 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+4872943 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+4879731 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+4888416 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -TDR_CAS_01
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_DET_01" classname="TestCases.TestCases" time="396.714">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_DET_01(TestCases.java:1877)
+</failure>
+    <system-out><![CDATA[TDR_DET_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+5265822 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+5269562 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+5276359 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+5285071 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -TDR_DET_01
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_EFS_01" classname="TestCases.TestCases" time="396.674">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_01(TestCases.java:1054)
+</failure>
+    <system-out><![CDATA[TDR_EFS_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+5662546 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+5666274 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+5673037 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+5681780 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -TDR_EFS_01
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_OUT_01" classname="TestCases.TestCases" time="396.579">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_OUT_01(TestCases.java:2652)
+</failure>
+    <system-out><![CDATA[TDR_OUT_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+6059128 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+6062928 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+6069686 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+6078374 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -TDR_OUT_01
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_SBCE_001" classname="TestCases.TestCases" time="396.677">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBCE_001(TestCases.java:2406)
+</failure>
+    <system-out><![CDATA[TDR_SBCE_001 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+6455810 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+6459514 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+6466266 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+6475015 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -TDR_SBCE_001
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_SBS_001" classname="TestCases.TestCases" time="396.791">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_001(TestCases.java:2147)
+</failure>
+    <system-out><![CDATA[TDR_SBS_001 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+6852558 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+6856263 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+6863146 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+6871845 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -TDR_SBS_001
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_SBD_01" classname="TestCases.TestCases" time="396.777">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBD_01(TestCases.java:1619)
+</failure>
+    <system-out><![CDATA[TDR_SBD_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+7249268 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+7252976 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+7259764 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+7268594 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -TDR_SBD_01
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_TTC_01" classname="TestCases.TestCases" time="396.555">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_TTC_01(TestCases.java:3262)
+</failure>
+    <system-out><![CDATA[TDR_TTC_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+7645929 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+7649635 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+7656421 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+7665158 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -TDR_TTC_01
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_TSA_01" classname="TestCases.TestCases" time="396.71">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_TSA_01(TestCases.java:2893)
+</failure>
+    <system-out><![CDATA[TDR_TSA_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8042549 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8046323 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8053130 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8061842 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -TDR_TSA_01
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_BA_01" classname="TestCases.TestCases" time="431.288">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_BA_01(TestCases.java:3150)
+</failure>
+    <system-out><![CDATA[TDR_BA_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8320465 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"#displayfirmname +div div[class*='wheel']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=#displayfirmname +div div[class*='wheel']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8351968 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 30 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8355682 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Mouse over action on 'Manage settings and defaults' element failed
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8359342 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id*='ContentPlaceHolder1_LinkManageFirmSettings']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id*='ContentPlaceHolder1_LinkManageFirmSettings']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8363012 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+^^^^^^^^^^^^^^TDR_BA_01
+8366791 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Edit Role Names  element found but its not in editable/clickable state within 3 timeouts
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8370450 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_editrolerow_Sign']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_editrolerow_Sign']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8374150 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+^^^^^^^^^^^^^^TDR_BA_01
+8377934 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Use Defaults Radio button  element found but its not in editable/clickable state within 3 timeouts
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8384796 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8388506 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_SRoles']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_SRoles']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8395259 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8398932 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8407720 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8416626 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8425416 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8432229 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8439068 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8445871 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8454695 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8461536 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8468432 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8477237 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8486097 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8494901 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8503774 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8512605 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8519457 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8523099 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"input[value='Export']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=input[value='Export']}
+{} doesn't contain key name -TDR_BA_01
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_EA_01" classname="TestCases.TestCases" time="304.862">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EA_01(TestCases.java:3218)
+</failure>
+    <system-out><![CDATA[TDR_EA_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8634717 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"#displayfirmname +div div[class*='wheel']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=#displayfirmname +div div[class*='wheel']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8666112 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 30 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8669846 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Mouse over action on 'Manage settings and defaults' element failed
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8673496 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id*='ContentPlaceHolder1_LinkManageFirmSettings']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id*='ContentPlaceHolder1_LinkManageFirmSettings']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8677246 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+^^^^^^^^^^^^^^TDR_EA_01
+8680957 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Edit Role Names  element found but its not in editable/clickable state within 3 timeouts
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8684611 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_editrolerow_Sign']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_editrolerow_Sign']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8688295 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+^^^^^^^^^^^^^^TDR_EA_01
+8692043 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Use Defaults Radio button  element found but its not in editable/clickable state within 3 timeouts
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8698877 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8702577 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_SRoles']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_SRoles']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8709297 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8712971 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8721750 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8730495 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8737345 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8744126 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8750938 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8759696 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8766440 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8773199 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8782049 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8790841 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8799736 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8808535 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8817403 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8824212 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8827945 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"input[value='Export']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=input[value='Export']}
+{} doesn't contain key name -TDR_EA_01
+]]></system-out>
+  </testcase>
+  <testcase name="TDR_BS_01" classname="TestCases.TestCases" time="341.174">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_BS_01(TestCases.java:3183)
+</failure>
+    <system-out><![CDATA[TDR_BS_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8940056 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"#displayfirmname +div div[class*='wheel']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=#displayfirmname +div div[class*='wheel']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8971461 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 30 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8975156 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Mouse over action on 'Manage settings and defaults' element failed
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8978818 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id*='ContentPlaceHolder1_LinkManageFirmSettings']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id*='ContentPlaceHolder1_LinkManageFirmSettings']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8982546 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+^^^^^^^^^^^^^^TDR_BS_01
+8986231 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Edit Role Names  element found but its not in editable/clickable state within 3 timeouts
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8989871 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_editrolerow_Sign']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_editrolerow_Sign']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+8993582 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+^^^^^^^^^^^^^^TDR_BS_01
+8997287 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Use Defaults Radio button  element found but its not in editable/clickable state within 3 timeouts
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9004096 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9007773 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"[id*='ContentPlaceHolder1_SRoles']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=[id*='ContentPlaceHolder1_SRoles']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9014534 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9018239 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9027140 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9033949 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9040736 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9049573 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9056433 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9063245 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9072070 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9078832 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9085562 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9092336 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9101147 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9107935 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9114696 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9123497 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9132217 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9141005 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9149808 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9158605 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9165395 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9169089 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"input[value='Export']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=input[value='Export']}
+{} doesn't contain key name -TDR_BS_01
+]]></system-out>
+  </testcase>
+  <testcase name="SR_UW_01" classname="TestCases.TestCases" time="162.708">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.SR_UW_01(TestCases.java:6351)
+</failure>
+    <system-out><![CDATA[SR_UW_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9282751 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9286483 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9293244 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9301877 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -SR_UW_01
+]]></system-out>
+  </testcase>
+  <testcase name="SR_BUD_01" classname="TestCases.TestCases" time="396.65">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.SR_BUD_01(TestCases.java:6633)
+</failure>
+    <system-out><![CDATA[SR_BUD_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9679372 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9683110 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9689885 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+9698522 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -SR_BUD_01
+]]></system-out>
+  </testcase>
+  <testcase name="SR_TTT_01" classname="TestCases.TestCases" time="398.876">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.SR_TTT_01(TestCases.java:7157)
+</failure>
+    <system-out><![CDATA[SR_TTT_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+10076067 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+10079785 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+10088720 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+10097446 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -SR_TTT_01
+]]></system-out>
+  </testcase>
+  <testcase name="SR_TBS_01" classname="TestCases.TestCases" time="396.793">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.SR_TBS_01(TestCases.java:6873)
+</failure>
+    <system-out><![CDATA[SR_TBS_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+10474884 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+10478636 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+10485513 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+10494227 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -SR_TBS_01
+]]></system-out>
+  </testcase>
+  <testcase name="CR_ED_01" classname="TestCases.TestCases" time="396.643">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ED_01(TestCases.java:9172)
+</failure>
+    <system-out><![CDATA[CR_ED_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+10871662 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+10875359 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+10882157 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+10890851 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -CR_ED_01
+]]></system-out>
+  </testcase>
+  <testcase name="CR_EDTL_01" classname="TestCases.TestCases" time="396.825">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_EDTL_01(TestCases.java:9465)
+</failure>
+    <system-out><![CDATA[CR_EDTL_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+11268333 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+11272070 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+11278934 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+11287665 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -CR_EDTL_01
+]]></system-out>
+  </testcase>
+  <testcase name="CR_ESR_01" classname="TestCases.TestCases" time="396.577">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_01(TestCases.java:9759)
+</failure>
+    <system-out><![CDATA[CR_ESR_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+11665107 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+11668774 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+11675522 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+11684260 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -CR_ESR_01
+]]></system-out>
+  </testcase>
+  <testcase name="CR_SO_01" classname="TestCases.TestCases" time="396.7">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_SO_01(TestCases.java:10051)
+</failure>
+    <system-out><![CDATA[CR_SO_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+12061697 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+12065410 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+12072238 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+12080933 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -CR_SO_01
+]]></system-out>
+  </testcase>
+  <testcase name="CR_SOD_01" classname="TestCases.TestCases" time="396.578">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_SOD_01(TestCases.java:10355)
+</failure>
+    <system-out><![CDATA[CR_SOD_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+12458418 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+12462143 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+12468897 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+12477563 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -CR_SOD_01
+]]></system-out>
+  </testcase>
+  <testcase name="AR_CED_01" classname="TestCases.TestCases" time="396.717">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_CED_01(TestCases.java:6107)
+</failure>
+    <system-out><![CDATA[AR_CED_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+12855016 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+12858730 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+12865534 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+12874259 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -AR_CED_01
+]]></system-out>
+  </testcase>
+  <testcase name="AR_GD_01" classname="TestCases.TestCases" time="396.647">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_GD_01(TestCases.java:5585)
+</failure>
+    <system-out><![CDATA[AR_GD_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+13251749 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+13255433 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+13262181 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+13270939 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -AR_GD_01
+]]></system-out>
+  </testcase>
+  <testcase name="AR_OB_01" classname="TestCases.TestCases" time="396.87">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_OB_01(TestCases.java:4860)
+</failure>
+    <system-out><![CDATA[AR_OB_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+13648541 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+13652238 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+13658996 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+13667773 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -AR_OB_01
+]]></system-out>
+  </testcase>
+  <testcase name="AR_RT_01" classname="TestCases.TestCases" time="396.67">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_RT_01(TestCases.java:5836)
+</failure>
+    <system-out><![CDATA[AR_RT_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+14045205 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+14048938 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+14055772 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+14064463 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -AR_RT_01
+]]></system-out>
+  </testcase>
+  <testcase name="AR_SA_01" classname="TestCases.TestCases" time="396.646">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_SA_01(TestCases.java:4546)
+</failure>
+    <system-out><![CDATA[AR_SA_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+14441856 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+14445560 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+14452337 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+14461088 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -AR_SA_01
+]]></system-out>
+  </testcase>
+  <testcase name="AR_UD_01" classname="TestCases.TestCases" time="396.877">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_UD_01(TestCases.java:4323)
+</failure>
+    <system-out><![CDATA[AR_UD_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+14838657 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+14842389 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+14849203 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+14857976 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -AR_UD_01
+]]></system-out>
+  </testcase>
+  <testcase name="AR_WSM_01" classname="TestCases.TestCases" time="396.703">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_WSM_01(TestCases.java:5116)
+</failure>
+    <system-out><![CDATA[AR_WSM_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15235493 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15239187 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15245967 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15254709 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -AR_WSM_01
+]]></system-out>
+  </testcase>
+  <testcase name="AR_YTCR_01" classname="TestCases.TestCases" time="466.913">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_YTCR_01(TestCases.java:5348)
+</failure>
+    <system-out><![CDATA[AR_YTCR_01 Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15632824 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60530}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir75192_30657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=87.0.4280.88, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 884a3df4c5d0815e13ba7f8b8911751b
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15636598 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15645390 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15652146 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15658900 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Year  element not found or its not in editable state within 3 timeouts
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15659516 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:null
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15663236 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15666932 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Year  element not found or its not in editable state within 3 timeouts
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15667564 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:null
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15671242 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15680014 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15686771 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15693551 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Year  element not found or its not in editable state within 3 timeouts
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15694224 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:null
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15697927 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15701594 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Year  element not found or its not in editable state within 3 timeouts
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15702274 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Exception:null
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15705970 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15712779 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Switching to frame Frame path did not happen within 3 seconds
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15721582 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - The given window "2" is failed to open
+{} doesn't contain key name -AR_YTCR_01
+]]></system-out>
+  </testcase>
+  <testcase name="TC_Logout" classname="TestCases.TestCases" time="121.855">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TC_Logout(TestCases.java:10766)
+</failure>
+    <system-out><![CDATA[TC_Logout Started...
+Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20210105-172356/Screenshots/
+15978530 [TestNG] ERROR ./TestResults/2021_01_05_10_54_08_PM/LogFile.log  - Profile link failed to display in Home page
+{} doesn't contain key name -TC_Logout
+]]></system-out>
+  </testcase>
+</testsuite>

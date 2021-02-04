@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 43, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 9,256.793 s <<< FAILURE! - in TestSuite
+UR_IPO_01(TestCases.TestCases)  Time elapsed: 440.608 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPO_01(TestCases.java:3532)
+
+UR_IPA_01(TestCases.TestCases)  Time elapsed: 171.949 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPA_01(TestCases.java:150)
+
+UR_CLD_01(TestCases.TestCases)  Time elapsed: 482.405 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_01(TestCases.java:431)
+
+DDR_BDDF_01(TestCases.TestCases)  Time elapsed: 965.035 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_BDDF_01(TestCases.java:7992)
+
+TDR_CAS_01(TestCases.TestCases)  Time elapsed: 637.278 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_CAS_01(TestCases.java:1336)
+
+TDR_SBS_001(TestCases.TestCases)  Time elapsed: 275.286 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_001(TestCases.java:2147)
+

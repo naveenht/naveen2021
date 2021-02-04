@@ -1,0 +1,107 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 44, Failures: 31, Errors: 0, Skipped: 0, Time elapsed: 2,915.934 s <<< FAILURE! - in TestSuite
+UR_MCT_01(TestCases.TestCases)  Time elapsed: 281.906 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_01(TestCases.java:3813)
+
+TDR_DET_01(TestCases.TestCases)  Time elapsed: 48.208 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_EFS_01(TestCases.TestCases)  Time elapsed: 7.462 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_OUT_01(TestCases.TestCases)  Time elapsed: 7.506 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_SBCE_001(TestCases.TestCases)  Time elapsed: 7.304 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_SBS_001(TestCases.TestCases)  Time elapsed: 20.162 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_SBD_01(TestCases.TestCases)  Time elapsed: 21.444 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_TTC_01(TestCases.TestCases)  Time elapsed: 27.321 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_TSA_01(TestCases.TestCases)  Time elapsed: 31.268 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_BA_01(TestCases.TestCases)  Time elapsed: 25.45 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_EA_01(TestCases.TestCases)  Time elapsed: 23.716 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_BS_01(TestCases.TestCases)  Time elapsed: 25.235 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_UW_01(TestCases.TestCases)  Time elapsed: 41.729 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_BUD_01(TestCases.TestCases)  Time elapsed: 27.388 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TTT_01(TestCases.TestCases)  Time elapsed: 25.1 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TBS_01(TestCases.TestCases)  Time elapsed: 23.855 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_01(TestCases.TestCases)  Time elapsed: 33.497 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_01(TestCases.TestCases)  Time elapsed: 27.584 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ESR_01(TestCases.TestCases)  Time elapsed: 24.606 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_01(TestCases.TestCases)  Time elapsed: 23.737 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_01(TestCases.TestCases)  Time elapsed: 27.391 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_01(TestCases.TestCases)  Time elapsed: 32.638 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_GD_01(TestCases.TestCases)  Time elapsed: 23.716 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_01(TestCases.TestCases)  Time elapsed: 25.835 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_01(TestCases.TestCases)  Time elapsed: 23.434 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_01(TestCases.TestCases)  Time elapsed: 33.302 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_01(TestCases.TestCases)  Time elapsed: 25.533 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_01(TestCases.TestCases)  Time elapsed: 23.432 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_01(TestCases.TestCases)  Time elapsed: 25.882 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TC_Logout(TestCases.TestCases)  Time elapsed: 25.135 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+closeSessions(TestCases.TestCases)  Time elapsed: 25.144 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.BindException: Address already in use: connect
+Command duration or timeout: 0 milliseconds
+	at TestCases.TestCases.closeSessions(TestCases.java:119)
+Caused by: org.openqa.selenium.WebDriverException: 
+java.net.BindException: Address already in use: connect
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+

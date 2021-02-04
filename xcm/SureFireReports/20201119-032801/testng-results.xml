@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="656" total="660" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<font color='green'>Open Browser : chrome</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Navigate to : https://uat.xcmsolutions.com/xcmv2</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Server Details : WLT-UAT-FE-1</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Type '117web@xcmsolutions.com' in : Username </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Type 'Xpitax@789' in : Password </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Login button </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Home page is displayed</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Search By Status Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure1.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Combined Assembly and Shipping Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Assembly and Shipping Report Report not generated .</font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure2.png'><font color='red'>Assembly and Shipping ReportReport not generated -Issue in the Report.</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Profile link </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Log off </font>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="442009" started-at="2020-11-19T03:28:11Z" finished-at="2020-11-19T03:35:33Z">
+    <groups>
+    </groups>
+    <test name="Desktop1" duration-ms="442009" started-at="2020-11-19T03:28:11Z" finished-at="2020-11-19T03:35:33Z">
+      <class name="TestCases.TestCases">
+        <test-method status="PASS" signature="init()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="init" is-config="true" duration-ms="642" started-at="2020-11-19T08:58:10Z" finished-at="2020-11-19T08:58:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="precondition" is-config="true" duration-ms="16287" started-at="2020-11-19T08:58:11Z" finished-at="2020-11-19T08:58:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desktop1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7851]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Open Browser : chrome</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Navigate to : https://uat.xcmsolutions.com/xcmv2</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="1" started-at="2020-11-19T08:58:27Z" finished-at="2020-11-19T08:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TC_Login(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TC_Login" duration-ms="7513" started-at="2020-11-19T08:58:27Z" finished-at="2020-11-19T08:58:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TC_Login(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Server Details : WLT-UAT-FE-1</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Type '117web@xcmsolutions.com' in : Username </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Type 'Xpitax@789' in : Password </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Login button </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Home page is displayed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Login -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="1" started-at="2020-11-19T08:58:35Z" finished-at="2020-11-19T08:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="TDR_SBS_001(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_SBS_001" duration-ms="245257" started-at="2020-11-19T08:58:35Z" finished-at="2020-11-19T09:02:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_SBS_001(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_001(TestCases.java:2147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Search By Status Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure1.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_SBS_001 -->
+        <test-method status="FAIL" signature="TDR_CAS_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_CAS_01" duration-ms="171108" started-at="2020-11-19T09:02:40Z" finished-at="2020-11-19T09:05:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_CAS_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_CAS_01(TestCases.java:1336)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Combined Assembly and Shipping Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Assembly and Shipping Report Report not generated .</font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure2.png'><font color='red'>Assembly and Shipping ReportReport not generated -Issue in the Report.</font> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_CAS_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-11-19T09:02:40Z" finished-at="2020-11-19T09:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="2" started-at="2020-11-19T09:05:31Z" finished-at="2020-11-19T09:05:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TC_Logout(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TC_Logout" duration-ms="1705" started-at="2020-11-19T09:05:31Z" finished-at="2020-11-19T09:05:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TC_Logout(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Profile link </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Log off </font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Logout -->
+        <test-method status="PASS" signature="closeSessions()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="closeSessions" is-config="true" duration-ms="91" started-at="2020-11-19T09:05:33Z" finished-at="2020-11-19T09:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSessions -->
+      </class> <!-- TestCases.TestCases -->
+    </test> <!-- Desktop1 -->
+  </suite> <!-- Suite -->
+</testng-results>

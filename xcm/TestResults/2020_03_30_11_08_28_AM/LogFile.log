@@ -1,0 +1,21 @@
+ERROR | 2020-03-30 11:11:12,071 | Common.java | 84 | Switching to frame Frame path did not happen within 30 seconds
+ERROR | 2020-03-30 11:11:20,828 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-03-30 11:11:33,755 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-03-30 11:11:37,262 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-03-30 11:11:43,857 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-03-30 11:11:52,534 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-03-30 11:12:03,759 | Common.java | 84 | Failed to  enter the Type of Task
+ERROR | 2020-03-30 11:12:07,386 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-03-30 11:12:14,067 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-03-30 11:12:22,754 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-03-30 11:12:37,135 | Common.java | 84 | Failed to  enter the Originating Location
+ERROR | 2020-03-30 11:12:40,923 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-03-30 11:12:47,747 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-03-30 11:12:56,562 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-03-30 11:13:11,581 | Common.java | 84 | Failed to  enter the Current Location
+ERROR | 2020-03-30 11:13:15,153 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-03-30 11:13:21,846 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-03-30 11:13:28,817 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-03-30 11:13:29,944 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-03-30 11:13:35,558 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-03-30 11:13:50,154 | Common.java | 84 | Due Date - SummaryReport not generated -Issue in the Report.

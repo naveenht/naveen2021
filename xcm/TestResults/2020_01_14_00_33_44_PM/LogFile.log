@@ -1,0 +1,15 @@
+ERROR | 2020-01-14 12:50:52,683 | Common.java | 84 | Unable to find the System Wide radio button label.
+ERROR | 2020-01-14 12:50:53,220 | Common.java | 84 | Not able to find Save Custom Report
+ERROR | 2020-01-14 12:51:19,344 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='reset' or @value='Reset']"}
+  (Session info: chrome=79.0.3945.117)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:63270}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir20308_27657}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8e6c084b11334375a75b33d9719c0473
+*** Element info: {Using=xpath, value=//input[@type='reset' or @value='Reset']}
+ERROR | 2020-01-14 12:51:24,505 | Common.java | 84 | Unable to find the My Reports radio button label.
+ERROR | 2020-01-14 12:51:24,954 | Common.java | 84 | Not able to find Save Custom Report

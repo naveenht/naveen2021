@@ -1,0 +1,107 @@
+ERROR | 2020-02-06 13:42:13,501 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-06 13:42:18,175 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-06 13:42:18,324 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-06 13:42:18,912 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 13:42:23,570 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 13:42:23,716 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 13:48:00,822 | Common.java | 84 | Task Details - eFile StatusReport not generated -Issue in the Report.
+ERROR | 2020-02-06 13:48:01,305 | Common.java | 84 | Due Date - SummaryReport not generated -Issue in the Report.
+ERROR | 2020-02-06 13:48:01,855 | Common.java | 84 | Issues/Points - OpenReport not generated -Issue in the Report.
+ERROR | 2020-02-06 14:29:05,519 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-06 14:29:08,484 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-06 14:29:11,482 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-06 14:31:46,867 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 14:36:25,675 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-06 14:36:31,021 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 14:42:07,074 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-06 14:42:12,441 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 15:09:11,398 | Common.java | 84 | Unable to find the System Wide radio button label.
+ERROR | 2020-02-06 15:09:11,816 | Common.java | 84 | Not able to find Save Custom Report
+ERROR | 2020-02-06 15:10:56,588 | Common.java | 84 | Unable to find the Current radio button label.
+ERROR | 2020-02-06 15:11:02,250 | Common.java | 84 | Failed to validate the Fiscal Year
+ERROR | 2020-02-06 15:11:06,503 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-02-06 15:11:11,320 | Common.java | 84 | Failed to  enter the Type of Task
+ERROR | 2020-02-06 15:11:11,813 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-06 15:11:17,140 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 15:13:37,240 | Common.java | 84 | Unable to find the Archive radio button label.
+ERROR | 2020-02-06 15:13:41,578 | Common.java | 84 | Failed to validate the Fiscal Year
+ERROR | 2020-02-06 15:13:45,560 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-02-06 15:13:49,496 | Common.java | 84 | Failed to  enter the Type of Task
+ERROR | 2020-02-06 15:13:49,948 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-06 15:13:55,281 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 15:16:15,229 | Common.java | 84 | Unable to find the Archive radio button label.
+ERROR | 2020-02-06 15:16:19,486 | Common.java | 84 | Failed to validate the Fiscal Year
+ERROR | 2020-02-06 15:16:23,377 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-02-06 15:16:27,340 | Common.java | 84 | Failed to  enter the Type of Task
+ERROR | 2020-02-06 15:16:27,777 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-06 15:16:33,122 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 15:21:11,289 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-06 15:21:16,634 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 15:24:22,448 | Common.java | 84 | Unable to find the Current radio button label.
+ERROR | 2020-02-06 15:24:27,482 | Common.java | 84 | Unable to find the Default radio button label.
+ERROR | 2020-02-06 15:24:31,030 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id*='chooseid']"}
+  (Session info: chrome=80.0.3987.87)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64604}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir17524_22916}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.87, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fecb832c1b4ccb26547baabaea89855f
+*** Element info: {Using=css selector, value=a[id*='chooseid']}
+ERROR | 2020-02-06 15:24:36,500 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 15:24:39,895 | Common.java | 84 | Not able to find Reset
+ERROR | 2020-02-06 15:24:43,283 | Common.java | 84 | No Column headers are displayed
+ERROR | 2020-02-06 15:24:46,707 | Common.java | 84 | Not able to find Save & Next
+ERROR | 2020-02-06 15:24:50,145 | Common.java | 84 | Not able to find Save & Close
+ERROR | 2020-02-06 15:24:55,656 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-06 15:25:01,012 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 15:27:31,061 | Common.java | 84 | Unable to find the Archive radio button label.
+ERROR | 2020-02-06 15:27:36,399 | Common.java | 84 | Unable to find the Default radio button label.
+ERROR | 2020-02-06 15:27:40,230 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id*='chooseid']"}
+  (Session info: chrome=80.0.3987.87)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:64604}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir17524_22916}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.87, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fecb832c1b4ccb26547baabaea89855f
+*** Element info: {Using=css selector, value=a[id*='chooseid']}
+ERROR | 2020-02-06 15:27:45,718 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 15:27:49,184 | Common.java | 84 | Not able to find Reset
+ERROR | 2020-02-06 15:27:52,605 | Common.java | 84 | No Column headers are displayed
+ERROR | 2020-02-06 15:27:56,074 | Common.java | 84 | Not able to find Save & Next
+ERROR | 2020-02-06 15:27:59,626 | Common.java | 84 | Not able to find Save & Close
+ERROR | 2020-02-06 15:28:05,738 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-06 15:28:11,334 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-06 15:30:51,253 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-06 15:30:54,736 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-06 15:30:57,850 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-06 18:50:45,752 | Common.java | 84 | Engagement Summary ReportReport not generated -Issue in the Report.

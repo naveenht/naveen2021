@@ -1,0 +1,47 @@
+ERROR | 2020-02-04 11:45:28,198 | Common.java | 84 | Home page failed to diplay
+ERROR | 2020-02-04 11:46:50,609 | Common.java | 84 | Reports tab  element found but its not in editable/clickable state within 30 timeouts
+ERROR | 2020-02-04 11:46:57,037 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 11:47:03,552 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 11:47:12,039 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-04 11:52:04,360 | Common.java | 84 | Reports tab  element found but its not in editable/clickable state within 30 timeouts
+ERROR | 2020-02-04 11:52:10,821 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 11:52:17,338 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 11:52:25,802 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-04 11:57:17,925 | Common.java | 84 | Reports tab  element found but its not in editable/clickable state within 30 timeouts
+ERROR | 2020-02-04 11:57:24,383 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 11:57:30,885 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 11:57:39,235 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-04 12:02:31,293 | Common.java | 84 | Reports tab  element found but its not in editable/clickable state within 30 timeouts
+ERROR | 2020-02-04 12:02:37,775 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:02:44,195 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:02:52,587 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-04 12:07:44,695 | Common.java | 84 | Reports tab  element found but its not in editable/clickable state within 30 timeouts
+ERROR | 2020-02-04 12:07:51,179 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:07:57,645 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:08:06,026 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-04 12:12:58,284 | Common.java | 84 | Reports tab  element found but its not in editable/clickable state within 30 timeouts
+ERROR | 2020-02-04 12:13:04,729 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:13:11,179 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:13:19,543 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-04 12:18:11,086 | Common.java | 84 | Reports tab  element found but its not in editable/clickable state within 30 timeouts
+ERROR | 2020-02-04 12:18:17,445 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:18:23,929 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:18:32,354 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-04 12:23:24,515 | Common.java | 84 | Reports tab  element found but its not in editable/clickable state within 30 timeouts
+ERROR | 2020-02-04 12:23:30,935 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:23:37,393 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:23:45,741 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-04 12:28:37,756 | Common.java | 84 | Reports tab  element found but its not in editable/clickable state within 30 timeouts
+ERROR | 2020-02-04 12:28:44,201 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:28:50,691 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:28:59,123 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-04 12:33:51,147 | Common.java | 84 | Reports tab  element found but its not in editable/clickable state within 30 timeouts
+ERROR | 2020-02-04 12:33:57,559 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:34:04,045 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:34:12,443 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-04 12:39:04,622 | Common.java | 84 | Reports tab  element found but its not in editable/clickable state within 30 timeouts
+ERROR | 2020-02-04 12:39:11,110 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:39:17,557 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-04 12:39:25,992 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-04 12:42:14,850 | Common.java | 84 | Profile link  element found but its not in editable/clickable state within 30 timeouts
+ERROR | 2020-02-04 12:42:18,184 | Common.java | 84 | Logoff option failed to display in drop down for Profile link

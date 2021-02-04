@@ -1,0 +1,89 @@
+ERROR | 2020-02-24 11:29:28,330 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-24 11:29:33,793 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-24 13:06:18,649 | Common.java | 84 | Exception Error 'org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (Session info: chrome=80.0.3987.116)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60294}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir16980_16665}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.116, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 072549c0b9524931f5074fc71e16ac52
+*** Element info: {Using=css selector, value=div[class='ui positive circular button']}'
+ERROR | 2020-02-24 13:06:29,149 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:06:35,519 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:06:43,836 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-24 13:13:02,209 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=80.0.3987.116)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60294}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir16980_16665}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.116, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 072549c0b9524931f5074fc71e16ac52
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2020-02-24 13:13:05,603 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:13:12,317 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:13:20,755 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-24 13:19:39,123 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=80.0.3987.116)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60294}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir16980_16665}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.116, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 072549c0b9524931f5074fc71e16ac52
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2020-02-24 13:19:42,597 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:19:51,259 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:19:58,945 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:20:05,771 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2020-02-24 13:20:06,359 | Common.java | 84 | Exception:null
+ERROR | 2020-02-24 13:20:10,034 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:20:13,910 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2020-02-24 13:20:14,568 | Common.java | 84 | Exception:null
+ERROR | 2020-02-24 13:20:18,129 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:20:26,979 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:20:34,121 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:20:41,037 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2020-02-24 13:20:41,609 | Common.java | 84 | Exception:null
+ERROR | 2020-02-24 13:20:45,540 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:20:49,449 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2020-02-24 13:20:50,078 | Common.java | 84 | Exception:null
+ERROR | 2020-02-24 13:20:53,948 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:21:00,890 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:21:09,419 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-24 13:27:30,503 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"a[id='reportslink']"}
+  (Session info: chrome=80.0.3987.116)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60294}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir16980_16665}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.116, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 072549c0b9524931f5074fc71e16ac52
+*** Element info: {Using=css selector, value=a[id='reportslink']}
+ERROR | 2020-02-24 13:27:33,800 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:27:42,197 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:27:48,614 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:27:55,042 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2020-02-24 13:27:55,364 | Common.java | 84 | Exception:null
+ERROR | 2020-02-24 13:27:58,775 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:28:02,115 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2020-02-24 13:28:02,391 | Common.java | 84 | Exception:null
+ERROR | 2020-02-24 13:28:05,741 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:28:14,200 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:28:20,608 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:28:27,011 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2020-02-24 13:28:27,310 | Common.java | 84 | Exception:null
+ERROR | 2020-02-24 13:28:30,659 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:28:34,015 | Common.java | 84 | Year  element not found or its not in editable state within 3 timeouts
+ERROR | 2020-02-24 13:28:34,300 | Common.java | 84 | Exception:null
+ERROR | 2020-02-24 13:28:37,683 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:28:44,130 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-02-24 13:28:52,462 | Common.java | 84 | The given window "2" is failed to open

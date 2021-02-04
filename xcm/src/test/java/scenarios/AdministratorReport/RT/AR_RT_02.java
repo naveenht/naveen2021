@@ -1,0 +1,43 @@
+package scenarios.AdministratorReport.RT;
+
+import baseClass.BaseClass;
+import iSAFE.ApplicationKeywords;
+import pages.ReportPage;
+
+public class AR_RT_02 extends ApplicationKeywords {
+
+	BaseClass obj;
+	private Boolean status = false;
+	ReportPage reportPage;
+	
+	public AR_RT_02(BaseClass obj) {
+		super(obj);
+		this.obj = obj;
+	}
+	
+	public void aR_RT_02() {
+		
+		String reportLink=retrieve("Report Link");
+		String runReportButton=retrieve("Run Report Button");
+		String reportPageTitle=retrieve("Report Page Title");
+		
+		String typeTaskLabel=retrieve("Type Task Label");
+		String typeTaskValue=retrieve("Type Task Value");
+		
+		reportPage = new ReportPage(obj);
+		
+		reportPage.clickReportTab(true);
+		reportPage.clickReportLink(reportLink);
+		
+		reportPage.selectDropDownValue(typeTaskLabel, typeTaskValue);
+		reportPage.verifyButton(runReportButton, true);
+		obj.transferControlToWindow(2);
+		obj.validateReportPageTitle(reportPageTitle);
+		obj.transferControlToWindow(1);
+		
+		if (obj.testFailure || reportPage.testFailure) {
+			status = true;
+		}
+		this.testFailure = status;
+	}
+}

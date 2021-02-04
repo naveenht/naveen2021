@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="20" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test name="Desktop1(failed)" parallel="tests">
+    <parameter name="selenium.port" value="7851"/>
+    <parameter name="selenium.osVersion" value="10"/>
+    <parameter name="selenium.host" value="localhost"/>
+    <parameter name="selenium.machinename" value="Desktop1"/>
+    <parameter name="selenium.browserVersion" value="60"/>
+    <parameter name="selenium.os" value="Windows"/>
+    <parameter name="selenium.browser" value="chrome"/>
+    <parameter name="selenium.url" value="https://www.gmail.com"/>
+    <parameter name="TestData.SheetNumber" value="1"/>
+    <classes>
+      <class name="TestCases.TestCases">
+        <methods>
+          <include name="UR_CLD_01" invocation-numbers="0"/>
+          <include name="UR_TIM_01" invocation-numbers="0"/>
+          <include name="before"/>
+          <include name="AR_GD_01" invocation-numbers="0"/>
+          <include name="UR_IPO_01" invocation-numbers="0"/>
+          <include name="TDR_DET_01" invocation-numbers="0"/>
+          <include name="TDR_SBD_01" invocation-numbers="0"/>
+          <include name="CR_EDTL_01" invocation-numbers="0"/>
+          <include name="DDR_SUM_01" invocation-numbers="0"/>
+          <include name="UR_IPA_01" invocation-numbers="0"/>
+          <include name="closeSessions"/>
+          <include name="DDR_BDDF_01" invocation-numbers="0"/>
+          <include name="DDR_BD_01" invocation-numbers="0"/>
+          <include name="precondition"/>
+          <include name="SR_UW_01" invocation-numbers="0"/>
+          <include name="TDR_CAS_01" invocation-numbers="0"/>
+          <include name="init"/>
+          <include name="CR_ED_01" invocation-numbers="0"/>
+          <include name="SR_BUD_01" invocation-numbers="0"/>
+          <include name="AR_UD_01" invocation-numbers="0"/>
+          <include name="AR_CED_01" invocation-numbers="0"/>
+          <include name="CR_ESR_01" invocation-numbers="0"/>
+          <include name="TDR_SBCE_001" invocation-numbers="0"/>
+          <include name="TDR_SBS_001" invocation-numbers="0"/>
+          <include name="SR_TTT_01" invocation-numbers="0"/>
+          <include name="CR_SO_01" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.TestCases -->
+    </classes>
+  </test> <!-- Desktop1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

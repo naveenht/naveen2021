@@ -1,0 +1,4 @@
+ERROR | 2020-01-27 10:35:15,831 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-01-27 10:35:30,284 | Common.java | 84 | Failed to  enter the Originating Location
+ERROR | 2020-01-27 10:35:37,037 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-01-27 10:35:42,400 | Common.java | 84 | The given window "2" is failed to open

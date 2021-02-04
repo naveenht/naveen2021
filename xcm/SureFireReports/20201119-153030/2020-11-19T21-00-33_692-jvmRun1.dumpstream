@@ -1,0 +1,21 @@
+# Created at 2020-11-19T21:01:05.688
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2020-11-19T21:01:23.709
+Unexpected IOException: 6,1,TestCases.TestCases,TC_Login(TestCases.TestCases),null,null,null
+
+
+# Created at 2020-11-19T21:01:23.710
+Unexpected IOException: 5,1,TestCases.TestCases,TDR_EFS_01(TestCases.TestCases),TestCases.TestCases,null,null
+
+
+# Created at 2020-11-19T21:01:23.945
+Unexpected IOException with stream: TDR_EFS_01 Started...
+
+

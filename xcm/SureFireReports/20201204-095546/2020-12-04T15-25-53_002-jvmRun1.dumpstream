@@ -1,0 +1,17 @@
+# Created at 2020-12-04T15:36:22.025
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2020-12-04T15:36:36.238
+Unexpected IOException with stream: Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201204-095546/Screenshots/
+
+
+# Created at 2020-12-04T15:36:50.287
+Unexpected IOException with stream: Screenshot path: E:\Naveenkumar-11568\REPORTSautomation\ScriptVersions\Script6/SureFireReports/20201204-095546/Screenshots/
+
+

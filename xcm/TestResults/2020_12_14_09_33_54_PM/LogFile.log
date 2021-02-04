@@ -1,0 +1,25 @@
+ERROR | 2020-12-14 21:37:41,976 | Common.java | 84 | Switching to frame Frame path did not happen within 30 seconds
+ERROR | 2020-12-14 21:37:48,440 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-12-14 21:37:49,331 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-12-14 21:37:54,728 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-12-14 21:38:10,322 | Common.java | 84 | Issues/Points - AllReport not generated -Issue in the Report.
+ERROR | 2020-12-14 21:40:56,884 | Common.java | 84 | Issues/Points - OpenReport not generated -Issue in the Report.
+ERROR | 2020-12-14 21:43:49,591 | Common.java | 84 | Checklist ReportReport not generated -Issue in the Report.
+ERROR | 2020-12-14 21:46:29,926 | Common.java | 84 | CheckList DetailsReport not generated -Issue in the Report.
+ERROR | 2020-12-14 21:51:50,135 | Common.java | 84 | Tasks I Moved by DateReport not generated -Issue in the Report.
+ERROR | 2020-12-14 21:54:31,172 | Common.java | 84 | Due Date - JurisdictionsReport not generated -Issue in the Report.
+ERROR | 2020-12-14 21:57:11,916 | Common.java | 84 | Custom Jurisdiction ReportReport not generated -Issue in the Report.
+ERROR | 2020-12-14 22:11:02,752 | Common.java | 84 | Assembly and Shipping ReportReport not generated -Issue in the Report.
+ERROR | 2020-12-14 22:13:43,282 | Common.java | 84 | Task Details - LargeReport not generated -Issue in the Report.
+ERROR | 2020-12-14 22:21:43,337 | Common.java | 84 | Task Details - By ClientReport not generated -Issue in the Report.
+ERROR | 2020-12-14 22:24:09,164 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-12-14 22:28:58,755 | Common.java | 84 | Task Details - By DateReport not generated -Issue in the Report.
+ERROR | 2020-12-14 23:15:27,111 | Common.java | 84 | Budgeting DetailsReport not generated -Issue in the Report.
+ERROR | 2020-12-14 23:18:07,312 | Common.java | 84 | Summary - By Task TypeReport not generated -Issue in the Report.
+ERROR | 2020-12-14 23:24:54,504 | Common.java | 84 | Task Details - Engagement DatesReport not generated -Issue in the Report.
+ERROR | 2020-12-14 23:28:06,376 | Common.java | 84 | Task Details - Engagement DetailsReport not generated -Issue in the Report.
+ERROR | 2020-12-14 23:30:46,852 | Common.java | 84 | Engagement Summary ReportReport not generated -Issue in the Report.
+ERROR | 2020-12-14 23:33:27,105 | Common.java | 84 | Task Details - Sign OffsReport not generated -Issue in the Report.
+ERROR | 2020-12-14 23:46:46,132 | Common.java | 84 | Client DetailsReport not generated -Issue in the Report.
+ERROR | 2020-12-14 23:49:32,351 | Common.java | 84 | Group DetailsReport not generated -Issue in the Report.
+ERROR | 2020-12-15 00:00:15,188 | Common.java | 84 | User DetailsReport not generated -Issue in the Report.

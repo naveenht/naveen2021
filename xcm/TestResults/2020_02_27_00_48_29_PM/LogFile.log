@@ -1,0 +1,54 @@
+ERROR | 2020-02-27 12:51:02,238 | Common.java | 84 | Task Details - Time Taken to CompleteReport not generated -Issue in the Report.
+ERROR | 2020-02-27 12:51:02,289 | Common.java | 84 | Engagement Summary ReportReport not generated -Issue in the Report.
+ERROR | 2020-02-27 12:51:03,357 | Common.java | 84 | Due Date - JurisdictionsReport not generated -Issue in the Report.
+ERROR | 2020-02-27 12:54:00,550 | Common.java | 84 | Engagement Summary ReportReport not generated -Issue in the Report.
+ERROR | 2020-02-27 13:01:57,281 | Common.java | 84 | Due Date - JurisdictionsReport not generated -Issue in the Report.
+ERROR | 2020-02-27 13:21:48,545 | Common.java | 84 | Not able to find Select All
+ERROR | 2020-02-27 13:21:51,833 | Common.java | 84 | Not able to find Save & Next
+ERROR | 2020-02-27 13:21:55,147 | Common.java | 84 | Not able to find Save & Close
+ERROR | 2020-02-27 13:28:46,605 | Common.java | 84 | Exception:Cannot locate element with text: Financial
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-27 13:29:30,500 | Common.java | 84 | Exception:Cannot locate element with text: Financial
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-27 13:30:15,603 | Common.java | 84 | Exception:Cannot locate element with text: Financial
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-27 13:36:16,202 | Common.java | 84 | Due Date - JurisdictionsReport not generated -Issue in the Report.
+ERROR | 2020-02-27 13:40:59,591 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-27 13:41:03,169 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-27 13:41:06,579 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-27 14:02:20,787 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-27 14:02:23,845 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-27 14:02:26,951 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown

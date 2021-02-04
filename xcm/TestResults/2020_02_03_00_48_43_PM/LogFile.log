@@ -1,0 +1,4 @@
+ERROR | 2020-02-03 12:54:51,792 | Common.java | 84 | Home page failed to diplay
+ERROR | 2020-02-03 12:57:45,481 | Common.java | 84 | Issues/Points - AllReport not generated -Issue in the Report.
+ERROR | 2020-02-03 13:00:24,376 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-03 13:00:29,819 | Common.java | 84 | The given window "2" is failed to open

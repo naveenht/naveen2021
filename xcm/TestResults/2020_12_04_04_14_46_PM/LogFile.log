@@ -1,0 +1,5 @@
+ERROR | 2020-12-04 16:16:29,364 | Common.java | 84 | Home page failed to diplay
+ERROR | 2020-12-04 16:17:53,728 | Common.java | 84 | Reports tab  element found but its not in editable/clickable state within 30 timeouts
+ERROR | 2020-12-04 16:18:00,331 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-12-04 16:18:06,915 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-12-04 16:18:15,543 | Common.java | 84 | The given window "2" is failed to open

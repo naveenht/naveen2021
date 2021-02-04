@@ -1,0 +1,48 @@
+ERROR | 2020-02-07 15:33:18,791 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-02-07 15:33:20,990 | Common.java | 84 | Failed to  enter the Type of Task
+ERROR | 2020-02-07 15:33:21,849 | Common.java | 84 | Failed to  enter the Location
+ERROR | 2020-02-07 15:33:22,349 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-07 15:33:22,408 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-07 15:33:27,724 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-07 15:33:27,765 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-07 15:33:35,581 | Common.java | 84 | Failed to  enter the Originating Location
+ERROR | 2020-02-07 15:33:47,077 | Common.java | 84 | Failed to  enter the Current Location
+ERROR | 2020-02-07 15:33:57,422 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-02-07 15:33:57,865 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-07 15:34:03,292 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-07 15:38:13,402 | Common.java | 84 | Failed to Select the drop down Value
+ERROR | 2020-02-07 15:38:17,885 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-02-07 15:38:24,935 | Common.java | 84 | Failed to  enter the Type of Task
+ERROR | 2020-02-07 15:38:28,516 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-07 15:38:33,861 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-07 15:45:46,821 | Common.java | 84 | Engagement Summary ReportReport not generated -Issue in the Report.
+ERROR | 2020-02-07 16:20:03,014 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-07 16:20:06,187 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-07 16:20:11,113 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-07 16:20:11,760 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-07 16:20:15,012 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+ERROR | 2020-02-07 16:20:18,323 | Common.java | 84 | Exception:Cannot locate option with index: 1
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown

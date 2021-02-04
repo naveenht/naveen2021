@@ -1,0 +1,63 @@
+ERROR | 2020-01-22 15:27:19,294 | Common.java | 84 | Issues/Points - AllReport not generated -Issue in the Report.
+ERROR | 2020-01-22 16:23:43,613 | Common.java | 84 | Budget & Actual Report link is not displayed.
+ERROR | 2020-01-22 16:23:48,449 | Common.java | 84 | Failed to Select the drop down Value
+ERROR | 2020-01-22 16:23:52,450 | Common.java | 84 | Failed to Select the drop down Value
+ERROR | 2020-01-22 16:23:56,763 | Common.java | 84 | Failed to  enter the Type of Task
+ERROR | 2020-01-22 16:24:11,146 | Common.java | 84 | Failed to  enter the Status
+ERROR | 2020-01-22 16:24:22,289 | Common.java | 84 | Failed to validate the Fiscal Year
+ERROR | 2020-01-22 16:24:26,904 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-01-22 16:24:31,049 | Common.java | 84 | Failed to Select the drop down Value
+ERROR | 2020-01-22 16:24:35,028 | Common.java | 84 | Failed to Select the drop down Value
+ERROR | 2020-01-22 16:24:39,667 | Common.java | 84 | Failed to Select the drop down Value
+ERROR | 2020-01-22 16:24:43,118 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"input[value='Export']"}
+  (Session info: chrome=79.0.3945.117)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57601}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir14532_10197}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b6534a3396a9a95eeaed6574e695c0d9
+*** Element info: {Using=css selector, value=input[value='Export']}
+ERROR | 2020-01-22 16:27:44,593 | Common.java | 84 | Export Actual Report link is not displayed.
+ERROR | 2020-01-22 16:27:49,599 | Common.java | 84 | Failed to Select the drop down Value
+ERROR | 2020-01-22 16:27:53,601 | Common.java | 84 | Failed to  enter the Type of Task
+ERROR | 2020-01-22 16:28:07,135 | Common.java | 84 | Failed to  enter the Status
+ERROR | 2020-01-22 16:28:17,542 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-01-22 16:28:21,564 | Common.java | 84 | Failed to validate the Fiscal Year
+ERROR | 2020-01-22 16:28:25,652 | Common.java | 84 | Failed to Select the drop down Value
+ERROR | 2020-01-22 16:28:29,631 | Common.java | 84 | Failed to Select the drop down Value
+ERROR | 2020-01-22 16:28:33,570 | Common.java | 84 | Failed to Select the drop down Value
+ERROR | 2020-01-22 16:28:37,028 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"input[value='Export']"}
+  (Session info: chrome=79.0.3945.117)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57601}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir14532_10197}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b6534a3396a9a95eeaed6574e695c0d9
+*** Element info: {Using=css selector, value=input[value='Export']}
+ERROR | 2020-01-22 16:31:38,616 | Common.java | 84 | Budget & Staff Report link is not displayed.
+ERROR | 2020-01-22 16:31:43,378 | Common.java | 84 | Failed to  enter the Originating Location
+ERROR | 2020-01-22 16:31:54,356 | Common.java | 84 | Failed to  enter the Current Location
+ERROR | 2020-01-22 16:32:04,993 | Common.java | 84 | Failed to  enter the Type of Task
+ERROR | 2020-01-22 16:32:19,114 | Common.java | 84 | Failed to  enter the Status
+ERROR | 2020-01-22 16:32:30,277 | Common.java | 84 | Failed to validate the Fiscal Year
+ERROR | 2020-01-22 16:32:34,345 | Common.java | 84 | Failed to  enter the Fiscal Year
+ERROR | 2020-01-22 16:32:38,381 | Common.java | 84 | Failed to Select the drop down Value
+ERROR | 2020-01-22 16:32:42,298 | Common.java | 84 | Failed to Select the drop down Value
+ERROR | 2020-01-22 16:32:46,429 | Common.java | 84 | Failed to Select the drop down Value
+ERROR | 2020-01-22 16:32:49,899 | Common.java | 84 | Exception:no such element: Unable to locate element: {"method":"css selector","selector":"input[value='Export']"}
+  (Session info: chrome=79.0.3945.117)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'XPITAX-11568', ip: '192.168.183.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57601}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38), userDataDir=C:\Users\NTHIMM~1\AppData\Local\Temp\scoped_dir14532_10197}, takesHeapSnapshot=true, unhandledPromptBehavior=ignore, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=79.0.3945.117, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b6534a3396a9a95eeaed6574e695c0d9
+*** Element info: {Using=css selector, value=input[value='Export']}

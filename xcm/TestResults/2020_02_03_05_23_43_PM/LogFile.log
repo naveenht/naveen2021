@@ -1,0 +1,16 @@
+ERROR | 2020-02-03 17:28:26,925 | Common.java | 84 | Home page failed to diplay
+ERROR | 2020-02-03 17:31:15,237 | Common.java | 84 | Issues/Points - AllReport not generated -Issue in the Report.
+ERROR | 2020-02-03 18:10:51,173 | Common.java | 84 | Task Details - LargeReport not generated -Issue in the Report.
+ERROR | 2020-02-03 18:31:38,066 | Common.java | 84 | Task Status Aging ReportReport not generated -Issue in the Report.
+ERROR | 2020-02-03 18:34:38,365 | Common.java | 84 | User WorkloadReport not generated -Issue in the Report.
+ERROR | 2020-02-03 18:43:38,803 | Common.java | 84 | Summary - By StatusReport not generated -Issue in the Report.
+ERROR | 2020-02-03 18:47:03,087 | Common.java | 84 | Task Details - Engagement DatesReport not generated -Issue in the Report.
+ERROR | 2020-02-03 18:50:22,892 | Common.java | 84 | Task Details - Engagement DetailsReport not generated -Issue in the Report.
+ERROR | 2020-02-03 18:53:22,423 | Common.java | 84 | Engagement Summary ReportReport not generated -Issue in the Report.
+ERROR | 2020-02-03 19:02:34,825 | Common.java | 84 | Client DetailsReport not generated -Issue in the Report.
+ERROR | 2020-02-03 19:07:47,983 | Common.java | 84 | Outsource Billing Report link is not displayed.
+ERROR | 2020-02-03 19:07:48,433 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-03 19:07:53,743 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-03 19:18:24,376 | Common.java | 84 | User Details Report link is not displayed.
+ERROR | 2020-02-03 19:18:24,838 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-03 19:18:30,200 | Common.java | 84 | The given window "2" is failed to open

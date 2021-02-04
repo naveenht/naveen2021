@@ -1,0 +1,9 @@
+ERROR | 2020-02-04 12:58:31,334 | Common.java | 84 | Home page failed to diplay
+ERROR | 2020-02-04 12:59:37,967 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-04 12:59:43,354 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-04 14:29:01,083 | Common.java | 84 | Outsource Billing Report link is not displayed.
+ERROR | 2020-02-04 14:29:01,523 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-04 14:29:06,877 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-02-04 14:38:59,102 | Common.java | 84 | User Details Report link is not displayed.
+ERROR | 2020-02-04 14:38:59,533 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-02-04 14:39:04,834 | Common.java | 84 | The given window "2" is failed to open

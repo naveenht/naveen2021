@@ -1,0 +1,11 @@
+ERROR | 2020-11-04 22:09:17,266 | Common.java | 84 | Switching to frame Frame path did not happen within 30 seconds
+ERROR | 2020-11-04 22:09:23,721 | Common.java | 84 | Switching to frame Frame path did not happen within 3 seconds
+ERROR | 2020-11-04 22:09:24,109 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-11-04 22:09:29,488 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-11-04 22:09:40,031 | Common.java | 84 | Issues/Points - AllReport not generated -Issue in the Report.
+ERROR | 2020-11-04 22:13:29,867 | Common.java | 84 | Issues/Points - OpenReport not generated -Issue in the Report.
+ERROR | 2020-11-04 22:21:17,577 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-11-04 22:21:22,933 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-11-04 22:58:08,665 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-11-04 23:05:25,309 | Common.java | 84 | Not able to find Run Report
+ERROR | 2020-11-04 23:05:30,711 | Common.java | 84 | The given window "2" is failed to open

@@ -1,0 +1,1854 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 643, Failures: 484, Errors: 0, Skipped: 0, Time elapsed: 86,079.781 s <<< FAILURE! - in TestSuite
+DDR_SUM_01(TestCases.TestCases)  Time elapsed: 118.32 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_SUM_01(TestCases.java:8861)
+
+TDR_EFS_01(TestCases.TestCases)  Time elapsed: 91.322 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_01(TestCases.java:1054)
+
+DDR_SUM_03(TestCases.TestCases)  Time elapsed: 451.42 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_SUM_03(TestCases.java:8893)
+
+TDR_EFS_02(TestCases.TestCases)  Time elapsed: 196.283 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_02(TestCases.java:1070)
+
+DDR_SUM_05(TestCases.TestCases)  Time elapsed: 134.525 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_SUM_05(TestCases.java:8925)
+
+DDR_SUM_06(TestCases.TestCases)  Time elapsed: 692.49 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_SUM_06(TestCases.java:8941)
+
+UR_IPO_01(TestCases.TestCases)  Time elapsed: 45.924 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPO_01(TestCases.java:3532)
+
+UR_IPO_05(TestCases.TestCases)  Time elapsed: 295.155 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPO_05(TestCases.java:3599)
+
+TDR_EFS_03(TestCases.TestCases)  Time elapsed: 164.65 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_03(TestCases.java:1087)
+
+DDR_SUM_08(TestCases.TestCases)  Time elapsed: 311.465 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_SUM_08(TestCases.java:8973)
+
+TDR_EFS_04(TestCases.TestCases)  Time elapsed: 424.887 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_04(TestCases.java:1104)
+
+UR_IPO_08(TestCases.TestCases)  Time elapsed: 26.876 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPO_08(TestCases.java:3649)
+
+DDR_SUM_09(TestCases.TestCases)  Time elapsed: 65.94 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_SUM_09(TestCases.java:8989)
+
+DDR_BD_05(TestCases.TestCases)  Time elapsed: 288.846 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_BD_05(TestCases.java:7768)
+
+UR_IPO_09(TestCases.TestCases)  Time elapsed: 11.035 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPO_09(TestCases.java:3666)
+
+UR_IPA_05(TestCases.TestCases)  Time elapsed: 307.054 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPA_05(TestCases.java:215)
+
+TDR_EFS_08(TestCases.TestCases)  Time elapsed: 188.144 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_08(TestCases.java:1171)
+
+DDR_BD_08(TestCases.TestCases)  Time elapsed: 328.729 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_BD_08(TestCases.java:7816)
+
+TDR_EFS_09(TestCases.TestCases)  Time elapsed: 460.284 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_09(TestCases.java:1188)
+
+UR_IPA_08(TestCases.TestCases)  Time elapsed: 32.474 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPA_08(TestCases.java:265)
+
+TDR_EFS_17(TestCases.TestCases)  Time elapsed: 109.406 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_17(TestCases.java:1320)
+
+DDR_BD_09(TestCases.TestCases)  Time elapsed: 114.553 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_BD_09(TestCases.java:7832)
+
+UR_IPA_09(TestCases.TestCases)  Time elapsed: 116.595 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPA_09(TestCases.java:282)
+
+UR_IPA_17(TestCases.TestCases)  Time elapsed: 200.052 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPA_17(TestCases.java:414)
+
+DDR_EXT_05(TestCases.TestCases)  Time elapsed: 101.763 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_EXT_05(TestCases.java:8633)
+
+TDR_DET_05(TestCases.TestCases)  Time elapsed: 33.852 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_DET_05(TestCases.java:1937)
+
+UR_CLS_05(TestCases.TestCases)  Time elapsed: 754.726 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLS_05(TestCases.java:859)
+
+DDR_EXT_08(TestCases.TestCases)  Time elapsed: 659.086 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_EXT_08(TestCases.java:8681)
+
+UR_CLS_08(TestCases.TestCases)  Time elapsed: 377.227 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLS_08(TestCases.java:904)
+
+DDR_EXT_09(TestCases.TestCases)  Time elapsed: 439.476 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_EXT_09(TestCases.java:8697)
+
+UR_CLS_09(TestCases.TestCases)  Time elapsed: 460.215 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLS_09(TestCases.java:919)
+
+DDR_BDDF_06(TestCases.TestCases)  Time elapsed: 132.619 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_BDDF_06(TestCases.java:8070)
+
+DDR_BDDF_09(TestCases.TestCases)  Time elapsed: 280.567 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_BDDF_09(TestCases.java:8118)
+
+UR_CLS_10(TestCases.TestCases)  Time elapsed: 156.436 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLS_10(TestCases.java:934)
+
+TDR_DET_06(TestCases.TestCases)  Time elapsed: 121.107 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_DET_06(TestCases.java:1952)
+
+DDR_SDF_05(TestCases.TestCases)  Time elapsed: 15.191 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_SDF_05(TestCases.java:7490)
+
+UR_CLS_11(TestCases.TestCases)  Time elapsed: 268.668 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLS_11(TestCases.java:949)
+
+TDR_DET_07(TestCases.TestCases)  Time elapsed: 83.663 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_DET_07(TestCases.java:1968)
+
+DDR_SDF_07(TestCases.TestCases)  Time elapsed: 453.522 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_SDF_07(TestCases.java:7520)
+
+UR_CLD_05(TestCases.TestCases)  Time elapsed: 78.689 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_05(TestCases.java:499)
+
+UR_CLD_06(TestCases.TestCases)  Time elapsed: 516.933 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_06(TestCases.java:515)
+
+TDR_DET_08(TestCases.TestCases)  Time elapsed: 164.489 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_DET_08(TestCases.java:1983)
+
+DDR_SDF_10(TestCases.TestCases)  Time elapsed: 169.061 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_SDF_10(TestCases.java:7565)
+
+TDR_DET_09(TestCases.TestCases)  Time elapsed: 80.61 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_DET_09(TestCases.java:1998)
+
+DDR_SDF_11(TestCases.TestCases)  Time elapsed: 14.121 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_SDF_12(TestCases.TestCases)  Time elapsed: 16.812 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_SDF_13(TestCases.TestCases)  Time elapsed: 13.237 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_SDF_14(TestCases.TestCases)  Time elapsed: 11.92 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_SDF_15(TestCases.TestCases)  Time elapsed: 14.321 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_SDF_16(TestCases.TestCases)  Time elapsed: 11.127 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_SDF_17(TestCases.TestCases)  Time elapsed: 15.082 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_SDF_22(TestCases.TestCases)  Time elapsed: 14.356 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_01(TestCases.TestCases)  Time elapsed: 16.017 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_02(TestCases.TestCases)  Time elapsed: 20.863 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_03(TestCases.TestCases)  Time elapsed: 18.199 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_04(TestCases.TestCases)  Time elapsed: 20.978 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_05(TestCases.TestCases)  Time elapsed: 20.59 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_06(TestCases.TestCases)  Time elapsed: 20.645 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_07(TestCases.TestCases)  Time elapsed: 22.548 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_08(TestCases.TestCases)  Time elapsed: 22.999 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_09(TestCases.TestCases)  Time elapsed: 19.998 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_10(TestCases.TestCases)  Time elapsed: 21.665 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_DET_11(TestCases.TestCases)  Time elapsed: 5.99 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_DET_11(TestCases.java:2028)
+
+DDR_BDDS_11(TestCases.TestCases)  Time elapsed: 24.356 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_12(TestCases.TestCases)  Time elapsed: 23.053 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_13(TestCases.TestCases)  Time elapsed: 20.904 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_14(TestCases.TestCases)  Time elapsed: 13.605 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_15(TestCases.TestCases)  Time elapsed: 15.106 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_16(TestCases.TestCases)  Time elapsed: 15.396 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_17(TestCases.TestCases)  Time elapsed: 20.971 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+DDR_BDDS_22(TestCases.TestCases)  Time elapsed: 15.992 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_01(TestCases.TestCases)  Time elapsed: 15.487 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_02(TestCases.TestCases)  Time elapsed: 17.698 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_03(TestCases.TestCases)  Time elapsed: 16.047 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_04(TestCases.TestCases)  Time elapsed: 20.513 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_05(TestCases.TestCases)  Time elapsed: 20.745 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_06(TestCases.TestCases)  Time elapsed: 21.627 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_07(TestCases.TestCases)  Time elapsed: 4.086 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.AR_RT_07(TestCases.java:5934)
+
+AR_RT_08(TestCases.TestCases)  Time elapsed: 4.068 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.AR_RT_08(TestCases.java:5951)
+
+AR_RT_09(TestCases.TestCases)  Time elapsed: 21.371 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_10(TestCases.TestCases)  Time elapsed: 22.566 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_11(TestCases.TestCases)  Time elapsed: 17.426 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_12(TestCases.TestCases)  Time elapsed: 29.442 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_13(TestCases.TestCases)  Time elapsed: 16.796 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_14(TestCases.TestCases)  Time elapsed: 14.063 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_15(TestCases.TestCases)  Time elapsed: 15.029 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_RT_16(TestCases.TestCases)  Time elapsed: 16.327 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_01(TestCases.TestCases)  Time elapsed: 15.364 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_02(TestCases.TestCases)  Time elapsed: 16.583 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_03(TestCases.TestCases)  Time elapsed: 19.406 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_04(TestCases.TestCases)  Time elapsed: 20.584 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_05(TestCases.TestCases)  Time elapsed: 21.532 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_06(TestCases.TestCases)  Time elapsed: 22.264 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_07(TestCases.TestCases)  Time elapsed: 23.217 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_08(TestCases.TestCases)  Time elapsed: 24.717 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_09(TestCases.TestCases)  Time elapsed: 22.054 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_10(TestCases.TestCases)  Time elapsed: 23.834 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_13(TestCases.TestCases)  Time elapsed: 16.174 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_14(TestCases.TestCases)  Time elapsed: 14.655 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_15(TestCases.TestCases)  Time elapsed: 14.129 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_UD_16(TestCases.TestCases)  Time elapsed: 18.153 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_01(TestCases.TestCases)  Time elapsed: 17.031 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_02(TestCases.TestCases)  Time elapsed: 15.356 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_03(TestCases.TestCases)  Time elapsed: 17.256 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_04(TestCases.TestCases)  Time elapsed: 21.879 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_05(TestCases.TestCases)  Time elapsed: 21.804 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_06(TestCases.TestCases)  Time elapsed: 23.038 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_07(TestCases.TestCases)  Time elapsed: 24.558 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_08(TestCases.TestCases)  Time elapsed: 22.375 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_09(TestCases.TestCases)  Time elapsed: 22.394 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_10(TestCases.TestCases)  Time elapsed: 23.683 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_11(TestCases.TestCases)  Time elapsed: 18.157 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_12(TestCases.TestCases)  Time elapsed: 25.741 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_13(TestCases.TestCases)  Time elapsed: 18.88 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_14(TestCases.TestCases)  Time elapsed: 14.994 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_15(TestCases.TestCases)  Time elapsed: 16.077 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_SA_16(TestCases.TestCases)  Time elapsed: 20.111 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_01(TestCases.TestCases)  Time elapsed: 8.863 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_02(TestCases.TestCases)  Time elapsed: 18.619 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_03(TestCases.TestCases)  Time elapsed: 16.609 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_04(TestCases.TestCases)  Time elapsed: 22.013 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_05(TestCases.TestCases)  Time elapsed: 22.353 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_06(TestCases.TestCases)  Time elapsed: 23.884 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_07(TestCases.TestCases)  Time elapsed: 25.278 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_08(TestCases.TestCases)  Time elapsed: 27.648 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_09(TestCases.TestCases)  Time elapsed: 23.94 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_10(TestCases.TestCases)  Time elapsed: 25.29 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_11(TestCases.TestCases)  Time elapsed: 19.089 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_12(TestCases.TestCases)  Time elapsed: 27.167 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_13(TestCases.TestCases)  Time elapsed: 19.549 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_14(TestCases.TestCases)  Time elapsed: 14.349 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_DET_16(TestCases.TestCases)  Time elapsed: 3.114 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_DET_16(TestCases.java:2100)
+
+AR_CED_15(TestCases.TestCases)  Time elapsed: 19.144 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_CED_16(TestCases.TestCases)  Time elapsed: 17.115 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_GD_01(TestCases.TestCases)  Time elapsed: 14.778 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_GD_02(TestCases.TestCases)  Time elapsed: 19.225 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_GD_03(TestCases.TestCases)  Time elapsed: 3.814 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.AR_GD_03(TestCases.java:5614)
+
+AR_GD_04(TestCases.TestCases)  Time elapsed: 9.759 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.AR_GD_04(TestCases.java:5629)
+
+AR_GD_05(TestCases.TestCases)  Time elapsed: 10.31 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.AR_GD_05(TestCases.java:5644)
+
+AR_GD_06(TestCases.TestCases)  Time elapsed: 25.582 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_GD_07(TestCases.TestCases)  Time elapsed: 5.452 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.AR_GD_07(TestCases.java:5674)
+
+AR_GD_08(TestCases.TestCases)  Time elapsed: 5.503 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.AR_GD_08(TestCases.java:5689)
+
+AR_GD_09(TestCases.TestCases)  Time elapsed: 25.255 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_GD_10(TestCases.TestCases)  Time elapsed: 11.43 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_GD_11(TestCases.TestCases)  Time elapsed: 19.634 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_GD_12(TestCases.TestCases)  Time elapsed: 28.611 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_GD_13(TestCases.TestCases)  Time elapsed: 3.889 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.AR_GD_13(TestCases.java:5767)
+
+AR_GD_14(TestCases.TestCases)  Time elapsed: 14.717 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_GD_15(TestCases.TestCases)  Time elapsed: 16.731 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_GD_16(TestCases.TestCases)  Time elapsed: 17.272 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_01(TestCases.TestCases)  Time elapsed: 14.666 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_02(TestCases.TestCases)  Time elapsed: 17.342 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_03(TestCases.TestCases)  Time elapsed: 22.985 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_DET_22(TestCases.TestCases)  Time elapsed: 22.307 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_DET_22(TestCases.java:2130)
+
+AR_OB_04(TestCases.TestCases)  Time elapsed: 3.428 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_05(TestCases.TestCases)  Time elapsed: 22.426 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_06(TestCases.TestCases)  Time elapsed: 25.409 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_07(TestCases.TestCases)  Time elapsed: 26.34 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_08(TestCases.TestCases)  Time elapsed: 28.642 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_09(TestCases.TestCases)  Time elapsed: 25.287 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_10(TestCases.TestCases)  Time elapsed: 27.213 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_11(TestCases.TestCases)  Time elapsed: 19.877 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_12(TestCases.TestCases)  Time elapsed: 29.325 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_13(TestCases.TestCases)  Time elapsed: 19.074 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_14(TestCases.TestCases)  Time elapsed: 14.855 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_15(TestCases.TestCases)  Time elapsed: 16.361 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_OB_16(TestCases.TestCases)  Time elapsed: 17.141 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_01(TestCases.TestCases)  Time elapsed: 18.179 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_SBS_001(TestCases.TestCases)  Time elapsed: 0.523 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_001(TestCases.java:2147)
+
+AR_YTCR_02(TestCases.TestCases)  Time elapsed: 27.38 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_03(TestCases.TestCases)  Time elapsed: 19.237 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_04(TestCases.TestCases)  Time elapsed: 25.27 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_05(TestCases.TestCases)  Time elapsed: 25.341 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_06(TestCases.TestCases)  Time elapsed: 30.314 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_07(TestCases.TestCases)  Time elapsed: 31.36 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_08(TestCases.TestCases)  Time elapsed: 33.491 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_09(TestCases.TestCases)  Time elapsed: 12.242 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_10(TestCases.TestCases)  Time elapsed: 28.014 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_13(TestCases.TestCases)  Time elapsed: 19.47 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_14(TestCases.TestCases)  Time elapsed: 18.659 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_15(TestCases.TestCases)  Time elapsed: 20.38 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_16(TestCases.TestCases)  Time elapsed: 21.452 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_YTCR_17(TestCases.TestCases)  Time elapsed: 22.368 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_01(TestCases.TestCases)  Time elapsed: 15.926 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_02(TestCases.TestCases)  Time elapsed: 17.277 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_03(TestCases.TestCases)  Time elapsed: 18.357 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_04(TestCases.TestCases)  Time elapsed: 24.53 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_05(TestCases.TestCases)  Time elapsed: 24.387 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_06(TestCases.TestCases)  Time elapsed: 27.169 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_07(TestCases.TestCases)  Time elapsed: 30.152 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_08(TestCases.TestCases)  Time elapsed: 32.261 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_09(TestCases.TestCases)  Time elapsed: 27.029 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_10(TestCases.TestCases)  Time elapsed: 29.659 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_13(TestCases.TestCases)  Time elapsed: 21.832 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_14(TestCases.TestCases)  Time elapsed: 15.237 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_15(TestCases.TestCases)  Time elapsed: 19.328 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_16(TestCases.TestCases)  Time elapsed: 20.714 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+AR_WSM_22(TestCases.TestCases)  Time elapsed: 17.456 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TC_Logout(TestCases.TestCases)  Time elapsed: 23.38 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TDR_SBS_006(TestCases.TestCases)  Time elapsed: 174.755 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_006(TestCases.java:2222)
+
+UR_CLD_08(TestCases.TestCases)  Time elapsed: 41.038 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_08(TestCases.java:549)
+
+UR_CLD_09(TestCases.TestCases)  Time elapsed: 121.543 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_09(TestCases.java:566)
+
+TDR_SBS_011(TestCases.TestCases)  Time elapsed: 578.909 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_011(TestCases.java:2297)
+
+TDR_SBS_012(TestCases.TestCases)  Time elapsed: 610.827 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_012(TestCases.java:2312)
+
+TDR_SBS_013(TestCases.TestCases)  Time elapsed: 649.624 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_013(TestCases.java:2327)
+
+TDR_SBS_014(TestCases.TestCases)  Time elapsed: 280.957 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_014(TestCases.java:2342)
+
+UR_CLD_11(TestCases.TestCases)  Time elapsed: 279.683 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_11(TestCases.java:600)
+
+TDR_SBS_015(TestCases.TestCases)  Time elapsed: 342.729 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_015(TestCases.java:2357)
+
+TDR_SBCE_005(TestCases.TestCases)  Time elapsed: 108.752 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBCE_005(TestCases.java:2466)
+
+UR_CLD_12(TestCases.TestCases)  Time elapsed: 173.366 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_12(TestCases.java:617)
+
+TDR_SBCE_008(TestCases.TestCases)  Time elapsed: 862.916 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBCE_008(TestCases.java:2511)
+
+UR_CLD_13(TestCases.TestCases)  Time elapsed: 293.473 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_13(TestCases.java:634)
+
+TDR_SBCE_009(TestCases.TestCases)  Time elapsed: 222.957 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBCE_009(TestCases.java:2526)
+
+UR_CLD_14(TestCases.TestCases)  Time elapsed: 305.513 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_14(TestCases.java:651)
+
+TDR_SBCE_010(TestCases.TestCases)  Time elapsed: 309.244 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBCE_010(TestCases.java:2541)
+
+UR_CLD_15(TestCases.TestCases)  Time elapsed: 736.42 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_15(TestCases.java:667)
+
+TDR_SBCE_011(TestCases.TestCases)  Time elapsed: 221.138 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBCE_011(TestCases.java:2556)
+
+UR_CLD_16(TestCases.TestCases)  Time elapsed: 999.026 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_16(TestCases.java:682)
+
+UR_CLD_17(TestCases.TestCases)  Time elapsed: 524.804 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_17(TestCases.java:698)
+
+TDR_SBCE_012(TestCases.TestCases)  Time elapsed: 102.012 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_SBCE_012(TestCases.java:2568)
+
+UR_CLD_18(TestCases.TestCases)  Time elapsed: 373.31 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_18(TestCases.java:714)
+
+UR_CLD_22(TestCases.TestCases)  Time elapsed: 638.857 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_22(TestCases.java:780)
+
+TDR_SBCE_013(TestCases.TestCases)  Time elapsed: 413.076 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBCE_013(TestCases.java:2588)
+
+UR_MCT_01(TestCases.TestCases)  Time elapsed: 403.164 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_01(TestCases.java:3813)
+
+TDR_SBCE_014(TestCases.TestCases)  Time elapsed: 404.594 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBCE_014(TestCases.java:2605)
+
+UR_MCT_02(TestCases.TestCases)  Time elapsed: 414.199 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_02(TestCases.java:3829)
+
+TDR_SBCE_015(TestCases.TestCases)  Time elapsed: 746.476 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBCE_015(TestCases.java:2622)
+
+UR_MCT_03(TestCases.TestCases)  Time elapsed: 184.38 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_03(TestCases.java:3846)
+
+TDR_SBCE_016(TestCases.TestCases)  Time elapsed: 1,094.235 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBCE_016(TestCases.java:2637)
+
+UR_MCT_04(TestCases.TestCases)  Time elapsed: 91.706 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_04(TestCases.java:3862)
+
+UR_MCT_05(TestCases.TestCases)  Time elapsed: 94.315 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_05(TestCases.java:3878)
+
+TDR_SBD_01(TestCases.TestCases)  Time elapsed: 216.503 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBD_01(TestCases.java:1619)
+
+UR_MCT_06(TestCases.TestCases)  Time elapsed: 334.678 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_06(TestCases.java:3894)
+
+TDR_SBD_02(TestCases.TestCases)  Time elapsed: 282.631 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBD_02(TestCases.java:1636)
+
+UR_MCT_07(TestCases.TestCases)  Time elapsed: 292.192 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_07(TestCases.java:3910)
+
+TDR_SBD_03(TestCases.TestCases)  Time elapsed: 370.244 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBD_03(TestCases.java:1652)
+
+TDR_SBD_04(TestCases.TestCases)  Time elapsed: 400.317 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_SBD_04(TestCases.java:1665)
+
+UR_MCT_08(TestCases.TestCases)  Time elapsed: 279.856 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_08(TestCases.java:3926)
+
+TDR_SBD_05(TestCases.TestCases)  Time elapsed: 83.458 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_SBD_05(TestCases.java:1681)
+
+TDR_SBD_06(TestCases.TestCases)  Time elapsed: 148.625 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBD_06(TestCases.java:1700)
+
+UR_MCT_09(TestCases.TestCases)  Time elapsed: 159.763 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_09(TestCases.java:3942)
+
+TDR_SBD_07(TestCases.TestCases)  Time elapsed: 212.003 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_SBD_07(TestCases.java:1713)
+
+UR_MCT_10(TestCases.TestCases)  Time elapsed: 214.068 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_10(TestCases.java:3958)
+
+TDR_SBD_08(TestCases.TestCases)  Time elapsed: 181.509 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_SBD_08(TestCases.java:1729)
+
+TDR_SBD_09(TestCases.TestCases)  Time elapsed: 365.255 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBD_09(TestCases.java:1748)
+
+UR_MCT_11(TestCases.TestCases)  Time elapsed: 320.769 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_11(TestCases.java:3975)
+
+TDR_SBD_10(TestCases.TestCases)  Time elapsed: 268.208 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_SBD_10(TestCases.java:1761)
+
+TDR_SBD_11(TestCases.TestCases)  Time elapsed: 681.818 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBD_11(TestCases.java:1780)
+
+UR_MCT_12(TestCases.TestCases)  Time elapsed: 515.628 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_12(TestCases.java:3991)
+
+TDR_SBD_12(TestCases.TestCases)  Time elapsed: 478.137 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_SBD_12(TestCases.java:1793)
+
+UR_MCT_13(TestCases.TestCases)  Time elapsed: 566.749 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_13(TestCases.java:4006)
+
+TDR_SBD_13(TestCases.TestCases)  Time elapsed: 53.027 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_SBD_13(TestCases.java:1809)
+
+TDR_SBD_14(TestCases.TestCases)  Time elapsed: 165.208 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBD_14(TestCases.java:1828)
+
+UR_MCT_14(TestCases.TestCases)  Time elapsed: 405.294 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_14(TestCases.java:4022)
+
+TDR_SBD_15(TestCases.TestCases)  Time elapsed: 745.508 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBD_15(TestCases.java:1844)
+
+UR_MCT_15(TestCases.TestCases)  Time elapsed: 503.206 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_15(TestCases.java:4037)
+
+TDR_SBD_16(TestCases.TestCases)  Time elapsed: 824.112 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBD_16(TestCases.java:1860)
+
+UR_MCT_16(TestCases.TestCases)  Time elapsed: 847.825 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_16(TestCases.java:4052)
+
+TDR_OUT_01(TestCases.TestCases)  Time elapsed: 168.234 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_OUT_01(TestCases.java:2652)
+
+UR_TIM_01(TestCases.TestCases)  Time elapsed: 405.053 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_01(TestCases.java:4067)
+
+TDR_OUT_02(TestCases.TestCases)  Time elapsed: 413.744 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_OUT_02(TestCases.java:2667)
+
+UR_TIM_02(TestCases.TestCases)  Time elapsed: 417.127 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_02(TestCases.java:4083)
+
+TDR_OUT_03(TestCases.TestCases)  Time elapsed: 434.066 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_OUT_03(TestCases.java:2682)
+
+UR_TIM_03(TestCases.TestCases)  Time elapsed: 310.833 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_03(TestCases.java:4099)
+
+TDR_OUT_04(TestCases.TestCases)  Time elapsed: 320.413 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_OUT_04(TestCases.java:2694)
+
+TDR_OUT_05(TestCases.TestCases)  Time elapsed: 106.343 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_OUT_05(TestCases.java:2712)
+
+UR_TIM_04(TestCases.TestCases)  Time elapsed: 107.935 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_04(TestCases.java:4115)
+
+UR_TIM_05(TestCases.TestCases)  Time elapsed: 95.984 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_05(TestCases.java:4132)
+
+TDR_OUT_06(TestCases.TestCases)  Time elapsed: 92.651 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_OUT_06(TestCases.java:2724)
+
+TDR_OUT_07(TestCases.TestCases)  Time elapsed: 108.111 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_OUT_07(TestCases.java:2740)
+
+UR_TIM_06(TestCases.TestCases)  Time elapsed: 160.446 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_06(TestCases.java:4148)
+
+TDR_OUT_08(TestCases.TestCases)  Time elapsed: 139.765 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_OUT_08(TestCases.java:2755)
+
+TDR_OUT_09(TestCases.TestCases)  Time elapsed: 106.628 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_OUT_09(TestCases.java:2770)
+
+UR_TIM_07(TestCases.TestCases)  Time elapsed: 245.515 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_07(TestCases.java:4164)
+
+TDR_OUT_10(TestCases.TestCases)  Time elapsed: 105.495 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_OUT_10(TestCases.java:2785)
+
+TDR_OUT_11(TestCases.TestCases)  Time elapsed: 495.146 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_OUT_11(TestCases.java:2800)
+
+TDR_OUT_12(TestCases.TestCases)  Time elapsed: 134.883 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_OUT_12(TestCases.java:2815)
+
+UR_TIM_08(TestCases.TestCases)  Time elapsed: 359.041 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_08(TestCases.java:4180)
+
+TDR_OUT_13(TestCases.TestCases)  Time elapsed: 11.16 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_OUT_13(TestCases.java:2830)
+
+TDR_OUT_14(TestCases.TestCases)  Time elapsed: 170.003 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_OUT_14(TestCases.java:2848)
+
+UR_TIM_09(TestCases.TestCases)  Time elapsed: 385.445 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_09(TestCases.java:4196)
+
+UR_TIM_10(TestCases.TestCases)  Time elapsed: 454.361 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_10(TestCases.java:4212)
+
+TDR_OUT_15(TestCases.TestCases)  Time elapsed: 111.197 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_OUT_15(TestCases.java:2863)
+
+UR_TIM_11(TestCases.TestCases)  Time elapsed: 341.721 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_11(TestCases.java:4228)
+
+TDR_OUT_16(TestCases.TestCases)  Time elapsed: 849.237 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_OUT_16(TestCases.java:2877)
+
+TDR_TTC_01(TestCases.TestCases)  Time elapsed: 418.359 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_TTC_01(TestCases.java:3262)
+
+UR_TIM_12(TestCases.TestCases)  Time elapsed: 501.752 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_12(TestCases.java:4244)
+
+TDR_TTC_02(TestCases.TestCases)  Time elapsed: 19.396 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TTC_02(TestCases.java:3275)
+
+TDR_TTC_03(TestCases.TestCases)  Time elapsed: 58.312 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TTC_03(TestCases.java:3291)
+
+TDR_TTC_04(TestCases.TestCases)  Time elapsed: 57.342 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TTC_04(TestCases.java:3307)
+
+TDR_TTC_05(TestCases.TestCases)  Time elapsed: 57.449 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TTC_05(TestCases.java:3323)
+
+TDR_TTC_06(TestCases.TestCases)  Time elapsed: 62.664 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TTC_06(TestCases.java:3339)
+
+TDR_TTC_07(TestCases.TestCases)  Time elapsed: 239.597 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TTC_07(TestCases.java:3355)
+
+TDR_TTC_08(TestCases.TestCases)  Time elapsed: 67.374 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TTC_08(TestCases.java:3371)
+
+TDR_TTC_09(TestCases.TestCases)  Time elapsed: 62.028 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TTC_09(TestCases.java:3386)
+
+TDR_TTC_10(TestCases.TestCases)  Time elapsed: 63.998 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TTC_10(TestCases.java:3403)
+
+TDR_TTC_11(TestCases.TestCases)  Time elapsed: 224.59 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TTC_11(TestCases.java:3421)
+
+TDR_TTC_12(TestCases.TestCases)  Time elapsed: 66.38 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TTC_12(TestCases.java:3437)
+
+TDR_TTC_13(TestCases.TestCases)  Time elapsed: 69.717 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TTC_13(TestCases.java:3453)
+
+TDR_TTC_14(TestCases.TestCases)  Time elapsed: 165.916 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_TTC_14(TestCases.java:3472)
+
+UR_TIM_13(TestCases.TestCases)  Time elapsed: 152.709 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_13(TestCases.java:4260)
+
+TDR_TTC_15(TestCases.TestCases)  Time elapsed: 379.57 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TTC_15(TestCases.java:3484)
+
+UR_TIM_14(TestCases.TestCases)  Time elapsed: 24.494 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_14(TestCases.java:4277)
+
+TDR_TTC_16(TestCases.TestCases)  Time elapsed: 178.02 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_TTC_16(TestCases.java:3502)
+
+TDR_BS_01(TestCases.TestCases)  Time elapsed: 341.43 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_BS_01(TestCases.java:3180)
+
+UR_TIM_15(TestCases.TestCases)  Time elapsed: 80.748 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_15(TestCases.java:4292)
+
+TDR_EA_01(TestCases.TestCases)  Time elapsed: 18.844 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_EA_01(TestCases.java:3215)
+
+TDR_TSA_01(TestCases.TestCases)  Time elapsed: 167.824 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_TSA_01(TestCases.java:2893)
+
+UR_TIM_16(TestCases.TestCases)  Time elapsed: 921.275 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_16(TestCases.java:4307)
+
+TDR_TSA_02(TestCases.TestCases)  Time elapsed: 5.448 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_02(TestCases.java:2906)
+
+CR_ESR_01(TestCases.TestCases)  Time elapsed: 411.965 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_01(TestCases.java:9759)
+
+TDR_TSA_03(TestCases.TestCases)  Time elapsed: 265.749 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_03(TestCases.java:2922)
+
+TDR_TSA_04(TestCases.TestCases)  Time elapsed: 55.612 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_04(TestCases.java:2938)
+
+TDR_TSA_05(TestCases.TestCases)  Time elapsed: 55.943 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_05(TestCases.java:2954)
+
+TDR_TSA_06(TestCases.TestCases)  Time elapsed: 51.539 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_06(TestCases.java:2970)
+
+CR_ESR_02(TestCases.TestCases)  Time elapsed: 275.849 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_02(TestCases.java:9775)
+
+TDR_TSA_07(TestCases.TestCases)  Time elapsed: 2.283 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_07(TestCases.java:2986)
+
+TDR_TSA_08(TestCases.TestCases)  Time elapsed: 81.079 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_08(TestCases.java:3003)
+
+TDR_TSA_09(TestCases.TestCases)  Time elapsed: 50.926 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_09(TestCases.java:3019)
+
+TDR_TSA_10(TestCases.TestCases)  Time elapsed: 54.049 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_10(TestCases.java:3035)
+
+TDR_TSA_11(TestCases.TestCases)  Time elapsed: 47.716 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_11(TestCases.java:3051)
+
+CR_ESR_03(TestCases.TestCases)  Time elapsed: 293.691 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_03(TestCases.java:9791)
+
+TDR_TSA_12(TestCases.TestCases)  Time elapsed: 3.151 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_12(TestCases.java:3067)
+
+TDR_TSA_13(TestCases.TestCases)  Time elapsed: 67.08 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_13(TestCases.java:3083)
+
+TDR_TSA_14(TestCases.TestCases)  Time elapsed: 167.658 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_TSA_14(TestCases.java:3102)
+
+CR_ESR_04(TestCases.TestCases)  Time elapsed: 313.987 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_04(TestCases.java:9807)
+
+CR_ESR_05(TestCases.TestCases)  Time elapsed: 88.207 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_05(TestCases.java:9823)
+
+TDR_TSA_15(TestCases.TestCases)  Time elapsed: 61.29 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_15(TestCases.java:3115)
+
+TDR_TSA_16(TestCases.TestCases)  Time elapsed: 28.399 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_TSA_16(TestCases.java:3131)
+
+TDR_CAS_01(TestCases.TestCases)  Time elapsed: 23.401 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_01(TestCases.java:1333)
+
+TDR_CAS_02(TestCases.TestCases)  Time elapsed: 32.011 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_02(TestCases.java:1349)
+
+TDR_CAS_03(TestCases.TestCases)  Time elapsed: 37.442 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_03(TestCases.java:1366)
+
+TDR_CAS_04(TestCases.TestCases)  Time elapsed: 47.404 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_04(TestCases.java:1383)
+
+TDR_CAS_05(TestCases.TestCases)  Time elapsed: 47.809 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_05(TestCases.java:1400)
+
+CR_ESR_06(TestCases.TestCases)  Time elapsed: 109.932 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_06(TestCases.java:9839)
+
+TDR_CAS_06(TestCases.TestCases)  Time elapsed: 108.321 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_06(TestCases.java:1416)
+
+TDR_CAS_07(TestCases.TestCases)  Time elapsed: 49.892 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_07(TestCases.java:1432)
+
+TDR_CAS_08(TestCases.TestCases)  Time elapsed: 54.432 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_08(TestCases.java:1449)
+
+TDR_CAS_09(TestCases.TestCases)  Time elapsed: 44.173 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_09(TestCases.java:1466)
+
+TDR_CAS_10(TestCases.TestCases)  Time elapsed: 47.289 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_10(TestCases.java:1483)
+
+CR_ESR_07(TestCases.TestCases)  Time elapsed: 205.812 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_07(TestCases.java:9855)
+
+TDR_CAS_11(TestCases.TestCases)  Time elapsed: 46.304 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_11(TestCases.java:1500)
+
+TDR_CAS_12(TestCases.TestCases)  Time elapsed: 52.898 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_12(TestCases.java:1517)
+
+TDR_CAS_13(TestCases.TestCases)  Time elapsed: 41.078 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_13(TestCases.java:1534)
+
+TDR_CAS_14(TestCases.TestCases)  Time elapsed: 23.696 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_14(TestCases.java:1551)
+
+TDR_CAS_15(TestCases.TestCases)  Time elapsed: 26.983 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_15(TestCases.java:1567)
+
+TDR_CAS_16(TestCases.TestCases)  Time elapsed: 29.148 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_16(TestCases.java:1582)
+
+TDR_CAS_22(TestCases.TestCases)  Time elapsed: 327.092 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TDR_CAS_22(TestCases.java:1598)
+
+SR_UW_01(TestCases.TestCases)  Time elapsed: 23.673 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_01(TestCases.java:6348)
+
+SR_UW_02(TestCases.TestCases)  Time elapsed: 28.756 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_02(TestCases.java:6363)
+
+SR_UW_03(TestCases.TestCases)  Time elapsed: 34.846 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_03(TestCases.java:6379)
+
+SR_UW_04(TestCases.TestCases)  Time elapsed: 45.4 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_04(TestCases.java:6394)
+
+SR_UW_05(TestCases.TestCases)  Time elapsed: 45.739 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_05(TestCases.java:6409)
+
+CR_ESR_08(TestCases.TestCases)  Time elapsed: 326.875 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_08(TestCases.java:9871)
+
+SR_UW_06(TestCases.TestCases)  Time elapsed: 3.296 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_06(TestCases.java:6424)
+
+SR_UW_07(TestCases.TestCases)  Time elapsed: 78.916 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_07(TestCases.java:6439)
+
+SR_UW_08(TestCases.TestCases)  Time elapsed: 56.733 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_08(TestCases.java:6454)
+
+SR_UW_09(TestCases.TestCases)  Time elapsed: 46.06 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_09(TestCases.java:6469)
+
+SR_UW_10(TestCases.TestCases)  Time elapsed: 49.101 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_10(TestCases.java:6484)
+
+SR_UW_13(TestCases.TestCases)  Time elapsed: 42.197 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_13(TestCases.java:6501)
+
+CR_ESR_09(TestCases.TestCases)  Time elapsed: 154.481 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_09(TestCases.java:9887)
+
+SR_UW_14(TestCases.TestCases)  Time elapsed: 70.786 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_14(TestCases.java:6516)
+
+SR_UW_15(TestCases.TestCases)  Time elapsed: 27.093 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_15(TestCases.java:6531)
+
+SR_UW_16(TestCases.TestCases)  Time elapsed: 29.122 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_16(TestCases.java:6546)
+
+SR_UW_22(TestCases.TestCases)  Time elapsed: 28.939 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_UW_22(TestCases.java:6613)
+
+SR_BUD_01(TestCases.TestCases)  Time elapsed: 23.442 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_01(TestCases.java:6630)
+
+SR_BUD_02(TestCases.TestCases)  Time elapsed: 33.151 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_02(TestCases.java:6645)
+
+SR_BUD_03(TestCases.TestCases)  Time elapsed: 36.672 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_03(TestCases.java:6661)
+
+CR_ESR_10(TestCases.TestCases)  Time elapsed: 187.459 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_10(TestCases.java:9903)
+
+SR_BUD_04(TestCases.TestCases)  Time elapsed: 62.752 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_04(TestCases.java:6677)
+
+SR_BUD_05(TestCases.TestCases)  Time elapsed: 47.48 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_05(TestCases.java:6693)
+
+SR_BUD_06(TestCases.TestCases)  Time elapsed: 47.437 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_06(TestCases.java:6709)
+
+SR_BUD_07(TestCases.TestCases)  Time elapsed: 53.295 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_07(TestCases.java:6725)
+
+SR_BUD_08(TestCases.TestCases)  Time elapsed: 56.767 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_08(TestCases.java:6741)
+
+CR_ESR_11(TestCases.TestCases)  Time elapsed: 190.385 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_11(TestCases.java:9919)
+
+SR_BUD_09(TestCases.TestCases)  Time elapsed: 280.861 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_09(TestCases.java:6757)
+
+SR_BUD_10(TestCases.TestCases)  Time elapsed: 50.922 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_10(TestCases.java:6773)
+
+SR_BUD_13(TestCases.TestCases)  Time elapsed: 42.267 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_13(TestCases.java:6789)
+
+SR_BUD_14(TestCases.TestCases)  Time elapsed: 24.036 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_14(TestCases.java:6805)
+
+SR_BUD_15(TestCases.TestCases)  Time elapsed: 27.305 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_15(TestCases.java:6821)
+
+SR_BUD_16(TestCases.TestCases)  Time elapsed: 29.395 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_16(TestCases.java:6837)
+
+SR_BUD_22(TestCases.TestCases)  Time elapsed: 33.384 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_BUD_22(TestCases.java:6853)
+
+SR_TTT_01(TestCases.TestCases)  Time elapsed: 23.557 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_01(TestCases.java:7154)
+
+SR_TTT_02(TestCases.TestCases)  Time elapsed: 3.657 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_02(TestCases.java:7170)
+
+SR_TTT_03(TestCases.TestCases)  Time elapsed: 31.336 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_03(TestCases.java:7186)
+
+SR_TTT_04(TestCases.TestCases)  Time elapsed: 45.997 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_04(TestCases.java:7202)
+
+SR_TTT_05(TestCases.TestCases)  Time elapsed: 46.187 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_05(TestCases.java:7218)
+
+SR_TTT_06(TestCases.TestCases)  Time elapsed: 248.177 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_06(TestCases.java:7234)
+
+SR_TTT_07(TestCases.TestCases)  Time elapsed: 52.625 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_07(TestCases.java:7250)
+
+SR_TTT_08(TestCases.TestCases)  Time elapsed: 54.938 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_08(TestCases.java:7266)
+
+SR_TTT_09(TestCases.TestCases)  Time elapsed: 45.148 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_09(TestCases.java:7282)
+
+SR_TTT_10(TestCases.TestCases)  Time elapsed: 49.929 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_10(TestCases.java:7298)
+
+SR_TTT_11(TestCases.TestCases)  Time elapsed: 40.04 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_11(TestCases.java:7314)
+
+CR_ESR_12(TestCases.TestCases)  Time elapsed: 291.211 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_12(TestCases.java:9935)
+
+SR_TTT_12(TestCases.TestCases)  Time elapsed: 2.545 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_12(TestCases.java:7331)
+
+SR_TTT_13(TestCases.TestCases)  Time elapsed: 55.161 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_13(TestCases.java:7347)
+
+SR_TTT_14(TestCases.TestCases)  Time elapsed: 23.407 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_14(TestCases.java:7363)
+
+SR_TTT_15(TestCases.TestCases)  Time elapsed: 27.594 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_15(TestCases.java:7379)
+
+SR_TTT_16(TestCases.TestCases)  Time elapsed: 30.1 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_16(TestCases.java:7395)
+
+CR_ESR_13(TestCases.TestCases)  Time elapsed: 25.542 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ESR_14(TestCases.TestCases)  Time elapsed: 19.786 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ESR_15(TestCases.TestCases)  Time elapsed: 30.761 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ESR_16(TestCases.TestCases)  Time elapsed: 28.39 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ESR_17(TestCases.TestCases)  Time elapsed: 29.559 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ESR_22(TestCases.TestCases)  Time elapsed: 26.618 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TTT_17(TestCases.TestCases)  Time elapsed: 14.432 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TTT_17(TestCases.java:7411)
+
+CR_ED_01(TestCases.TestCases)  Time elapsed: 17.244 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_02(TestCases.TestCases)  Time elapsed: 37.174 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_03(TestCases.TestCases)  Time elapsed: 24.407 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_04(TestCases.TestCases)  Time elapsed: 48.31 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_05(TestCases.TestCases)  Time elapsed: 47.647 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_06(TestCases.TestCases)  Time elapsed: 48.489 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_07(TestCases.TestCases)  Time elapsed: 31.353 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_08(TestCases.TestCases)  Time elapsed: 57.57 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_09(TestCases.TestCases)  Time elapsed: 46.118 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_10(TestCases.TestCases)  Time elapsed: 50.404 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_11(TestCases.TestCases)  Time elapsed: 42.166 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_12(TestCases.TestCases)  Time elapsed: 46.945 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_13(TestCases.TestCases)  Time elapsed: 40.014 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_14(TestCases.TestCases)  Time elapsed: 23.224 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_15(TestCases.TestCases)  Time elapsed: 29.513 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_16(TestCases.TestCases)  Time elapsed: 30.11 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_17(TestCases.TestCases)  Time elapsed: 32.5 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_ED_22(TestCases.TestCases)  Time elapsed: 46.519 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_01(TestCases.TestCases)  Time elapsed: 24.215 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_02(TestCases.TestCases)  Time elapsed: 36.882 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_03(TestCases.TestCases)  Time elapsed: 38.065 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_04(TestCases.TestCases)  Time elapsed: 48.615 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_05(TestCases.TestCases)  Time elapsed: 38.776 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_06(TestCases.TestCases)  Time elapsed: 48.834 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_07(TestCases.TestCases)  Time elapsed: 53.948 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_08(TestCases.TestCases)  Time elapsed: 58.184 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_09(TestCases.TestCases)  Time elapsed: 46.674 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_10(TestCases.TestCases)  Time elapsed: 50.639 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_11(TestCases.TestCases)  Time elapsed: 41.816 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_12(TestCases.TestCases)  Time elapsed: 56.996 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_13(TestCases.TestCases)  Time elapsed: 44.057 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_14(TestCases.TestCases)  Time elapsed: 23.771 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_15(TestCases.TestCases)  Time elapsed: 27.701 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_16(TestCases.TestCases)  Time elapsed: 1,086.671 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_17(TestCases.TestCases)  Time elapsed: 29.392 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_EDTL_22(TestCases.TestCases)  Time elapsed: 27.813 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_01(TestCases.TestCases)  Time elapsed: 23.683 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_02(TestCases.TestCases)  Time elapsed: 32.492 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_03(TestCases.TestCases)  Time elapsed: 32.07 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_04(TestCases.TestCases)  Time elapsed: 31.999 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_05(TestCases.TestCases)  Time elapsed: 33.315 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_06(TestCases.TestCases)  Time elapsed: 35.218 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_07(TestCases.TestCases)  Time elapsed: 43.04 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_08(TestCases.TestCases)  Time elapsed: 45.303 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_09(TestCases.TestCases)  Time elapsed: 37.072 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_10(TestCases.TestCases)  Time elapsed: 40.708 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_13(TestCases.TestCases)  Time elapsed: 35.211 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_14(TestCases.TestCases)  Time elapsed: 20.801 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_15(TestCases.TestCases)  Time elapsed: 23.496 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_16(TestCases.TestCases)  Time elapsed: 24.652 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SO_17(TestCases.TestCases)  Time elapsed: 40.082 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_01(TestCases.TestCases)  Time elapsed: 21.802 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_02(TestCases.TestCases)  Time elapsed: 30.461 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_03(TestCases.TestCases)  Time elapsed: 29.964 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_04(TestCases.TestCases)  Time elapsed: 31.301 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_05(TestCases.TestCases)  Time elapsed: 30.927 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_06(TestCases.TestCases)  Time elapsed: 38.332 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_07(TestCases.TestCases)  Time elapsed: 41.945 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_08(TestCases.TestCases)  Time elapsed: 45.981 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TBS_08(TestCases.TestCases)  Time elapsed: 25.824 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.SR_TBS_08(TestCases.java:6981)
+
+CR_SOD_09(TestCases.TestCases)  Time elapsed: 35.441 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_10(TestCases.TestCases)  Time elapsed: 40.217 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_13(TestCases.TestCases)  Time elapsed: 34.999 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_14(TestCases.TestCases)  Time elapsed: 25.763 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_15(TestCases.TestCases)  Time elapsed: 23.779 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_16(TestCases.TestCases)  Time elapsed: 24.946 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_17(TestCases.TestCases)  Time elapsed: 26.22 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+CR_SOD_18(TestCases.TestCases)  Time elapsed: 2.691 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.CR_SOD_18(TestCases.java:10628)
+
+TC_Logout(TestCases.TestCases)  Time elapsed: 17.287 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TBS_11(TestCases.TestCases)  Time elapsed: 210.77 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TBS_12(TestCases.TestCases)  Time elapsed: 40.809 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TBS_13(TestCases.TestCases)  Time elapsed: 34.915 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TBS_14(TestCases.TestCases)  Time elapsed: 19.946 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TBS_15(TestCases.TestCases)  Time elapsed: 22.335 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TBS_16(TestCases.TestCases)  Time elapsed: 23.784 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TBS_17(TestCases.TestCases)  Time elapsed: 24.834 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+SR_TBS_22(TestCases.TestCases)  Time elapsed: 25.626 s  <<< FAILURE!
+java.lang.StackOverflowError
+
+TC_Logout(TestCases.TestCases)  Time elapsed: 17.959 s  <<< FAILURE!
+java.lang.StackOverflowError
+

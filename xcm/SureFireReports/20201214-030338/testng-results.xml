@@ -1,0 +1,3646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="9" ignored="617" total="660" passed="34">
+  <reporter-output>
+    <line>
+      <![CDATA[<font color='green'>Open Browser : chrome</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Navigate to : https://claqat.xcmsolutions.com/xcmv2/account/login?ReturnUrl=%2Fxcmv2%2F</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Server Details : BLR-QA-FE-1</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Type '1689web@xcmsolutions.com' in : Username </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Type 'xcmWK#12' in : Password </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Login button </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Home page is displayed</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure1.png'><font color='red'>Switching to frame Frame path did not happen within 30 seconds</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure2.png'><font color='red'>Switching to frame Frame path did not happen within 3 seconds</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure3.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure4.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Issues/Points - All Report not generated .</font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure5.png'><font color='red'>Issues/Points - AllReport not generated -Issue in the Report.</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Issues & Points - Open Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>CheckList Status Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>CheckList Details Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>My Clients/Entities - Tasks Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Tasks I Moved Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>By Deliverables Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>By Deliverables - Distributable Format Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Billing - Due Date Summary with Deliverable Count Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Extension Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Summary - Distributable Format Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Summary Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Combined Assembly and Shipping Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Detailed Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>eFile Status Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure7.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure7.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure8.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Outsourced Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Search By Client/Entity Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Search By Status Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure9.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Search By Date Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Time Taken To Complete Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Task Status Aging Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Utilites icon is successfully clicked.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Utilities button icon </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Move the mouse over 'Manage settings and defaults'</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Manage settings and defaults</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Edit Role Names </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Use Defaults Radio Button is selected in utilities Page</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Save role name </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on Alert OK button</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Save role name button is clicked successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Budget & Actual Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tax - 1040 Individual is selected from Dropdown list.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tax - 1040 Individual is selected from dropdown list.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Size of Fiscal Year Dropdown is : 11</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Fiscal Year dropdown values are : [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Fiscal Year is entered Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Export button is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Export Button </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>  File has downloaded successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Time taken to open the  report is: 4110 Milli Seconds.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Utilites icon is successfully clicked.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Utilities button icon </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Move the mouse over 'Manage settings and defaults'</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Manage settings and defaults</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Edit Role Names </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Use Defaults Radio Button is selected in utilities Page</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Save role name </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on Alert OK button</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Save role name button is clicked successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Export Actual Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tax - 1040 Individual is selected from Dropdown list.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tax - 1040 Individual is selected from dropdown list.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Fiscal Year is entered Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Size of Fiscal Year Dropdown is : 11</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Fiscal Year dropdown values are : [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Export button is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Export Button </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>  File has downloaded successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Time taken to open the  report is: 4245 Milli Seconds.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Utilites icon is successfully clicked.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Utilities button icon </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Move the mouse over 'Manage settings and defaults'</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Manage settings and defaults</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Edit Role Names </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Use Defaults Radio Button is selected in utilities Page</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Save role name </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on Alert OK button</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Save role name button is clicked successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Budget & Staff Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tax - 1040 Individual is selected from Dropdown list.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tax - 1040 Individual is selected from dropdown list.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Size of Fiscal Year Dropdown is : 11</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Fiscal Year dropdown values are : [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Fiscal Year is entered Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Export button is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Export Button </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>  File has downloaded successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Time taken to open the  report is: 4176 Milli Seconds.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>User Workload Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Budgeting Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Tasks By Task Type Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Tasks By Status Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure10.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure11.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Engagement Dates Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Engagement Details Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Engagement Summary Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure35.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure35.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure35.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>SignOffs Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure36.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure37.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>SignOffs By Date Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Client/Entity Details Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Group Details Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure41.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure41.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure41.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure41.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure42.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Outsource Billing Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Recurring Tasks Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure47.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure47.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure47.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure47.png'><font color='red'></font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure47.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure48.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Staffing Assignments Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>User Details Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Workflow Status Mapping Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Yearly Tax Comparison Report Report link is clicked Successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Period End is entered Successfully aganist </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>5/8/19 is entered in date field.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Report as of is entered Successfully aganist </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>8/9/19 is entered in date field.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Yearly Tax Comparison Report Report not generated .</font>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='Screenshots/TestFailure49.png'><font color='red'>Yearly Tax Comparison ReportReport not generated -Issue in the Report.</font> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Profile link </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Click on: Log off </font>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14777493" started-at="2020-12-14T03:03:52Z" finished-at="2020-12-14T07:10:10Z">
+    <groups>
+    </groups>
+    <test name="Desktop1" duration-ms="14777493" started-at="2020-12-14T03:03:52Z" finished-at="2020-12-14T07:10:10Z">
+      <class name="TestCases.TestCases">
+        <test-method status="PASS" signature="init()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="init" is-config="true" duration-ms="682" started-at="2020-12-14T08:33:52Z" finished-at="2020-12-14T08:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="precondition(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="precondition" is-config="true" duration-ms="18205" started-at="2020-12-14T08:33:52Z" finished-at="2020-12-14T08:34:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Desktop1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7851]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Open Browser : chrome</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Navigate to : https://claqat.xcmsolutions.com/xcmv2/account/login?ReturnUrl=%2Fxcmv2%2F</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T08:34:11Z" finished-at="2020-12-14T08:34:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TC_Login(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TC_Login" duration-ms="25306" started-at="2020-12-14T08:34:11Z" finished-at="2020-12-14T08:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TC_Login(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Server Details : BLR-QA-FE-1</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Type '1689web@xcmsolutions.com' in : Username </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Type 'xcmWK#12' in : Password </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Login button </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Home page is displayed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Login -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T08:34:36Z" finished-at="2020-12-14T08:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="UR_IPA_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="UR_IPA_01" duration-ms="123615" started-at="2020-12-14T08:34:36Z" finished-at="2020-12-14T08:36:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.UR_IPA_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPA_01(TestCases.java:150)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure1.png'><font color='red'>Switching to frame Frame path did not happen within 30 seconds</font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure2.png'><font color='red'>Switching to frame Frame path did not happen within 3 seconds</font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure3.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure4.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Issues/Points - All Report not generated .</font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure5.png'><font color='red'>Issues/Points - AllReport not generated -Issue in the Report.</font> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UR_IPA_01 -->
+        <test-method status="PASS" signature="UR_IPO_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="UR_IPO_01" duration-ms="336688" started-at="2020-12-14T08:36:40Z" finished-at="2020-12-14T08:42:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.UR_IPO_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Issues & Points - Open Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UR_IPO_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T08:36:40Z" finished-at="2020-12-14T08:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T08:42:16Z" finished-at="2020-12-14T08:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="UR_CLS_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="UR_CLS_01" duration-ms="292467" started-at="2020-12-14T08:42:16Z" finished-at="2020-12-14T08:47:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.UR_CLS_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>CheckList Status Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UR_CLS_01 -->
+        <test-method status="PASS" signature="UR_CLD_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="UR_CLD_01" duration-ms="279784" started-at="2020-12-14T08:47:09Z" finished-at="2020-12-14T08:51:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.UR_CLD_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>CheckList Details Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UR_CLD_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T08:47:09Z" finished-at="2020-12-14T08:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="UR_MCT_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="UR_MCT_01" duration-ms="309791" started-at="2020-12-14T08:51:48Z" finished-at="2020-12-14T08:56:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.UR_MCT_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>My Clients/Entities - Tasks Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UR_MCT_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T08:51:48Z" finished-at="2020-12-14T08:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="1" started-at="2020-12-14T08:56:58Z" finished-at="2020-12-14T08:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="UR_TIM_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="UR_TIM_01" duration-ms="279207" started-at="2020-12-14T08:56:58Z" finished-at="2020-12-14T09:01:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.UR_TIM_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Tasks I Moved Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UR_TIM_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T09:01:37Z" finished-at="2020-12-14T09:01:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="DDR_BD_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="DDR_BD_01" duration-ms="280064" started-at="2020-12-14T09:01:37Z" finished-at="2020-12-14T09:06:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.DDR_BD_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>By Deliverables Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DDR_BD_01 -->
+        <test-method status="PASS" signature="DDR_BDDF_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="DDR_BDDF_01" duration-ms="280227" started-at="2020-12-14T09:06:18Z" finished-at="2020-12-14T09:10:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.DDR_BDDF_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>By Deliverables - Distributable Format Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DDR_BDDF_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T09:06:18Z" finished-at="2020-12-14T09:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="DDR_BDDS_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="DDR_BDDS_01" duration-ms="300781" started-at="2020-12-14T09:10:58Z" finished-at="2020-12-14T09:15:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.DDR_BDDS_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Billing - Due Date Summary with Deliverable Count Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DDR_BDDS_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T09:10:58Z" finished-at="2020-12-14T09:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="DDR_EXT_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="DDR_EXT_01" duration-ms="279704" started-at="2020-12-14T09:15:59Z" finished-at="2020-12-14T09:20:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.DDR_EXT_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Extension Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DDR_EXT_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T09:15:59Z" finished-at="2020-12-14T09:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T09:20:38Z" finished-at="2020-12-14T09:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="DDR_SDF_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="DDR_SDF_01" duration-ms="280120" started-at="2020-12-14T09:20:38Z" finished-at="2020-12-14T09:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.DDR_SDF_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Summary - Distributable Format Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DDR_SDF_01 -->
+        <test-method status="PASS" signature="DDR_SUM_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="DDR_SUM_01" duration-ms="279911" started-at="2020-12-14T09:25:18Z" finished-at="2020-12-14T09:29:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.DDR_SUM_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Summary Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DDR_SUM_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T09:25:18Z" finished-at="2020-12-14T09:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T09:29:58Z" finished-at="2020-12-14T09:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TDR_CAS_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_CAS_01" duration-ms="280158" started-at="2020-12-14T09:29:58Z" finished-at="2020-12-14T09:34:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_CAS_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Combined Assembly and Shipping Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_CAS_01 -->
+        <test-method status="PASS" signature="TDR_DET_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_DET_01" duration-ms="280719" started-at="2020-12-14T09:34:38Z" finished-at="2020-12-14T09:39:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_DET_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Detailed Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_DET_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T09:34:38Z" finished-at="2020-12-14T09:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T09:39:19Z" finished-at="2020-12-14T09:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="TDR_EFS_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_EFS_01" duration-ms="342400" started-at="2020-12-14T09:39:19Z" finished-at="2020-12-14T09:45:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_EFS_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_01(TestCases.java:1054)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>eFile Status Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure7.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure7.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure8.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_EFS_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="1" started-at="2020-12-14T09:45:02Z" finished-at="2020-12-14T09:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TDR_OUT_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_OUT_01" duration-ms="279662" started-at="2020-12-14T09:45:02Z" finished-at="2020-12-14T09:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_OUT_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Outsourced Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_OUT_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T09:49:41Z" finished-at="2020-12-14T09:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TDR_SBCE_001(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_SBCE_001" duration-ms="279138" started-at="2020-12-14T09:49:41Z" finished-at="2020-12-14T09:54:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_SBCE_001(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Search By Client/Entity Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_SBCE_001 -->
+        <test-method status="FAIL" signature="TDR_SBS_001(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_SBS_001" duration-ms="275487" started-at="2020-12-14T09:54:20Z" finished-at="2020-12-14T09:58:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_SBS_001(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_001(TestCases.java:2147)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Search By Status Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure9.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_SBS_001 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T09:54:20Z" finished-at="2020-12-14T09:54:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="1" started-at="2020-12-14T09:58:56Z" finished-at="2020-12-14T09:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TDR_SBD_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_SBD_01" duration-ms="278968" started-at="2020-12-14T09:58:56Z" finished-at="2020-12-14T10:03:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_SBD_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Search By Date Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_SBD_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="1" started-at="2020-12-14T10:03:35Z" finished-at="2020-12-14T10:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TDR_TTC_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_TTC_01" duration-ms="279863" started-at="2020-12-14T10:03:35Z" finished-at="2020-12-14T10:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_TTC_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Time Taken To Complete Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_TTC_01 -->
+        <test-method status="PASS" signature="TDR_TSA_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_TSA_01" duration-ms="281642" started-at="2020-12-14T10:08:15Z" finished-at="2020-12-14T10:12:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_TSA_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Task Status Aging Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_TSA_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T10:08:15Z" finished-at="2020-12-14T10:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T10:12:56Z" finished-at="2020-12-14T10:12:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TDR_BA_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_BA_01" duration-ms="657935" started-at="2020-12-14T10:12:56Z" finished-at="2020-12-14T10:23:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_BA_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Utilites icon is successfully clicked.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Utilities button icon </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Move the mouse over 'Manage settings and defaults'</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Manage settings and defaults</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Edit Role Names </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Use Defaults Radio Button is selected in utilities Page</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Save role name </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on Alert OK button</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Save role name button is clicked successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Budget & Actual Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tax - 1040 Individual is selected from Dropdown list.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tax - 1040 Individual is selected from dropdown list.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Size of Fiscal Year Dropdown is : 11</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Fiscal Year dropdown values are : [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Fiscal Year is entered Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Export button is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Export Button </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>  File has downloaded successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Time taken to open the  report is: 4110 Milli Seconds.</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_BA_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T10:23:54Z" finished-at="2020-12-14T10:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TDR_EA_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_EA_01" duration-ms="650591" started-at="2020-12-14T10:23:54Z" finished-at="2020-12-14T10:34:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_EA_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Utilites icon is successfully clicked.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Utilities button icon </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Move the mouse over 'Manage settings and defaults'</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Manage settings and defaults</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Edit Role Names </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Use Defaults Radio Button is selected in utilities Page</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Save role name </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on Alert OK button</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Save role name button is clicked successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Export Actual Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tax - 1040 Individual is selected from Dropdown list.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tax - 1040 Individual is selected from dropdown list.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Fiscal Year is entered Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Size of Fiscal Year Dropdown is : 11</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Fiscal Year dropdown values are : [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Export button is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Export Button </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>  File has downloaded successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Time taken to open the  report is: 4245 Milli Seconds.</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_EA_01 -->
+        <test-method status="PASS" signature="TDR_BS_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TDR_BS_01" duration-ms="815053" started-at="2020-12-14T10:34:45Z" finished-at="2020-12-14T10:48:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TDR_BS_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Utilites icon is successfully clicked.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Utilities button icon </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Move the mouse over 'Manage settings and defaults'</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Manage settings and defaults</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Edit Role Names </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Use Defaults Radio Button is selected in utilities Page</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Save role name </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on Alert OK button</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Save role name button is clicked successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Budget & Staff Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tax - 1040 Individual is selected from Dropdown list.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tax - 1040 Individual is selected from dropdown list.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Size of Fiscal Year Dropdown is : 11</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Fiscal Year dropdown values are : [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Fiscal Year is entered Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Dropdown value is Selected Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Export button is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Export Button </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>  File has downloaded successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Time taken to open the  report is: 4176 Milli Seconds.</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TDR_BS_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T10:34:45Z" finished-at="2020-12-14T10:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="SR_UW_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="SR_UW_01" duration-ms="205291" started-at="2020-12-14T10:48:20Z" finished-at="2020-12-14T10:51:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.SR_UW_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>User Workload Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SR_UW_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T10:48:20Z" finished-at="2020-12-14T10:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T10:51:45Z" finished-at="2020-12-14T10:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="SR_BUD_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="SR_BUD_01" duration-ms="282369" started-at="2020-12-14T10:51:45Z" finished-at="2020-12-14T10:56:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.SR_BUD_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Budgeting Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SR_BUD_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="1" started-at="2020-12-14T10:56:28Z" finished-at="2020-12-14T10:56:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="SR_TTT_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="SR_TTT_01" duration-ms="279345" started-at="2020-12-14T10:56:28Z" finished-at="2020-12-14T11:01:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.SR_TTT_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Tasks By Task Type Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SR_TTT_01 -->
+        <test-method status="FAIL" signature="SR_TBS_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="SR_TBS_01" duration-ms="342360" started-at="2020-12-14T11:01:07Z" finished-at="2020-12-14T11:06:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.SR_TBS_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.SR_TBS_01(TestCases.java:6873)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Tasks By Status Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure10.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure11.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SR_TBS_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T11:01:07Z" finished-at="2020-12-14T11:01:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="CR_ED_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="CR_ED_01" duration-ms="356724" started-at="2020-12-14T11:06:49Z" finished-at="2020-12-14T11:12:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.CR_ED_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Engagement Dates Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CR_ED_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T11:06:49Z" finished-at="2020-12-14T11:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T11:12:46Z" finished-at="2020-12-14T11:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="CR_EDTL_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="CR_EDTL_01" duration-ms="280180" started-at="2020-12-14T11:12:46Z" finished-at="2020-12-14T11:17:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.CR_EDTL_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Engagement Details Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CR_EDTL_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T11:17:26Z" finished-at="2020-12-14T11:17:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="CR_ESR_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="CR_ESR_01" duration-ms="1672946" started-at="2020-12-14T11:17:26Z" finished-at="2020-12-14T11:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.CR_ESR_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_01(TestCases.java:9759)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Engagement Summary Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure32.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure35.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure35.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure35.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CR_ESR_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="1" started-at="2020-12-14T11:45:19Z" finished-at="2020-12-14T11:45:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="CR_SO_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="CR_SO_01" duration-ms="298205" started-at="2020-12-14T11:45:19Z" finished-at="2020-12-14T11:50:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.CR_SO_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_SO_01(TestCases.java:10051)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>SignOffs Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure36.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure37.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CR_SO_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="1" started-at="2020-12-14T11:50:17Z" finished-at="2020-12-14T11:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="CR_SOD_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="CR_SOD_01" duration-ms="282458" started-at="2020-12-14T11:50:17Z" finished-at="2020-12-14T11:55:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.CR_SOD_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>SignOffs By Date Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CR_SOD_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T11:55:00Z" finished-at="2020-12-14T11:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="AR_CED_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="AR_CED_01" duration-ms="279600" started-at="2020-12-14T11:55:00Z" finished-at="2020-12-14T11:59:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.AR_CED_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Client/Entity Details Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AR_CED_01 -->
+        <test-method status="FAIL" signature="AR_GD_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="AR_GD_01" duration-ms="517975" started-at="2020-12-14T11:59:39Z" finished-at="2020-12-14T12:08:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.AR_GD_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_GD_01(TestCases.java:5585)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Group Details Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure41.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure41.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure41.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure41.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure42.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AR_GD_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T11:59:39Z" finished-at="2020-12-14T11:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="1" started-at="2020-12-14T12:08:17Z" finished-at="2020-12-14T12:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="AR_OB_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="AR_OB_01" duration-ms="280262" started-at="2020-12-14T12:08:17Z" finished-at="2020-12-14T12:12:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.AR_OB_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Outsource Billing Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AR_OB_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T12:12:58Z" finished-at="2020-12-14T12:12:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="AR_RT_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="AR_RT_01" duration-ms="577358" started-at="2020-12-14T12:12:58Z" finished-at="2020-12-14T12:22:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.AR_RT_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_RT_01(TestCases.java:5836)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Recurring Tasks Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure47.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure47.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure47.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure47.png'><font color='red'></font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure47.png'><font color='red'>Not able to find Run Report</font> </a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure48.png'><font color='red'>The given window "2" is failed to open</font> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AR_RT_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="2" started-at="2020-12-14T12:22:35Z" finished-at="2020-12-14T12:22:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="AR_SA_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="AR_SA_01" duration-ms="285776" started-at="2020-12-14T12:22:35Z" finished-at="2020-12-14T12:27:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.AR_SA_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Staffing Assignments Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AR_SA_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="1" started-at="2020-12-14T12:27:21Z" finished-at="2020-12-14T12:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="AR_UD_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="AR_UD_01" duration-ms="279128" started-at="2020-12-14T12:27:21Z" finished-at="2020-12-14T12:32:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.AR_UD_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>User Details Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AR_UD_01 -->
+        <test-method status="PASS" signature="AR_WSM_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="AR_WSM_01" duration-ms="279885" started-at="2020-12-14T12:32:00Z" finished-at="2020-12-14T12:36:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.AR_WSM_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Workflow Status Mapping Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AR_WSM_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T12:32:00Z" finished-at="2020-12-14T12:32:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="AR_YTCR_01(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="AR_YTCR_01" duration-ms="186826" started-at="2020-12-14T12:36:40Z" finished-at="2020-12-14T12:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.AR_YTCR_01(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at utilities.Common.testFailed(Common.java:148)
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_YTCR_01(TestCases.java:5348)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Reports page is displayed successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Reports tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Yearly Tax Comparison Report Report link is clicked Successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Period End is entered Successfully aganist </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>5/8/19 is entered in date field.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Report as of is entered Successfully aganist </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>8/9/19 is entered in date field.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is clicked Successfully.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>"Run Report" button is present in Reports page.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>The page  loaded successfully</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='blue'>Yearly Tax Comparison Report Report not generated .</font>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='Screenshots/TestFailure49.png'><font color='red'>Yearly Tax Comparison ReportReport not generated -Issue in the Report.</font> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AR_YTCR_01 -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T12:36:40Z" finished-at="2020-12-14T12:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="TC_Logout(java.lang.reflect.Method)[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="TC_Logout" duration-ms="23029" started-at="2020-12-14T12:39:47Z" finished-at="2020-12-14T12:40:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.TestCases.TC_Logout(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>################################DataSet: 1################################</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Profile link </font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Click on: Log off </font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_Logout -->
+        <test-method status="PASS" signature="before()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="before" is-config="true" duration-ms="0" started-at="2020-12-14T12:39:47Z" finished-at="2020-12-14T12:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="closeSessions()[pri:0, instance:TestCases.TestCases@2c9f9fb0]" name="closeSessions" is-config="true" duration-ms="118" started-at="2020-12-14T12:40:10Z" finished-at="2020-12-14T12:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSessions -->
+      </class> <!-- TestCases.TestCases -->
+    </test> <!-- Desktop1 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,204 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 43, Failures: 40, Errors: 0, Skipped: 0, Time elapsed: 15,987.938 s <<< FAILURE! - in TestSuite
+UR_IPA_01(TestCases.TestCases)  Time elapsed: 236.868 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPA_01(TestCases.java:150)
+
+UR_IPO_01(TestCases.TestCases)  Time elapsed: 396.889 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_IPO_01(TestCases.java:3532)
+
+UR_CLS_01(TestCases.TestCases)  Time elapsed: 396.802 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLS_01(TestCases.java:799)
+
+UR_CLD_01(TestCases.TestCases)  Time elapsed: 396.594 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_CLD_01(TestCases.java:431)
+
+UR_MCT_01(TestCases.TestCases)  Time elapsed: 396.57 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_MCT_01(TestCases.java:3813)
+
+UR_TIM_01(TestCases.TestCases)  Time elapsed: 396.751 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.UR_TIM_01(TestCases.java:4067)
+
+DDR_BD_01(TestCases.TestCases)  Time elapsed: 396.773 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_BD_01(TestCases.java:7704)
+
+DDR_BDDF_01(TestCases.TestCases)  Time elapsed: 396.588 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_BDDF_01(TestCases.java:7992)
+
+DDR_SDF_01(TestCases.TestCases)  Time elapsed: 396.752 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_SDF_01(TestCases.java:7430)
+
+DDR_SUM_01(TestCases.TestCases)  Time elapsed: 396.903 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.DDR_SUM_01(TestCases.java:8861)
+
+TDR_CAS_01(TestCases.TestCases)  Time elapsed: 396.46 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_CAS_01(TestCases.java:1336)
+
+TDR_DET_01(TestCases.TestCases)  Time elapsed: 396.714 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_DET_01(TestCases.java:1877)
+
+TDR_EFS_01(TestCases.TestCases)  Time elapsed: 396.674 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EFS_01(TestCases.java:1054)
+
+TDR_OUT_01(TestCases.TestCases)  Time elapsed: 396.579 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_OUT_01(TestCases.java:2652)
+
+TDR_SBCE_001(TestCases.TestCases)  Time elapsed: 396.677 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBCE_001(TestCases.java:2406)
+
+TDR_SBS_001(TestCases.TestCases)  Time elapsed: 396.791 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBS_001(TestCases.java:2147)
+
+TDR_SBD_01(TestCases.TestCases)  Time elapsed: 396.777 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_SBD_01(TestCases.java:1619)
+
+TDR_TTC_01(TestCases.TestCases)  Time elapsed: 396.555 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_TTC_01(TestCases.java:3262)
+
+TDR_TSA_01(TestCases.TestCases)  Time elapsed: 396.71 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_TSA_01(TestCases.java:2893)
+
+TDR_BA_01(TestCases.TestCases)  Time elapsed: 431.288 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_BA_01(TestCases.java:3150)
+
+TDR_EA_01(TestCases.TestCases)  Time elapsed: 304.862 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_EA_01(TestCases.java:3218)
+
+TDR_BS_01(TestCases.TestCases)  Time elapsed: 341.174 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TDR_BS_01(TestCases.java:3183)
+
+SR_UW_01(TestCases.TestCases)  Time elapsed: 162.708 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.SR_UW_01(TestCases.java:6351)
+
+SR_BUD_01(TestCases.TestCases)  Time elapsed: 396.65 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.SR_BUD_01(TestCases.java:6633)
+
+SR_TTT_01(TestCases.TestCases)  Time elapsed: 398.876 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.SR_TTT_01(TestCases.java:7157)
+
+SR_TBS_01(TestCases.TestCases)  Time elapsed: 396.793 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.SR_TBS_01(TestCases.java:6873)
+
+CR_ED_01(TestCases.TestCases)  Time elapsed: 396.643 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ED_01(TestCases.java:9172)
+
+CR_EDTL_01(TestCases.TestCases)  Time elapsed: 396.825 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_EDTL_01(TestCases.java:9465)
+
+CR_ESR_01(TestCases.TestCases)  Time elapsed: 396.577 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_ESR_01(TestCases.java:9759)
+
+CR_SO_01(TestCases.TestCases)  Time elapsed: 396.7 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_SO_01(TestCases.java:10051)
+
+CR_SOD_01(TestCases.TestCases)  Time elapsed: 396.578 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.CR_SOD_01(TestCases.java:10355)
+
+AR_CED_01(TestCases.TestCases)  Time elapsed: 396.717 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_CED_01(TestCases.java:6107)
+
+AR_GD_01(TestCases.TestCases)  Time elapsed: 396.647 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_GD_01(TestCases.java:5585)
+
+AR_OB_01(TestCases.TestCases)  Time elapsed: 396.87 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_OB_01(TestCases.java:4860)
+
+AR_RT_01(TestCases.TestCases)  Time elapsed: 396.67 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_RT_01(TestCases.java:5836)
+
+AR_SA_01(TestCases.TestCases)  Time elapsed: 396.646 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_SA_01(TestCases.java:4546)
+
+AR_UD_01(TestCases.TestCases)  Time elapsed: 396.877 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_UD_01(TestCases.java:4323)
+
+AR_WSM_01(TestCases.TestCases)  Time elapsed: 396.703 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_WSM_01(TestCases.java:5116)
+
+AR_YTCR_01(TestCases.TestCases)  Time elapsed: 466.913 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.AR_YTCR_01(TestCases.java:5348)
+
+TC_Logout(TestCases.TestCases)  Time elapsed: 121.855 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestCases.TestCases.TestEnd(TestCases.java:10774)
+	at TestCases.TestCases.TC_Logout(TestCases.java:10766)
+

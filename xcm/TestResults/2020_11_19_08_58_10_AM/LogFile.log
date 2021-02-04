@@ -1,0 +1,2 @@
+ERROR | 2020-11-19 09:00:24,320 | Common.java | 84 | The given window "2" is failed to open
+ERROR | 2020-11-19 09:05:25,387 | Common.java | 84 | Assembly and Shipping ReportReport not generated -Issue in the Report.
